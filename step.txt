@@ -1,0 +1,57 @@
+## clean_recipe.py
+解析結構化資料
+→ 把「原始食材字串」用程式拆解成 name、quantity、unit 等欄位，方便機器讀取和分析。
+
+清理不需要的符號
+→ 例如去掉 *、多餘空白、把路徑反斜線改成斜線等，確保資料整潔、一致。
+
+載入資料用程式清整
+→ 從 CSV 檔讀取原始資料，用前面寫的函式逐筆處理，清洗後組成統一格式。
+
+存檔
+→ 將清理後、結構化的資料存成 CSV（方便檢視與簡單操作）和 JSON（方便後續程式讀取與向量化處理）。
+
+------------------------------------------
+### 完整流程順序參考：
+原始資料收集 (raw_csv/)
+⬇️
+
+資料清洗與結構化（clean_recipe_csv.py）
+
+處理 ingredients、steps 等格式問題
+
+修正圖片路徑
+
+儲存為 JSON / CSV（在 cleaned_csv/）
+⬇️
+
+人工或自動標註資料 → 建立 labels.csv ✅
+
+可根據 id 或 name 標記主食材、類別、料理方式、飲食類型等
+
+放在 cleaned_csv/
+⬇️
+
+向量化處理（NLP、embedding、分類模型訓練等）
+
+用清理後的 JSON 或 CSV
+
+載入對應的 labels.csv 作為 supervised learning 的標籤
+⬇️
+
+模型訓練 / 分群 / 預測等任務
+-----------------------------------------------
+aipe_project/
+│
+├── raw_csv/
+├── cleaned_csv/
+├── scripts/
+├── labels/
+│   └── 小白菜_labels.csv       ← ✅ 你現在可以建立
+├── models/
+│   └── tfidf_logistic.pkl      ← 訓練後儲存用
+├── embeddings/
+│   └── combined_text_tfidf.npy ← 可選（推薦任務用）
+
+-------------------------------------------------
+
