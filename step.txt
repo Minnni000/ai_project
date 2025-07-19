@@ -54,4 +54,70 @@ aipe_project/
 │   └── combined_text_tfidf.npy ← 可選（推薦任務用）
 
 -------------------------------------------------
+資料蒐集與前處理
 
+食譜來源（如 icook.tw 等）
+
+欄位包含：食譜名稱、食材、作法、標籤
+
+資料庫設計與查詢
+
+儲存結構化食譜
+
+快速查詢完全符合或部分符合食材的食譜
+
+向量化搜尋（語意相似）
+
+食材向量建模（Embedding）
+
+使用向量相似度判斷最接近的食譜或組合
+
+食譜重組模型
+
+根據輸入食材＋相似食譜組合重組新食譜
+
+可先用 rule-based，再進階用 RAG / GPT fine-tune
+
+前端顯示介面
+
+輸入食材 → 顯示結果（可用 Flask + Bootstrap）
+-----------------------------------------------
+
+📁 資料面
+爬蟲工具：requests, BeautifulSoup, Selenium
+
+結構化資料：CSV / SQLite / MongoDB
+
+🧠 NLP模型與處理
+向量模型：
+
+sentence-transformers（適合多語言 embedding）
+
+可選模型：
+
+中文：shibing624/text2vec
+
+多語言：paraphrase-multilingual-MiniLM-L12-v2
+
+相似度比對：
+
+faiss（高效向量搜尋）
+
+scikit-learn cosine_similarity
+
+重組食譜（可分階段）：
+
+v1：規則＋替換
+
+v2：RAG（Retrieval Augmented Generation）
+
+v3：微調 GPT（如 GPT-2 / GPT-3 fine-tune）
+
+🧪 開發與測試工具
+Flask + Jinja2（後端與模板渲染）
+
+Docker（部署環境）
+
+pytest（測試邏輯）
+
+Postman / cURL（API 測試）

@@ -66,13 +66,20 @@ def split_seasoning_compounds(ingredient: str) -> list[str]:
     return results
 
 
-# 組合食材拆解邏輯
+# 固體與液體食材範例列表，可自行擴充
 solid_ingredients = ["米", "糖", "鹽巴", "鹽"]
-liquid_ingredients = ["水", "醬油", "油", "高湯", "米酒", "香油"]  # 可依需要擴充
-
+liquid_ingredients = ["水", "醬油", "油", "高湯", "米酒", "香油"]
 
 def parse_ingredient(ingredient_str):
     ingredient_str = ingredient_str.strip()
+
+    # 先檢查是否為「X少許」、「X適量」這類非數字量詞格式
+    for qty_word in ["少許", "適量", "隨意", "依喜好"]:
+        if ingredient_str.endswith(qty_word) and len(ingredient_str) > len(qty_word):
+            name = ingredient_str[:-len(qty_word)].strip()
+            if name:
+                return {"name": name, "quantity": qty_word, "unit": None}
+
     zh_num_map = {
         "一": 1,
         "二": 2,
@@ -87,30 +94,29 @@ def parse_ingredient(ingredient_str):
         "半": 0.5,
     }
 
-    # 修正 05 → 0.5 類型錯誤
+    # 修正 05 → 0.5 類型錯誤，例如「0後面接數字」改為「0.數字」
     ingredient_str = re.sub(r"(?<=\D)0(\d)", r"0.\1", ingredient_str)
 
     # 處理少許、隨意等無數字量詞直接返回
     if ingredient_str in ["少許", "隨意", "適量", "依喜好"]:
         return {"name": None, "quantity": None, "unit": ingredient_str}
 
-    # 檢查是否有分數格式
+    # 檢查是否有分數格式 (如 1/2)
     fraction_match = re.search(r"(\d+/\d+)", ingredient_str)
     if fraction_match:
-        quantity_str = fraction_match.group(1)  # 直接保留字串
+        quantity_str = fraction_match.group(1)
         quantity_start = fraction_match.start()
         name = ingredient_str[:quantity_start].strip()
-        unit = ingredient_str[quantity_start + len(quantity_str) :].strip()
+        unit = ingredient_str[quantity_start + len(quantity_str):].strip()
 
-        # 如果是固體，保持分數字串不變
         if any(solid in name for solid in solid_ingredients):
-            quantity = quantity_str
+            quantity = quantity_str  # 固體保持分數字串不變
         else:
-            # 液體類可轉成 float 並四捨五入
-            quantity_float = round(float(Fraction(quantity_str)), 2)
-            quantity = quantity_float
+            try:
+                quantity = round(float(Fraction(quantity_str)), 2)  # 液體轉 float 並四捨五入
+            except:
+                quantity = quantity_str
 
-        # 避免空 name
         if not name:
             return {"name": None, "quantity": quantity, "unit": unit or None}
         return {"name": name, "quantity": quantity, "unit": unit or None}
@@ -133,28 +139,25 @@ def parse_ingredient(ingredient_str):
 
         if quantity_float is not None:
             if any(solid in name for solid in solid_ingredients):
-                quantity = quantity_float  # 固體四捨五入不強制，原數字即可
+                quantity = quantity_float  # 固體不強制四捨五入
             else:
                 quantity = round(quantity_float, 2)  # 液體四捨五入2位
         else:
             quantity = None
 
-        unit = remainder[len(quantity_str) :].strip()
+        unit = remainder[len(quantity_str):].strip()
 
-        # 避免空 name 產生獨立數量或量詞項目
         if not name:
             return {"name": None, "quantity": quantity, "unit": unit or None}
 
-        # 若 unit 是像「少許」「隨意」這類詞，把 quantity 設為 None，unit 保留
         if unit in ["少許", "隨意", "適量", "依喜好"]:
             return {"name": name, "quantity": None, "unit": unit}
 
         return {"name": name, "quantity": quantity, "unit": unit or None}
 
-    # 沒有數量，嘗試從尾巴判單位（可依需要補充）
-
-    # 沒有匹配，回傳原字串
+    # 沒有數量的情況，回傳原字串
     return {"name": ingredient_str, "quantity": None, "unit": None}
+
 
 
 # 清理 ingredients，先以 、 或 , 分隔後去除空白，並回傳清單
