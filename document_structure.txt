@@ -1,0 +1,66 @@
+ai_project/
+│
+├── cleaned_csv/
+│   ├── 小白菜_清理後食譜_with_labels.json
+│   ├── 小白菜_清理後食譜.json
+│   ├── 小白菜_清理後食譜.csv
+│   ├── labels.csv
+│   └── recipe_documents.csv
+│
+├── image/
+│   └── (建議分類圖片，如 ingredients/、dishes/ 等)
+│
+├── raw_csv/
+│   └── 小白菜_食譜資料.csv
+│
+├── scripts/
+│   ├── cleaned_csv/                  # ✅ 建議刪除或合併至上層 cleaned_csv/，避免混淆
+│   ├── clean_recipe_csv_0717.py
+│   ├── clean_recipe_csv_0718.py
+│   ├── clean_recipe_csv_0720.py
+│   ├── crawl_icook_recipes.ipynb
+│   ├── crawl_icook_recipes.py
+│   ├── generate_documents.py
+│   ├── tfidf_recipe_search.py
+│   ├── train_model.py
+│   ├── vectorize_recipes.py
+│   ├── for_gpt.txt
+│   ├── rule_based_combiner.py       # 🆕 食譜重組（規則式）
+│   ├── semantic_search.py           # 🆕 向量相似搜尋（語意）
+│   ├── embedding_model.py           # 🆕 食材向量模型訓練與推論
+│   └── flask_app.py                 # 🆕 簡易介面主程式
+│
+├── models/                          # 🆕 模型儲存
+│   ├── tfidf_logistic.pkl           # ✅ 已在需求中提及
+│   ├── ingredient2vec.model         # 🆕 食材向量模型（Word2Vec / FastText）
+│   └── rag/                         # 🆕 RAG 模型可選
+│       ├── retriever.pkl
+│       └── generator_finetuned.pt
+│
+├── embeddings/                      # 🆕 向量化結果
+│   ├── combined_text_tfidf.npy      # ✅ 現有檔案
+│   ├── ingredient_vectors.npy       # 🆕 食材向量矩陣
+│   └── recipe_vectors.npy           # 🆕 食譜向量矩陣
+│
+├── db/                              # 🆕 食譜結構化資料庫
+│   └── recipes.db
+│
+├── search/                          # 🆕 查詢模組封裝（可內含對外 API）
+│   ├── exact_match.py               # 關鍵詞與食材精準/部分匹配
+│   └── semantic_match.py            # 語意相似食譜查詢（包裝 scripts/semantic_search.py）
+│
+├── frontend/                        # 🆕 前端展示資源
+│   ├── templates/
+│   │   └── index.html
+│   └── static/
+│       ├── css/
+│       └── js/
+│
+├── tests/                           # 🆕 單元測試模組
+│   ├── test_embedding_model.py
+│   ├── test_search_functions.py
+│   └── test_combiner.py
+│
+├── README.md                        # ✅
+├── requirements.txt                 # ✅
+└── step.txt                         # ✅
