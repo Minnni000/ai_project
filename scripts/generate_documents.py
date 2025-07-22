@@ -1,13 +1,7 @@
-import json
 import os
 import csv
 import re
-
-# 設定來源資料路徑（清理後的食譜）
-INPUT_JSON_PATH = os.path.join("..", "cleaned_csv", "小白菜_清理後食譜.json")
-
-# 設定輸出路徑
-OUTPUT_CSV_PATH = os.path.join("..", "cleaned_csv", "recipe_documents.csv")
+import sys
 
 # 定義要移除的食材（通用調味料／媒介物）
 REMOVE_INGREDIENTS = set([
@@ -30,10 +24,25 @@ REMOVE_INGREDIENTS = set([
 ])
 
 
-def load_recipes(json_path):
-    """載入清理後的 JSON 食譜資料"""
-    with open(json_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+def load_recipes(csv_path):
+    """載入清理後的 CSV 食譜資料"""
+    recipes = []
+    with open(csv_path, "r", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            # 將 CSV 行轉換為與原 JSON 格式相容的字典
+            recipe = {
+                "id": row["id"],
+                "name": row["name"],
+                "url": row["url"],
+                "preview_ingredients": row["preview_ingredients"],
+                "ingredients": row["ingredients"].split(" | ") if row["ingredients"] else [],
+                "steps": row["steps"].split(" | ") if row["steps"] else [],
+                "combined_text": row["combined_text"],
+                "image_path": row["image_path"]
+            }
+            recipes.append(recipe)
+    return recipes
 
 
 def clean_ingredient_text(text: str) -> list[str]:
@@ -85,10 +94,54 @@ def save_documents_to_csv(documents, output_path):
 
 
 def main():
-    recipes = load_recipes(INPUT_JSON_PATH)
+    # 取得腳本所在目錄和專案根目錄
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.abspath(os.path.join(base_dir, ".."))
+    cleaned_csv_dir = os.path.join(project_root, "cleaned_csv")
+
+    # 如果有命令列參數，使用指定的菜名；否則自動尋找
+    if len(sys.argv) > 1:
+        vegetable_name = sys.argv[1]
+        vegetable_dir = os.path.join(cleaned_csv_dir, vegetable_name)
+        if not os.path.exists(vegetable_dir):
+            print(f"❌ 找不到菜名資料夾：{vegetable_dir}")
+            sys.exit(1)
+    else:
+        # 自動尋找 cleaned_csv 目錄中的菜名資料夾
+        vegetable_dirs = [d for d in os.listdir(cleaned_csv_dir)
+                         if os.path.isdir(os.path.join(cleaned_csv_dir, d))]
+
+        if not vegetable_dirs:
+            print("❌ 在 cleaned_csv 目錄中找不到任何菜名資料夾")
+            sys.exit(1)
+        elif len(vegetable_dirs) > 1:
+            print("🔍 找到多個菜名資料夾：")
+            for i, folder in enumerate(vegetable_dirs, 1):
+                print(f"  {i}. {folder}")
+            print("請指定要處理的菜名：python generate_documents.py <菜名>")
+            sys.exit(1)
+        else:
+            vegetable_name = vegetable_dirs[0]
+            vegetable_dir = os.path.join(cleaned_csv_dir, vegetable_name)
+
+    # 設定輸入和輸出路徑
+    input_csv_path = os.path.join(vegetable_dir, f"{vegetable_name}_清理後食譜.csv")
+    output_csv_path = os.path.join(vegetable_dir, f"{vegetable_name}_recipe_documents.csv")
+
+    if not os.path.exists(input_csv_path):
+        print(f"❌ 找不到 CSV 檔案：{input_csv_path}")
+        sys.exit(1)
+
+    print(f"📁 處理菜名：{vegetable_name}")
+    print(f"📄 讀取檔案：{os.path.basename(input_csv_path)}")
+
+    # 處理資料
+    recipes = load_recipes(input_csv_path)
     documents = generate_documents(recipes)
-    save_documents_to_csv(documents, OUTPUT_CSV_PATH)
-    print(f"✅ 已產生 {len(documents)} 筆食譜文件，儲存於：{OUTPUT_CSV_PATH}")
+    save_documents_to_csv(documents, output_csv_path)
+
+    print(f"✅ 已產生 {len(documents)} 筆食譜文件")
+    print(f"💾 儲存於：{output_csv_path}")
 
 
 if __name__ == "__main__":

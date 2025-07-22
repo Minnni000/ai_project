@@ -5,6 +5,7 @@ import time
 import random
 import csv
 import os
+import sys
 
 # 設定 headers 與根資料夾
 headers = {
@@ -15,6 +16,24 @@ image_root = r"D:\AIPE\aipe_project\image"
 raw_csv_root = r"D:\AIPE\aipe_project\raw_csv"
 os.makedirs(image_root, exist_ok=True)
 os.makedirs(raw_csv_root, exist_ok=True)
+
+def load_vegetables_from_file(file_path: str) -> list:
+    """從 vegetables.txt 檔案讀取蔬菜關鍵字清單"""
+    vegetables = []
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                vegetable = line.strip()
+                if vegetable:  # 忽略空行
+                    vegetables.append(vegetable)
+        print(f"📋 從 {file_path} 讀取到 {len(vegetables)} 個蔬菜關鍵字")
+        return vegetables
+    except FileNotFoundError:
+        print(f"❌ 找不到檔案：{file_path}")
+        return []
+    except Exception as e:
+        print(f"❌ 讀取檔案時發生錯誤：{e}")
+        return []
 
 def get_search_results(keyword: str, max_count: int = 20) -> list:
     results = []
@@ -122,7 +141,7 @@ def main(keywords: list[str]):
         image_folder = os.path.join(image_root, keyword)
         os.makedirs(image_folder, exist_ok=True)
 
-        results = get_search_results(keyword, max_count=50)
+        results = get_search_results(keyword, max_count=5)
         print(f"共取得 {len(results)} 筆食譜")
 
         data_to_save = []
@@ -157,7 +176,40 @@ def main(keywords: list[str]):
 
 
 if __name__ == "__main__":
-    keywords = ["小白菜"]  # ✅ 自訂你的搜尋關鍵字清單
-    main(keywords)
+    # 取得腳本所在目錄
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    vegetables_file = os.path.join(script_dir, "vegetables.txt")
 
-    # ,"青江菜", "大白菜", "油菜", "大陸妹", "龍鬚菜", "芹菜", "紅鳳菜", "紅蘿蔔", "芋頭", "山藥", "蓮藕", "地瓜葉", "牛番茄", "花椰菜", "苦瓜", "冬瓜", "大黃瓜", "小黃瓜", "青椒", "四季豆(敏豆)", "秋葵", "水蓮", "娃娃菜", "蒜苗", "蘆筍", "紅蔥頭", "玉米", "香菜", "蘿蔓"
+    keywords = []
+
+    # 檢查命令列參數
+    if len(sys.argv) > 1:
+        # 如果有命令列參數，使用指定的蔬菜名稱
+        specified_vegetable = sys.argv[1].strip()
+        keywords = [specified_vegetable]
+        print(f"🎯 使用指定的蔬菜：{specified_vegetable}")
+    else:
+        # 沒有命令列參數，從 vegetables.txt 讀取所有蔬菜
+        keywords = load_vegetables_from_file(vegetables_file)
+        if not keywords:
+            print("❌ 無法從 vegetables.txt 讀取蔬菜清單，使用預設關鍵字")
+            keywords = ["小白菜"]  # 預設關鍵字
+        else:
+            print(f"📝 將處理 {len(keywords)} 種蔬菜：{', '.join(keywords[:5])}{'...' if len(keywords) > 5 else ''}")
+
+            # 詢問使用者是否要處理所有蔬菜
+            if len(keywords) > 1:
+                choice = input(f"\n是否要爬取所有 {len(keywords)} 種蔬菜的食譜？(y/n，預設為 n)：").lower()
+                if choice != 'y':
+                    print("🛑 取消批次處理，請使用命令列參數指定單一蔬菜")
+                    print("使用方法：python crawl_icook_recipes.py <蔬菜名稱>")
+                    sys.exit(0)
+
+    if keywords:
+        print("=" * 50)
+        print(f"🚀 開始爬取食譜，關鍵字數量：{len(keywords)}")
+        print("=" * 50)
+        main(keywords)
+    else:
+        print("❌ 沒有可用的關鍵字")
+        sys.exit(1)

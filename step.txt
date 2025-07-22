@@ -121,3 +121,5 @@ Docker（部署環境）
 pytest（測試邏輯）
 
 Postman / cURL（API 測試）
+在建立一個delete_list.txt
+並建立一個delelt_recipe.py，根據delete_list.txt內的id將cleaned_csv內的csv內該id的食譜及image內的
