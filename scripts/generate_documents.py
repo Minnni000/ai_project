@@ -4,24 +4,73 @@ import re
 import sys
 
 # 定義要移除的食材（通用調味料／媒介物）
-REMOVE_INGREDIENTS = set([
-    # 鹽類
-    "鹽", "鹽巴", "鹽吧", "食用鹽",
-    "精鹽", "粗鹽", "海鹽", "岩鹽", "玫瑰鹽", "湖鹽",
-    "黑鹽", "喜馬拉雅鹽", "夏威夷鹽", "日式鹽", "天日鹽",
-    "胡椒鹽", "蒜味鹽", "檸檬鹽", "香料鹽", "昆布鹽",
-    # 油類
-    "油", "食用油",
-    "豬油", "牛油", "雞油", "鴨油", "魚油",
-    "芥花油", "橄欖油", "花生油", "大豆油", "玉米油", "葵花油", "棕櫚油", "椰子油",
-    "亞麻仁油", "酪梨油", "葡萄籽油", "苦茶油",
-    "沙拉油", "炸油", "調和油",
-    # 水類
-    "水", "飲用水", "開水",
-    "高湯", "水煮", "冷水", "熱水", "冰水",
-    "礦泉水", "純水", "蒸餾水",
-    "米水", "蔬菜水", "泡菜水", "浸泡水"
-])
+REMOVE_INGREDIENTS = set(
+    [
+        # 鹽類
+        "鹽",
+        "鹽巴",
+        "鹽吧",
+        "食用鹽",
+        "精鹽",
+        "粗鹽",
+        "海鹽",
+        "岩鹽",
+        "玫瑰鹽",
+        "湖鹽",
+        "黑鹽",
+        "喜馬拉雅鹽",
+        "夏威夷鹽",
+        "日式鹽",
+        "天日鹽",
+        "胡椒鹽",
+        "蒜味鹽",
+        "檸檬鹽",
+        "香料鹽",
+        "昆布鹽",
+        # 油類
+        "油",
+        "食用油",
+        "豬油",
+        "牛油",
+        "雞油",
+        "鴨油",
+        "魚油",
+        "芥花油",
+        "橄欖油",
+        "花生油",
+        "大豆油",
+        "玉米油",
+        "葵花油",
+        "棕櫚油",
+        "椰子油",
+        "亞麻仁油",
+        "酪梨油",
+        "葡萄籽油",
+        "苦茶油",
+        "沙拉油",
+        "炸油",
+        "調和油" "芝麻油",
+        "香油",
+        # 水類
+        "水",
+        "飲用水",
+        "開水",
+        "高湯",
+        "水煮",
+        "冷水",
+        "熱水",
+        "冰水",
+        "礦泉水",
+        "純水",
+        "蒸餾水",
+        "米水",
+        "蔬菜水",
+        "泡菜水",
+        "浸泡水",
+        "高湯或水",
+        "調味料",
+    ]
+)
 
 
 def load_recipes(csv_path):
@@ -36,10 +85,12 @@ def load_recipes(csv_path):
                 "name": row["name"],
                 "url": row["url"],
                 "preview_ingredients": row["preview_ingredients"],
-                "ingredients": row["ingredients"].split(" | ") if row["ingredients"] else [],
+                "ingredients": (
+                    row["ingredients"].split(" | ") if row["ingredients"] else []
+                ),
                 "steps": row["steps"].split(" | ") if row["steps"] else [],
                 "combined_text": row["combined_text"],
-                "image_path": row["image_path"]
+                "image_path": row["image_path"],
             }
             recipes.append(recipe)
     return recipes
@@ -81,7 +132,9 @@ def generate_documents(recipes: list[dict]) -> list[dict]:
                     ingredient_names.extend(clean_ingredient_text(ing))
 
         document = " ".join(ingredient_names)
-        documents.append({"id": recipe_id, "name": recipe["name"], "document": document})
+        documents.append(
+            {"id": recipe_id, "name": recipe["name"], "document": document}
+        )
     return documents
 
 
@@ -101,15 +154,30 @@ def main():
 
     # 如果有命令列參數，使用指定的菜名；否則自動尋找
     if len(sys.argv) > 1:
-        vegetable_name = sys.argv[1]
-        vegetable_dir = os.path.join(cleaned_csv_dir, vegetable_name)
-        if not os.path.exists(vegetable_dir):
-            print(f"❌ 找不到菜名資料夾：{vegetable_dir}")
-            sys.exit(1)
+        if sys.argv[1] == "--all":
+            # 處理所有菜名資料夾
+            vegetable_dirs = [
+                d
+                for d in os.listdir(cleaned_csv_dir)
+                if os.path.isdir(os.path.join(cleaned_csv_dir, d))
+            ]
+            if not vegetable_dirs:
+                print("❌ 在 cleaned_csv 目錄中找不到任何菜名資料夾")
+                sys.exit(1)
+        else:
+            vegetable_name = sys.argv[1]
+            vegetable_dir = os.path.join(cleaned_csv_dir, vegetable_name)
+            if not os.path.exists(vegetable_dir):
+                print(f"❌ 找不到菜名資料夾：{vegetable_dir}")
+                sys.exit(1)
+            vegetable_dirs = [vegetable_name]
     else:
         # 自動尋找 cleaned_csv 目錄中的菜名資料夾
-        vegetable_dirs = [d for d in os.listdir(cleaned_csv_dir)
-                         if os.path.isdir(os.path.join(cleaned_csv_dir, d))]
+        vegetable_dirs = [
+            d
+            for d in os.listdir(cleaned_csv_dir)
+            if os.path.isdir(os.path.join(cleaned_csv_dir, d))
+        ]
 
         if not vegetable_dirs:
             print("❌ 在 cleaned_csv 目錄中找不到任何菜名資料夾")
@@ -119,29 +187,35 @@ def main():
             for i, folder in enumerate(vegetable_dirs, 1):
                 print(f"  {i}. {folder}")
             print("請指定要處理的菜名：python generate_documents.py <菜名>")
+            print("或使用 --all 處理所有菜名：python generate_documents.py --all")
             sys.exit(1)
-        else:
-            vegetable_name = vegetable_dirs[0]
-            vegetable_dir = os.path.join(cleaned_csv_dir, vegetable_name)
 
-    # 設定輸入和輸出路徑
-    input_csv_path = os.path.join(vegetable_dir, f"{vegetable_name}_清理後食譜.csv")
-    output_csv_path = os.path.join(vegetable_dir, f"{vegetable_name}_recipe_documents.csv")
+    # 處理每個菜名資料夾
+    for vegetable_name in vegetable_dirs:
+        vegetable_dir = os.path.join(cleaned_csv_dir, vegetable_name)
 
-    if not os.path.exists(input_csv_path):
-        print(f"❌ 找不到 CSV 檔案：{input_csv_path}")
-        sys.exit(1)
+        # 設定輸入和輸出路徑
+        input_csv_path = os.path.join(vegetable_dir, f"{vegetable_name}_清理後食譜.csv")
+        output_csv_path = os.path.join(
+            vegetable_dir, f"{vegetable_name}_recipe_documents.csv"
+        )
 
-    print(f"📁 處理菜名：{vegetable_name}")
-    print(f"📄 讀取檔案：{os.path.basename(input_csv_path)}")
+        if not os.path.exists(input_csv_path):
+            print(f"❌ 找不到 CSV 檔案：{input_csv_path}")
+            continue
 
-    # 處理資料
-    recipes = load_recipes(input_csv_path)
-    documents = generate_documents(recipes)
-    save_documents_to_csv(documents, output_csv_path)
+        print(f"📁 處理菜名：{vegetable_name}")
+        print(f"📄 讀取檔案：{os.path.basename(input_csv_path)}")
 
-    print(f"✅ 已產生 {len(documents)} 筆食譜文件")
-    print(f"💾 儲存於：{output_csv_path}")
+        # 處理資料
+        recipes = load_recipes(input_csv_path)
+        documents = generate_documents(recipes)
+        save_documents_to_csv(documents, output_csv_path)
+
+        print(f"✅ 已產生 {len(documents)} 筆食譜文件")
+        print(f"💾 儲存於：{output_csv_path}")
+
+    print(f"\n🎉 所有菜名處理完成！")
 
 
 if __name__ == "__main__":

@@ -8,20 +8,23 @@ import os
 import sys
 
 # 設定 headers 與根資料夾
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-}
+headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 base_url = "https://icook.tw"
-image_root = r"D:\AIPE\aipe_project\image"
-raw_csv_root = r"D:\AIPE\aipe_project\raw_csv"
+
+# 使用相對路徑，基於腳本所在位置
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(script_dir)
+image_root = os.path.join(project_root, "image")
+raw_csv_root = os.path.join(project_root, "raw_csv")
 os.makedirs(image_root, exist_ok=True)
 os.makedirs(raw_csv_root, exist_ok=True)
+
 
 def load_vegetables_from_file(file_path: str) -> list:
     """從 vegetables.txt 檔案讀取蔬菜關鍵字清單"""
     vegetables = []
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             for line in f:
                 vegetable = line.strip()
                 if vegetable:  # 忽略空行
@@ -34,6 +37,7 @@ def load_vegetables_from_file(file_path: str) -> list:
     except Exception as e:
         print(f"❌ 讀取檔案時發生錯誤：{e}")
         return []
+
 
 def get_search_results(keyword: str, max_count: int = 20) -> list:
     results = []
@@ -53,7 +57,9 @@ def get_search_results(keyword: str, max_count: int = 20) -> list:
         for card in cards:
             recipe = {}
             recipe_name_tag = card.select_one("h2.browse-recipe-name")
-            preview_ingredient_tag = card.select_one("p.browse-recipe-content-ingredient")
+            preview_ingredient_tag = card.select_one(
+                "p.browse-recipe-content-ingredient"
+            )
             article = card.select_one("article.browse-recipe-card")
             recipe_id = article.get("data-recipe-id") if article else ""
             img_tag = card.select_one("img.browse-recipe-cover-img")
@@ -63,8 +69,14 @@ def get_search_results(keyword: str, max_count: int = 20) -> list:
                 recipe["id"] = recipe_id
                 recipe["name"] = recipe_name_tag.get_text(strip=True)
                 recipe["url"] = urljoin(base_url, href)
-                recipe["preview_ingredients"] = preview_ingredient_tag.get_text(strip=True).replace("食材：", "") if preview_ingredient_tag else ""
-                img_url = img_tag.get("data-src") or img_tag.get("src") if img_tag else ""
+                recipe["preview_ingredients"] = (
+                    preview_ingredient_tag.get_text(strip=True).replace("食材：", "")
+                    if preview_ingredient_tag
+                    else ""
+                )
+                img_url = (
+                    img_tag.get("data-src") or img_tag.get("src") if img_tag else ""
+                )
                 if img_url and "/w:200/" in img_url:
                     img_url = img_url.replace("/w:200/", "/")
                 recipe["img_url"] = img_url
@@ -78,6 +90,7 @@ def get_search_results(keyword: str, max_count: int = 20) -> list:
         time.sleep(random.uniform(1, 1.5))
 
     return results
+
 
 def get_recipe_details(recipe_url: str):
     resp = requests.get(recipe_url, headers=headers)
@@ -103,6 +116,7 @@ def get_recipe_details(recipe_url: str):
 
     return ingredients, steps
 
+
 def download_image(url: str, path: str) -> str:
     if not url or url.startswith("data:image") or not url.startswith("http"):
         print(f"⚠️ 跳過無效圖片網址：{url}")
@@ -119,21 +133,27 @@ def download_image(url: str, path: str) -> str:
         print(f"⚠️ 無法下載圖片：{url}，錯誤：{e}")
         return None
 
+
 def save_to_csv(data_list: list, filename: str):
     with open(filename, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f, delimiter=";", quoting=csv.QUOTE_ALL)
-        writer.writerow(["id", "食譜名稱", "網址", "預覽食材", "詳細食材", "做法", "圖片相對路徑"])
+        writer.writerow(
+            ["id", "食譜名稱", "網址", "預覽食材", "詳細食材", "做法", "圖片相對路徑"]
+        )
         for item in data_list:
-            writer.writerow([
-                item["id"],
-                item["name"],
-                item["url"],
-                item["preview_ingredients"],
-                ", ".join(item["ingredients"]),
-                " / ".join(item["steps"]),
-                item.get("image_path", "")
-            ])
+            writer.writerow(
+                [
+                    item["id"],
+                    item["name"],
+                    item["url"],
+                    item["preview_ingredients"],
+                    ", ".join(item["ingredients"]),
+                    " / ".join(item["steps"]),
+                    item.get("image_path", ""),
+                ]
+            )
     print(f"\n✅ 已儲存 {len(data_list)} 筆資料到 {filename}")
+
 
 def main(keywords: list[str]):
     for keyword in keywords:
@@ -141,7 +161,7 @@ def main(keywords: list[str]):
         image_folder = os.path.join(image_root, keyword)
         os.makedirs(image_folder, exist_ok=True)
 
-        results = get_search_results(keyword, max_count=5)
+        results = get_search_results(keyword, max_count=50)
         print(f"共取得 {len(results)} 筆食譜")
 
         data_to_save = []
@@ -173,8 +193,6 @@ def main(keywords: list[str]):
         save_to_csv(data_to_save, csv_filename)
 
 
-
-
 if __name__ == "__main__":
     # 取得腳本所在目錄
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -195,12 +213,16 @@ if __name__ == "__main__":
             print("❌ 無法從 vegetables.txt 讀取蔬菜清單，使用預設關鍵字")
             keywords = ["小白菜"]  # 預設關鍵字
         else:
-            print(f"📝 將處理 {len(keywords)} 種蔬菜：{', '.join(keywords[:5])}{'...' if len(keywords) > 5 else ''}")
+            print(
+                f"📝 將處理 {len(keywords)} 種蔬菜：{', '.join(keywords[:5])}{'...' if len(keywords) > 5 else ''}"
+            )
 
             # 詢問使用者是否要處理所有蔬菜
             if len(keywords) > 1:
-                choice = input(f"\n是否要爬取所有 {len(keywords)} 種蔬菜的食譜？(y/n，預設為 n)：").lower()
-                if choice != 'y':
+                choice = input(
+                    f"\n是否要爬取所有 {len(keywords)} 種蔬菜的食譜？(y/n，預設為 n)："
+                ).lower()
+                if choice != "y":
                     print("🛑 取消批次處理，請使用命令列參數指定單一蔬菜")
                     print("使用方法：python crawl_icook_recipes.py <蔬菜名稱>")
                     sys.exit(0)

@@ -6,14 +6,43 @@ from fractions import Fraction
 
 # ✅ 常見調味料清單，可依需求擴充
 COMMON_SEASONINGS = [
-    "白胡椒粉", "黑胡椒粉", "白胡椒鹽", "胡椒粉", "胡椒鹽", "鹽巴", "鹽", "砂糖", "糖", "冰糖",
-    "醬油", "味醂", "米酒", "香油", "麻油", "蠔油", "辣椒醬", "豆瓣醬", "辣椒粉", "五香粉",
-    "八角粉", "回香粉", "花椒粉", "孜然粉", "咖哩粉", "番茄醬", "烏醋", "醋", "味噌", "雞粉",
-    "雞精", "高湯粉", "味精"
+    "白胡椒粉",
+    "黑胡椒粉",
+    "白胡椒鹽",
+    "胡椒粉",
+    "胡椒鹽",
+    "鹽巴",
+    "鹽",
+    "砂糖",
+    "糖",
+    "冰糖",
+    "醬油",
+    "味醂",
+    "米酒",
+    "香油",
+    "麻油",
+    "蠔油",
+    "辣椒醬",
+    "豆瓣醬",
+    "辣椒粉",
+    "五香粉",
+    "八角粉",
+    "回香粉",
+    "花椒粉",
+    "孜然粉",
+    "咖哩粉",
+    "番茄醬",
+    "烏醋",
+    "醋",
+    "味噌",
+    "雞粉",
+    "雞精",
+    "高湯粉",
+    "味精",
 ]
 
 # ✅ 固體與液體分類食材清單（可擴充使用）
-solid_ingredients = ["米", "糖", "鹽巴", "鹽","白胡椒粉"]
+solid_ingredients = ["米", "糖", "鹽巴", "鹽", "白胡椒粉"]
 liquid_ingredients = ["水", "醬油", "油", "高湯", "米酒", "香油"]
 
 
@@ -27,7 +56,7 @@ def split_seasoning_compounds(ingredient: str) -> list[str]:
         for s in seasonings_sorted:
             if rest.startswith(s):
                 results.append(s)
-                rest = rest[len(s):].strip()
+                rest = rest[len(s) :].strip()
                 matched = True
                 break
         if not matched:
@@ -40,23 +69,36 @@ def split_seasoning_compounds(ingredient: str) -> list[str]:
 def parse_ingredient(ingredient_str):
     ingredient_str = ingredient_str.strip()
 
-
-
     # 中文數字對照表（半 → 0.5）
     zh_num_map = {
-        "一": 1, "二": 2, "兩": 2, "三": 3, "四": 4, "五": 5,
-        "六": 6, "七": 7, "八": 8, "九": 9, "半": 0.5,
+        "一": 1,
+        "二": 2,
+        "兩": 2,
+        "三": 3,
+        "四": 4,
+        "五": 5,
+        "六": 6,
+        "七": 7,
+        "八": 8,
+        "九": 9,
+        "半": 0.5,
     }
 
     # ✅ 若食材開頭為常見調味料或固體名稱，優先拆解
-    possible_names = sorted(set(COMMON_SEASONINGS + solid_ingredients + liquid_ingredients), key=len, reverse=True)
+    possible_names = sorted(
+        set(COMMON_SEASONINGS + solid_ingredients + liquid_ingredients),
+        key=len,
+        reverse=True,
+    )
     for known_name in possible_names:
         if ingredient_str.startswith(known_name):
-            rest_str = ingredient_str[len(known_name):].strip()
+            rest_str = ingredient_str[len(known_name) :].strip()
             name = known_name
             # 嘗試解析後面是否有數量與單位
             # match_rest = re.match(r"([\d\.]+|\d+/\d+|[一二兩三四五六七八九半]+)\s*([^\d\s\.]+)?", rest_str)
-            match_rest = re.match(r"^([一二兩三四五六七八九半\d./]+)([^\d\s]*)\s*(.*)$", rest_str)
+            match_rest = re.match(
+                r"^([一二兩三四五六七八九半\d./]+)([^\d\s]*)\s*(.*)$", rest_str
+            )
 
             quantity = None
             unit = None
@@ -64,7 +106,7 @@ def parse_ingredient(ingredient_str):
                 quantity_str = match_rest.group(1)
                 unit_str = match_rest.group(2) or ""
 
-                if '/' in quantity_str:
+                if "/" in quantity_str:
                     try:
                         quantity = round(float(Fraction(quantity_str)), 2)
                     except ValueError:
@@ -87,8 +129,10 @@ def parse_ingredient(ingredient_str):
                     elif rest_str.endswith(qty_word):
                         # 可能是複合調味料，如 "白胡椒粉少許"
                         # 檢查去掉量詞後是否還有其他調味料
-                        remaining = rest_str[:-len(qty_word)].strip()
-                        if remaining and any(remaining.startswith(s) for s in COMMON_SEASONINGS):
+                        remaining = rest_str[: -len(qty_word)].strip()
+                        if remaining and any(
+                            remaining.startswith(s) for s in COMMON_SEASONINGS
+                        ):
                             # 這是複合調味料，設定量詞
                             quantity = qty_word
                         break
@@ -100,14 +144,17 @@ def parse_ingredient(ingredient_str):
         if ingredient_str == qty_word:
             return {"name": None, "quantity": qty_word, "unit": None}
         elif ingredient_str.endswith(qty_word):
-            name_part = ingredient_str[:-len(qty_word)].strip()
+            name_part = ingredient_str[: -len(qty_word)].strip()
             return {"name": name_part or None, "quantity": qty_word, "unit": None}
 
     # ✅ 修正數字格式錯誤：如 05 → 0.5
     ingredient_str = re.sub(r"(?<=\D)0(\d)", r"0.\1", ingredient_str)
 
     # ✅ 使用正則抓取數量、單位與名稱
-    match = re.search(r"([\d\.]+|\d+/\d+|[一二兩三四五六七八九半]+)\s*([^a-zA-Z\d\s]*)(.*)", ingredient_str)
+    match = re.search(
+        r"([\d\.]+|\d+/\d+|[一二兩三四五六七八九半]+)\s*([^a-zA-Z\d\s]*)(.*)",
+        ingredient_str,
+    )
 
     if match:
         quantity_str = match.group(1)
@@ -116,7 +163,7 @@ def parse_ingredient(ingredient_str):
 
         quantity = None
         # ✅ 處理數字轉換（含分數與中文）
-        if '/' in quantity_str:
+        if "/" in quantity_str:
             try:
                 quantity = round(float(Fraction(quantity_str)), 2)
             except ValueError:
@@ -147,12 +194,15 @@ def parse_ingredient(ingredient_str):
             for s in sorted(COMMON_SEASONINGS, key=len, reverse=True):
                 if ingredient_str.startswith(s):
                     name = s
-                    remaining_str = ingredient_str[len(s):].strip()
-                    num_unit_match = re.match(r"([\d\.]+|\d+/\d+|[一二兩三四五六七八九半]+)\s*(.*)", remaining_str)
+                    remaining_str = ingredient_str[len(s) :].strip()
+                    num_unit_match = re.match(
+                        r"([\d\.]+|\d+/\d+|[一二兩三四五六七八九半]+)\s*(.*)",
+                        remaining_str,
+                    )
                     if num_unit_match:
                         qty_s = num_unit_match.group(1)
                         unit_s = num_unit_match.group(2).strip()
-                        if '/' in qty_s:
+                        if "/" in qty_s:
                             try:
                                 quantity = round(float(Fraction(qty_s)), 2)
                             except ValueError:
@@ -178,24 +228,52 @@ def parse_ingredient(ingredient_str):
 
             if not found_seasoning_as_name:
                 # ✅ 如果名稱在數量前，補上
-                pre_quantity_part = ingredient_str[:match.start()].strip()
+                pre_quantity_part = ingredient_str[: match.start()].strip()
                 if pre_quantity_part:
                     name = pre_quantity_part
 
-                post_quantity_part = ingredient_str[match.end(1):].strip()
-                unit_and_name_match = re.match(r"^([^\d\s]+)?\s*(.*)", post_quantity_part)
+                post_quantity_part = ingredient_str[match.end(1) :].strip()
+                unit_and_name_match = re.match(
+                    r"^([^\d\s]+)?\s*(.*)", post_quantity_part
+                )
 
                 if unit_and_name_match:
                     possible_unit = unit_and_name_match.group(1)
                     possible_name = unit_and_name_match.group(2)
 
-                    common_units = ["杯", "小匙", "大匙", "克", "毫升", "個", "顆", "片", "段", "碗", "包", "把", "小把", "米杯", "根", "g", "ml", "kg", "l"]
+                    common_units = [
+                        "杯",
+                        "小匙",
+                        "大匙",
+                        "克",
+                        "毫升",
+                        "個",
+                        "顆",
+                        "片",
+                        "段",
+                        "碗",
+                        "包",
+                        "把",
+                        "小把",
+                        "米杯",
+                        "根",
+                        "g",
+                        "ml",
+                        "kg",
+                        "l",
+                    ]
                     if possible_unit and any(u in possible_unit for u in common_units):
                         unit = possible_unit
                         name_from_unit_part = possible_name.strip()
-                        name = name + name_from_unit_part if name else name_from_unit_part
+                        name = (
+                            name + name_from_unit_part if name else name_from_unit_part
+                        )
                     else:
-                        name = name + " " + post_quantity_part if name else post_quantity_part
+                        name = (
+                            name + " " + post_quantity_part
+                            if name
+                            else post_quantity_part
+                        )
                         unit = None
 
             if not name and unit:
@@ -203,16 +281,30 @@ def parse_ingredient(ingredient_str):
                 unit = None
 
             # ✅ 嘗試從名稱尾部抽出常見單位
-            common_units = ["杯", "小匙", "大匙", "克", "毫升", "個", "顆", "片", "段", "碗", "包", "小把", "米杯"]
+            common_units = [
+                "杯",
+                "小匙",
+                "大匙",
+                "克",
+                "毫升",
+                "個",
+                "顆",
+                "片",
+                "段",
+                "碗",
+                "包",
+                "小把",
+                "米杯",
+            ]
             if name and not unit:
                 for u in sorted(common_units, key=len, reverse=True):
                     if name.endswith(u):
-                        name = name[:-len(u)].strip()
+                        name = name[: -len(u)].strip()
                         unit = u
                         break
 
             if not name:
-                pre_num_part = ingredient_str[:match.start()].strip()
+                pre_num_part = ingredient_str[: match.start()].strip()
                 if pre_num_part:
                     name = pre_num_part
 
@@ -256,23 +348,30 @@ def load_and_clean_csv(file_path):
             raw_ingredients = clean_ingredients(row["詳細食材"])
             expanded_ingredients = raw_ingredients
 
-            structured_ingredients = [parse_ingredient(ing_str) for ing_str in expanded_ingredients]
+            structured_ingredients = [
+                parse_ingredient(ing_str) for ing_str in expanded_ingredients
+            ]
 
             # ✅ 處理複合調味料拆分，例如「鹽巴白胡椒粉少許」→ 拆分成多個食材
             # 只處理真正的複合調味料（沒有明確數量單位，且包含多個調味料名稱）
             expanded_structured_ingredients = []
             for i, ingredient in enumerate(structured_ingredients):
-                original_str = expanded_ingredients[i] if i < len(expanded_ingredients) else ""
+                original_str = (
+                    expanded_ingredients[i] if i < len(expanded_ingredients) else ""
+                )
 
                 # 只有在以下條件都滿足時才進行拆分：
                 # 1. 有食材名稱
                 # 2. 只有模糊量詞如"少許"，沒有明確數量和單位
                 # 3. 原始字串確實包含多個調味料且沒有數字
                 should_split = (
-                    ingredient["name"] and
-                    ingredient["quantity"] in ["少許", "適量", "隨意", "依喜好"] and
-                    ingredient["unit"] is None and
-                    not re.search(r"[\d/一二兩三四五六七八九半]", original_str.replace("少許", "").replace("適量", ""))
+                    ingredient["name"]
+                    and ingredient["quantity"] in ["少許", "適量", "隨意", "依喜好"]
+                    and ingredient["unit"] is None
+                    and not re.search(
+                        r"[\d/一二兩三四五六七八九半]",
+                        original_str.replace("少許", "").replace("適量", ""),
+                    )
                 )
 
                 if should_split:
@@ -281,21 +380,21 @@ def load_and_clean_csv(file_path):
                     qty_word = ingredient["quantity"]
                     for qw in ["少許", "適量", "隨意", "依喜好"]:
                         if check_str.endswith(qw):
-                            check_str = check_str[:-len(qw)].strip()
+                            check_str = check_str[: -len(qw)].strip()
                             break
 
                     compound_parts = split_seasoning_compounds(check_str)
                     if len(compound_parts) > 1:
                         # 確認拆分出的都是調味料
-                        all_seasonings = all(part in COMMON_SEASONINGS for part in compound_parts)
+                        all_seasonings = all(
+                            part in COMMON_SEASONINGS for part in compound_parts
+                        )
                         if all_seasonings:
                             # 拆分成多個食材
                             for part in compound_parts:
-                                expanded_structured_ingredients.append({
-                                    "name": part,
-                                    "quantity": qty_word,
-                                    "unit": None
-                                })
+                                expanded_structured_ingredients.append(
+                                    {"name": part, "quantity": qty_word, "unit": None}
+                                )
                         else:
                             # 不是全部都是調味料，保持原樣
                             expanded_structured_ingredients.append(ingredient)
@@ -311,8 +410,15 @@ def load_and_clean_csv(file_path):
             i = 0
             while i < len(structured_ingredients):
                 current_ing = structured_ingredients[i]
-                if current_ing["name"] is None and (current_ing["quantity"] is not None or current_ing["unit"] is not None):
-                    if final_structured_ingredients and final_structured_ingredients[-1]["quantity"] is None and final_structured_ingredients[-1]["unit"] is None:
+                if current_ing["name"] is None and (
+                    current_ing["quantity"] is not None
+                    or current_ing["unit"] is not None
+                ):
+                    if (
+                        final_structured_ingredients
+                        and final_structured_ingredients[-1]["quantity"] is None
+                        and final_structured_ingredients[-1]["unit"] is None
+                    ):
                         prev_ing = final_structured_ingredients[-1]
                         combined_str_parts = [prev_ing["name"]]
                         if current_ing["quantity"] is not None:
@@ -321,7 +427,10 @@ def load_and_clean_csv(file_path):
                             combined_str_parts.append(current_ing["unit"])
                         combined_str = "".join(combined_str_parts).strip()
                         reparsed_combined = parse_ingredient(combined_str)
-                        if reparsed_combined["name"] == prev_ing["name"] and (reparsed_combined["quantity"] is not None or reparsed_combined["unit"] is not None):
+                        if reparsed_combined["name"] == prev_ing["name"] and (
+                            reparsed_combined["quantity"] is not None
+                            or reparsed_combined["unit"] is not None
+                        ):
                             final_structured_ingredients[-1] = reparsed_combined
                         else:
                             final_structured_ingredients.append(current_ing)
@@ -331,36 +440,42 @@ def load_and_clean_csv(file_path):
                     final_structured_ingredients.append(current_ing)
                 i += 1
 
-        
             # ✅ 最後補齊一些預設值（特別處理「鹽」為 1/2 小匙，且保留分數）
             for item in final_structured_ingredients:
                 # 不要強制修改鹽，讓 parse_ingredient決定
-                if item["name"] in ["糖", "胡椒粉", "米酒"] and item["quantity"] is None:
+                if (
+                    item["name"] in ["糖", "胡椒粉", "米酒"]
+                    and item["quantity"] is None
+                ):
                     item["quantity"] = "少許"
                     item["unit"] = None
 
-
             # ✅ 移除完全為空的項目（應該放最後）
             final_structured_ingredients = [
-                item for item in final_structured_ingredients
-                if item["name"] is not None or item["quantity"] is not None or item["unit"] is not None
+                item
+                for item in final_structured_ingredients
+                if item["name"] is not None
+                or item["quantity"] is not None
+                or item["unit"] is not None
             ]
             # ✅ 組合成最終的食材清單
             steps = clean_steps(row["做法"])
             combined_text = f"{name}。食材：{'，'.join(expanded_ingredients)}。做法：{'，'.join(steps)}。"
             image_path = row["圖片相對路徑"].replace("\\", "/")
 
-            recipes.append({
-                "id": row["id"],
-                "name": name,
-                "url": row["網址"],
-                "preview_ingredients": row["預覽食材"],
-                "ingredients": expanded_ingredients,
-                "structured_ingredients": final_structured_ingredients,
-                "steps": steps,
-                "combined_text": combined_text,
-                "image_path": image_path,
-            })
+            recipes.append(
+                {
+                    "id": row["id"],
+                    "name": name,
+                    "url": row["網址"],
+                    "preview_ingredients": row["預覽食材"],
+                    "ingredients": expanded_ingredients,
+                    "structured_ingredients": final_structured_ingredients,
+                    "steps": steps,
+                    "combined_text": combined_text,
+                    "image_path": image_path,
+                }
+            )
 
     return recipes
 
@@ -371,22 +486,30 @@ def save_clean_data(recipes, output_csv=None, output_json=None):
         os.makedirs(os.path.dirname(output_csv), exist_ok=True)
         with open(output_csv, "w", newline="", encoding="utf-8-sig") as f:
             fieldnames = [
-                "id", "name", "url", "preview_ingredients",
-                "ingredients", "steps", "combined_text", "image_path"
+                "id",
+                "name",
+                "url",
+                "preview_ingredients",
+                "ingredients",
+                "steps",
+                "combined_text",
+                "image_path",
             ]
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             for r in recipes:
-                writer.writerow({
-                    "id": r["id"],
-                    "name": r["name"],
-                    "url": r["url"],
-                    "preview_ingredients": r["preview_ingredients"],
-                    "ingredients": " | ".join(r["ingredients"]),
-                    "steps": " | ".join(r["steps"]),
-                    "combined_text": r["combined_text"],
-                    "image_path": r["image_path"],
-                })
+                writer.writerow(
+                    {
+                        "id": r["id"],
+                        "name": r["name"],
+                        "url": r["url"],
+                        "preview_ingredients": r["preview_ingredients"],
+                        "ingredients": " | ".join(r["ingredients"]),
+                        "steps": " | ".join(r["steps"]),
+                        "combined_text": r["combined_text"],
+                        "image_path": r["image_path"],
+                    }
+                )
         print(f"✅ 清理後資料已存成 CSV：{output_csv}")
 
     if output_json:
@@ -402,16 +525,21 @@ if __name__ == "__main__":
     import sys
     import glob
 
-    base_dir = os.path.dirname(os.path.abspath(__file__))  # 當前執行檔所在資料夾
-    project_root = os.path.abspath(os.path.join(base_dir, ".."))  # 上層資料夾作為專案根目錄
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.abspath(os.path.join(base_dir, ".."))
     raw_csv_dir = os.path.join(project_root, "raw_csv")
 
-    # 如果有命令列參數，使用指定的檔案；否則自動尋找 raw_csv 目錄中的 CSV 檔案
+    # 如果有命令列參數，使用指定的檔案；否則處理所有 CSV 檔案
     if len(sys.argv) > 1:
-        input_filename = sys.argv[1]
-        input_file = os.path.join(raw_csv_dir, input_filename)
+        if sys.argv[1] == "--all":
+            # 處理所有檔案
+            csv_files = glob.glob(os.path.join(raw_csv_dir, "*_食譜資料.csv"))
+        else:
+            # 處理指定檔案
+            input_filename = sys.argv[1]
+            csv_files = [os.path.join(raw_csv_dir, input_filename)]
     else:
-        # 自動尋找 raw_csv 目錄中的 CSV 檔案
+        # 自動尋找並詢問
         csv_files = glob.glob(os.path.join(raw_csv_dir, "*_食譜資料.csv"))
         if not csv_files:
             print("❌ 在 raw_csv 目錄中找不到符合格式的 CSV 檔案（*_食譜資料.csv）")
@@ -421,29 +549,36 @@ if __name__ == "__main__":
             for i, file in enumerate(csv_files, 1):
                 print(f"  {i}. {os.path.basename(file)}")
             print("請指定要處理的檔案：python clean_recipe_csv_0720.py <檔名>")
+            print("或使用 --all 處理所有檔案：python clean_recipe_csv_0720.py --all")
             sys.exit(1)
-        else:
-            input_file = csv_files[0]
 
-    if not os.path.exists(input_file):
-        print(f"❌ 檔案不存在：{input_file}")
-        sys.exit(1)
+    # 處理每個檔案
+    for input_file in csv_files:
+        if not os.path.exists(input_file):
+            print(f"❌ 檔案不存在：{input_file}")
+            continue
 
-    # 從檔名中提取菜名（通用模式）
-    input_filename = os.path.basename(input_file)  # 取得檔名：例如 小白菜_食譜資料.csv
-    vegetable_name = input_filename.split("_")[0]  # 提取第一個底線前的部分：例如 小白菜
+        # 從檔名中提取菜名
+        input_filename = os.path.basename(input_file)
+        vegetable_name = input_filename.split("_")[0]
 
-    print(f"📁 處理檔案：{input_filename}")
-    print(f"🥬 菜名：{vegetable_name}")
+        print(f"\n📁 處理檔案：{input_filename}")
+        print(f"🥬 菜名：{vegetable_name}")
 
-    # 在 cleaned_csv 下建立以菜名命名的資料夾
-    output_base_dir = os.path.join(project_root, "cleaned_csv")
-    output_vegetable_dir = os.path.join(output_base_dir, vegetable_name)
+        # 建立輸出目錄和檔案路徑
+        output_base_dir = os.path.join(project_root, "cleaned_csv")
+        output_vegetable_dir = os.path.join(output_base_dir, vegetable_name)
 
-    output_csv = os.path.join(output_vegetable_dir, f"{vegetable_name}_清理後食譜.csv")
-    output_json = os.path.join(output_vegetable_dir, f"{vegetable_name}_清理後食譜.json")
+        output_csv = os.path.join(
+            output_vegetable_dir, f"{vegetable_name}_清理後食譜.csv"
+        )
+        output_json = os.path.join(
+            output_vegetable_dir, f"{vegetable_name}_清理後食譜.json"
+        )
 
-    cleaned_recipes = load_and_clean_csv(input_file)
-    print(f"🔍 讀取並清理完成，共 {len(cleaned_recipes)} 筆食譜")
+        cleaned_recipes = load_and_clean_csv(input_file)
+        print(f"🔍 讀取並清理完成，共 {len(cleaned_recipes)} 筆食譜")
 
-    save_clean_data(cleaned_recipes, output_csv=output_csv, output_json=output_json)
+        save_clean_data(cleaned_recipes, output_csv=output_csv, output_json=output_json)
+
+    print(f"\n✅ 所有檔案處理完成！")
