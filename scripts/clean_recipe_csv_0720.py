@@ -84,6 +84,126 @@ def parse_ingredient(ingredient_str):
         "半": 0.5,
     }
 
+    # ✅ 新增：專門處理複雜格式的解析
+    def parse_complex_ingredient(text):
+        """處理複雜格式的食材，如 '鮭魚1片(270g)' 或 '檸檬1/4顆'"""
+
+        # 先將全形斜線轉換為半形斜線
+        text = text.replace('／', '/')
+
+        # 模式0: 名稱+範圍數字+單位，如 "水1～2大匙" (優先處理)
+        pattern0 = re.match(r'^(.+?)(\d+[～~]\d+)\s*(.+)$', text)
+        if pattern0:
+            name = pattern0.group(1).strip()
+            quantity_range = pattern0.group(2)
+            unit = pattern0.group(3).strip()
+
+            return {"name": name, "quantity": quantity_range, "unit": unit}
+
+        # 模式1: 名稱+數量+單位+括號，如 "鮭魚1片(270g)"
+        pattern1 = re.match(r'^(.+?)(\d+(?:/\d+)?(?:\.\d+)?)\s*([^\d\s\(]+)(\([^)]*\))?$', text)
+        if pattern1:
+            name_part = pattern1.group(1).strip()
+            quantity_str = pattern1.group(2)
+            unit_str = pattern1.group(3).strip()
+            bracket_content = pattern1.group(4) or ""
+
+            # 將括號內容加到名稱後面
+            name = name_part + bracket_content if bracket_content else name_part
+
+            # 處理分數
+            if "/" in quantity_str:
+                try:
+                    quantity = round(float(Fraction(quantity_str)), 3)
+                except ValueError:
+                    quantity = quantity_str
+            else:
+                try:
+                    quantity = round(float(quantity_str), 2)
+                except ValueError:
+                    quantity = quantity_str
+
+            return {"name": name, "quantity": quantity, "unit": unit_str}
+
+        # 模式2: 名稱+分數+單位，如 "檸檬1/4顆" 或 "鹽1/8茶匙"
+        pattern2 = re.match(r'^(.+?)(\d+/\d+)\s*([^\d\s]+)$', text)
+        if pattern2:
+            name = pattern2.group(1).strip()
+            quantity_str = pattern2.group(2)
+            unit = pattern2.group(3).strip()
+
+            try:
+                quantity = round(float(Fraction(quantity_str)), 3)
+            except ValueError:
+                quantity = quantity_str
+
+            return {"name": name, "quantity": quantity, "unit": unit}
+
+        # 模式4: 名稱+空格+模糊量詞，如 "薑絲 小撮"
+        pattern4 = re.match(r'^(.+?)\s+(少許|適量|隨意|依喜好|小撮|一撮|一點|些許)$', text)
+        if pattern4:
+            name = pattern4.group(1).strip()
+            quantity_word = pattern4.group(2).strip()
+
+            return {"name": name, "quantity": quantity_word, "unit": None}
+
+        # 模式5: 名稱+中文數字+單位，如 "九層塔一把"、"薑絲一小撮"
+        # 但要避免誤判，如 "小磨坊蒜香九層塔適量" 中的 "九" 不是數量
+        pattern5 = re.match(r'^(.+?)(一|二|三|四|五|六|七|八|十)(.+)$', text)
+        if pattern5:
+            name = pattern5.group(1).strip()
+            chinese_num = pattern5.group(2)
+            unit = pattern5.group(3).strip()
+
+            # 檢查是否為真正的數量詞，避免誤判食材名稱中的中文數字
+            # 如果單位是常見的量詞，才認為是數量
+            common_units = ["把", "根", "片", "顆", "個", "條", "支", "束", "小撮", "大撮", "撮"]
+            if unit in common_units:
+                # 中文數字轉換
+                chinese_to_num = {"一": 1, "二": 2, "三": 3, "四": 4, "五": 5,
+                                "六": 6, "七": 7, "八": 8, "九": 9, "十": 10}
+                quantity = chinese_to_num.get(chinese_num, chinese_num)
+
+                return {"name": name, "quantity": quantity, "unit": unit}
+
+        # 模式6: 名稱+模糊量詞結尾，如 "小磨坊蒜香九層塔適量"
+        pattern6 = re.match(r'^(.+?)(少許|適量|隨意|依喜好|些許)$', text)
+        if pattern6:
+            name = pattern6.group(1).strip()
+            quantity_word = pattern6.group(2)
+
+            return {"name": name, "quantity": quantity_word, "unit": None}
+
+
+
+        # 模式3: 複雜名稱+數量+單位，如 "小磨坊-蒜香九層塔1/8茶匙"
+        pattern3 = re.match(r'^(.+?)(\d+(?:/\d+)?(?:\.\d+)?)\s*(.+)$', text)
+        if pattern3:
+            name = pattern3.group(1).strip()
+            quantity_str = pattern3.group(2)
+            unit = pattern3.group(3).strip()
+
+            # 處理分數
+            if "/" in quantity_str:
+                try:
+                    quantity = round(float(Fraction(quantity_str)), 3)
+                except ValueError:
+                    quantity = quantity_str
+            else:
+                try:
+                    quantity = round(float(quantity_str), 2)
+                except ValueError:
+                    quantity = quantity_str
+
+            return {"name": name, "quantity": quantity, "unit": unit}
+
+        return None
+
+    # 先嘗試新的複雜格式解析
+    complex_result = parse_complex_ingredient(ingredient_str)
+    if complex_result:
+        return complex_result
+
     # ✅ 若食材開頭為常見調味料或固體名稱，優先拆解
     possible_names = sorted(
         set(COMMON_SEASONINGS + solid_ingredients + liquid_ingredients),
@@ -150,7 +270,33 @@ def parse_ingredient(ingredient_str):
     # ✅ 修正數字格式錯誤：如 05 → 0.5
     ingredient_str = re.sub(r"(?<=\D)0(\d)", r"0.\1", ingredient_str)
 
-    # ✅ 使用正則抓取數量、單位與名稱
+    # ✅ 使用正則抓取數量、單位與名稱（改進版）
+    # 先處理特殊格式：名稱+數量+單位+括號內容，如 "鮭魚1片(270g)"
+    special_match = re.match(r"^(.+?)(\d+(?:/\d+)?(?:\.\d+)?)\s*([^\d\s\(]+)(\([^)]*\))?", ingredient_str)
+    if special_match:
+        name_part = special_match.group(1).strip()
+        quantity_str = special_match.group(2)
+        unit_str = special_match.group(3).strip()
+        bracket_content = special_match.group(4) or ""
+
+        # 將括號內容加到名稱後面
+        name = name_part + bracket_content if bracket_content else name_part
+
+        # 處理分數
+        if "/" in quantity_str:
+            try:
+                quantity = round(float(Fraction(quantity_str)), 3)
+            except ValueError:
+                quantity = quantity_str
+        else:
+            try:
+                quantity = round(float(quantity_str), 2)
+            except ValueError:
+                quantity = quantity_str
+
+        return {"name": name, "quantity": quantity, "unit": unit_str}
+
+    # 原有的正則匹配邏輯
     match = re.search(
         r"([\d\.]+|\d+/\d+|[一二兩三四五六七八九半]+)\s*([^a-zA-Z\d\s]*)(.*)",
         ingredient_str,

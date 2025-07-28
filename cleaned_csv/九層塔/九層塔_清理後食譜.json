@@ -35,9 +35,9 @@
         "unit": "大匙"
       },
       {
-        "name": "食鹽 /2茶匙",
-        "quantity": 1.0,
-        "unit": null
+        "name": "食鹽",
+        "quantity": 0.5,
+        "unit": "茶匙"
       },
       {
         "name": "雞粉",
@@ -45,9 +45,9 @@
         "unit": "茶匙"
       },
       {
-        "name": "熱水 公升",
+        "name": "熱水",
         "quantity": 1.0,
-        "unit": null
+        "unit": "公升"
       }
     ],
     "steps": [
@@ -73,24 +73,24 @@
     ],
     "structured_ingredients": [
       {
-        "name": "鮭魚270g)",
+        "name": "鮭魚(270g)",
         "quantity": 1.0,
-        "unit": "片("
+        "unit": "片"
       },
       {
-        "name": "檸檬 /4",
-        "quantity": 1.0,
+        "name": "檸檬",
+        "quantity": 0.25,
         "unit": "顆"
       },
       {
-        "name": "小磨坊-蒜香 層塔1/8 茶匙",
-        "quantity": 9,
-        "unit": null
+        "name": "小磨坊-蒜香九層塔",
+        "quantity": 0.125,
+        "unit": "茶匙"
       },
       {
-        "name": "小磨坊-蒜香 層塔1/4茶匙",
-        "quantity": 9,
-        "unit": null
+        "name": "小磨坊-蒜香九層塔",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "鹽",
@@ -145,9 +145,9 @@
         "unit": "顆"
       },
       {
-        "name": "小磨坊-蒜香 層塔1/4茶匙",
-        "quantity": 9,
-        "unit": null
+        "name": "小磨坊-蒜香九層塔",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "米酒",
@@ -156,8 +156,8 @@
       },
       {
         "name": "鹽",
-        "quantity": 1.0,
-        "unit": "／"
+        "quantity": 0.125,
+        "unit": "茶匙"
       }
     ],
     "steps": [
@@ -191,14 +191,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "超市雞胸肉 盒",
+        "name": "超市雞胸肉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "層塔1把 層塔1把",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 1.0,
+        "unit": "把"
       },
       {
         "name": "米酒",
@@ -253,13 +253,13 @@
         "unit": "顆"
       },
       {
-        "name": "層塔1/2手把 層塔1/2手把",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 0.5,
+        "unit": "手把"
       },
       {
         "name": "鹽",
-        "quantity": 0.17,
+        "quantity": 0.167,
         "unit": "小匙"
       },
       {
@@ -333,9 +333,9 @@
         "unit": "g"
       },
       {
-        "name": "辣椒可不加或加半根",
+        "name": "辣椒",
         "quantity": 1.0,
-        "unit": "根"
+        "unit": "根 可不加或加半根"
       },
       {
         "name": "青蔥段",
@@ -343,19 +343,19 @@
         "unit": null
       },
       {
-        "name": "層塔一把",
-        "quantity": 9,
-        "unit": null
-      },
-      {
-        "name": "薑絲 小撮",
+        "name": "九層塔",
         "quantity": 1,
-        "unit": null
+        "unit": "把"
       },
       {
-        "name": "蒜頭 瓣（拍碎或切末",
+        "name": "薑絲",
+        "quantity": 1,
+        "unit": "小撮"
+      },
+      {
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣（拍碎或切末"
       },
       {
         "name": "米酒",
@@ -369,8 +369,8 @@
       },
       {
         "name": "水",
-        "quantity": 1.0,
-        "unit": "～"
+        "quantity": "1～2",
+        "unit": "大匙"
       },
       {
         "name": "食用油",
@@ -408,9 +408,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "鴨肉 隻",
+        "name": "鴨肉",
         "quantity": 0.5,
-        "unit": null
+        "unit": "隻"
       },
       {
         "name": "鴨胗",
@@ -443,9 +443,9 @@
         "unit": "根"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 5.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "香油",
@@ -502,8 +502,8 @@
         "unit": "克"
       },
       {
-        "name": "層塔35克 層塔35",
-        "quantity": 9,
+        "name": "九層塔",
+        "quantity": 35.0,
         "unit": "克"
       },
       {
@@ -550,6 +550,40 @@
     ],
     "combined_text": "九層塔雜炊。食材：九層塔小把。做法：備料，加豆油伯 一湯匙，起鍋前加九層塔拌一拌就好了。",
     "image_path": "九層塔/470056_九層塔雜炊.jpg"
+  },
+  {
+    "id": "467396",
+    "name": "九層塔煎蛋",
+    "url": "https://icook.tw/recipes/467396",
+    "preview_ingredients": "九層塔、蛋、鹽",
+    "ingredients": [
+      "九層塔適量",
+      "蛋3顆",
+      "鹽1小匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "九層塔",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "蛋",
+        "quantity": 3.0,
+        "unit": "顆"
+      },
+      {
+        "name": "鹽",
+        "quantity": 1.0,
+        "unit": "小匙"
+      }
+    ],
+    "steps": [
+      "九層塔洗淨加入蛋液攪拌均勻，加入適量的鹽調味即可",
+      "倒入鍋中煎至金黃色有點微焦即可成盤享用嘍～"
+    ],
+    "combined_text": "九層塔煎蛋。食材：九層塔適量，蛋3顆，鹽1小匙。做法：九層塔洗淨加入蛋液攪拌均勻，加入適量的鹽調味即可，倒入鍋中煎至金黃色有點微焦即可成盤享用嘍～。",
+    "image_path": "九層塔/467396_九層塔煎蛋.jpg"
   },
   {
     "id": "476542",
@@ -609,9 +643,9 @@
         "unit": "g"
       },
       {
-        "name": "層塔110g 層塔110g",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 110.0,
+        "unit": "g"
       },
       {
         "name": "植物油",
@@ -665,6 +699,47 @@
     "image_path": "九層塔/476542_九層塔芝麻厚燒餅_Vegan純素.jpg"
   },
   {
+    "id": "467131",
+    "name": "鐵板九層塔蛋",
+    "url": "https://icook.tw/recipes/467131",
+    "preview_ingredients": "九層塔葉、雞蛋、玫瑰鹽、橄欖油",
+    "ingredients": [
+      "九層塔葉1碗",
+      "雞蛋3顆",
+      "玫瑰鹽1小匙",
+      "橄欖油1匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "九層塔葉",
+        "quantity": 1.0,
+        "unit": "碗"
+      },
+      {
+        "name": "雞蛋",
+        "quantity": 3.0,
+        "unit": "顆"
+      },
+      {
+        "name": "玫瑰鹽",
+        "quantity": 1.0,
+        "unit": "小匙"
+      },
+      {
+        "name": "橄欖油",
+        "quantity": 1.0,
+        "unit": "匙"
+      }
+    ],
+    "steps": [
+      "將九層塔洗淨，取下九層塔葉切段，量看個人喜好。",
+      "3顆蛋加入1小匙玫瑰鹽，加入九層塔葉打成蛋液。",
+      "鐵板加熱至180度，倒一點橄欖油塗佈於鐵板上，將九層塔蛋液倒至鐵板煎至兩面微焦起鍋裝盤。"
+    ],
+    "combined_text": "鐵板九層塔蛋。食材：九層塔葉1碗，雞蛋3顆，玫瑰鹽1小匙，橄欖油1匙。做法：將九層塔洗淨，取下九層塔葉切段，量看個人喜好。，3顆蛋加入1小匙玫瑰鹽，加入九層塔葉打成蛋液。，鐵板加熱至180度，倒一點橄欖油塗佈於鐵板上，將九層塔蛋液倒至鐵板煎至兩面微焦起鍋裝盤。。",
+    "image_path": "九層塔/467131_鐵板九層塔蛋.jpg"
+  },
+  {
     "id": "475734",
     "name": "十分鐘上菜-炸蒜香九層塔風味香菇",
     "url": "https://icook.tw/recipes/475734",
@@ -680,9 +755,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "新鮮香菇 朵",
+        "name": "新鮮香菇",
         "quantity": 10.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "小磨坊蒜香九層塔",
@@ -747,8 +822,8 @@
         "unit": "克"
       },
       {
-        "name": "層塔骨1小把 層塔骨1",
-        "quantity": 9,
+        "name": "九層塔骨",
+        "quantity": 1.0,
         "unit": "小把"
       },
       {
@@ -757,9 +832,9 @@
         "unit": "顆"
       },
       {
-        "name": "黑蠔菇 盒",
+        "name": "黑蠔菇",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "枸杞",
@@ -808,14 +883,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "層塔1把 層塔1把",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 1.0,
+        "unit": "把"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 6.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "橄欖油",
@@ -877,14 +952,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "層塔1把 層塔1把",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 1.0,
+        "unit": "把"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 6.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "橄欖油",
@@ -912,9 +987,9 @@
         "unit": "小匙"
       },
       {
-        "name": "板豆腐 塊",
+        "name": "板豆腐",
         "quantity": 1.0,
-        "unit": null
+        "unit": "塊"
       }
     ],
     "steps": [
@@ -927,6 +1002,48 @@
     ],
     "combined_text": "九層塔醬香豆腐。食材：九層塔1把，蒜頭6瓣，橄欖油25毫升，安食小品醬鹽1小匙，細砂糖1小匙，米酒1大匙，安食小品黑豆醬油1小匙，板豆腐1塊。做法：備料，先將一半橄欖油、九層塔、蒜頭放入料理機打成泥；將剩下的橄欖油5入鍋加熱後，放入九層塔醬一起炒香，最後再加入白細砂糖、醬鹽、米酒拌勻入味，九層塔醬完成✅，板豆腐同一鍋煎至兩面金黃，盛起擺盤後，將九層塔醬放在豆腐上，淋上一小匙黑豆醬油，完成✅。",
     "image_path": "九層塔/466528_九層塔醬香豆腐.jpg"
+  },
+  {
+    "id": "463326",
+    "name": "九層塔烘蛋",
+    "url": "https://icook.tw/recipes/463326",
+    "preview_ingredients": "蛋、九層塔、鹽、白胡椒粉",
+    "ingredients": [
+      "蛋2顆",
+      "九層塔1小把",
+      "鹽1小匙",
+      "白胡椒粉小匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "蛋",
+        "quantity": 2.0,
+        "unit": "顆"
+      },
+      {
+        "name": "九層塔",
+        "quantity": 1.0,
+        "unit": "小把"
+      },
+      {
+        "name": "鹽",
+        "quantity": 1.0,
+        "unit": "小匙"
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "碗裡打入2顆蛋，放入洗淨的九層塔葉，鹽，白胡椒粉後，攪拌均勻",
+      "熱油鍋，倒入蛋液，開中小火慢煎",
+      "邊邊熟了之後，用鍋鏟試試，底部熟了即可翻面",
+      "翻面後再煎一下，不黏鍋鏟即完成"
+    ],
+    "combined_text": "九層塔烘蛋。食材：蛋2顆，九層塔1小把，鹽1小匙，白胡椒粉小匙。做法：碗裡打入2顆蛋，放入洗淨的九層塔葉，鹽，白胡椒粉後，攪拌均勻，熱油鍋，倒入蛋液，開中小火慢煎，邊邊熟了之後，用鍋鏟試試，底部熟了即可翻面，翻面後再煎一下，不黏鍋鏟即完成。",
+    "image_path": "九層塔/463326_九層塔烘蛋.jpg"
   },
   {
     "id": "462631",
@@ -964,9 +1081,9 @@
         "unit": "克"
       },
       {
-        "name": "長辣椒 支",
+        "name": "長辣椒",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "朝天椒",
@@ -974,8 +1091,8 @@
         "unit": "根"
       },
       {
-        "name": "層塔30克 層塔30",
-        "quantity": 9,
+        "name": "九層塔",
+        "quantity": 30.0,
         "unit": "克"
       },
       {
@@ -994,19 +1111,19 @@
         "unit": "克"
       },
       {
-        "name": "新鮮檸檬汁（25克",
-        "quantity": 0.5,
-        "unit": "顆）"
-      },
-      {
-        "name": "砂糖20克 砂糖20",
-        "quantity": 2,
+        "name": "新鮮檸檬汁（半顆）",
+        "quantity": 25.0,
         "unit": "克"
       },
       {
-        "name": "米酒",
-        "quantity": "少許",
-        "unit": null
+        "name": "二砂糖",
+        "quantity": 20.0,
+        "unit": "克"
+      },
+      {
+        "name": "米酒頭",
+        "quantity": 20.0,
+        "unit": "克"
       }
     ],
     "steps": [
@@ -1052,14 +1169,14 @@
         "unit": "顆"
       },
       {
-        "name": "層塔2株 層塔2株",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 2.0,
+        "unit": "株"
       },
       {
-        "name": "黑胡椒粒 ／10茶匙",
-        "quantity": 1.0,
-        "unit": null
+        "name": "黑胡椒粒",
+        "quantity": 0.1,
+        "unit": "茶匙"
       },
       {
         "name": "奇異果（可略）",
@@ -1067,13 +1184,13 @@
         "unit": "顆"
       },
       {
-        "name": "砂糖",
-        "quantity": null,
-        "unit": null
+        "name": "砂糖橘（可略）",
+        "quantity": 1.0,
+        "unit": "顆"
       },
       {
-        "name": "熟毛豆莢 ／2",
-        "quantity": 1.0,
+        "name": "熟毛豆莢",
+        "quantity": 0.5,
         "unit": "碗"
       }
     ],
@@ -1130,6 +1247,44 @@
     "image_path": "九層塔/456490_九層塔蛋.jpg"
   },
   {
+    "id": "472236",
+    "name": "好簡單「九層塔蛋」熱炒店必點！！",
+    "url": "https://icook.tw/recipes/472236",
+    "preview_ingredients": "九層塔、雞蛋、鹽及胡椒",
+    "ingredients": [
+      "九層塔少許",
+      "雞蛋2顆",
+      "鹽及胡椒少許"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "九層塔",
+        "quantity": "少許",
+        "unit": null
+      },
+      {
+        "name": "雞蛋",
+        "quantity": 2.0,
+        "unit": "顆"
+      },
+      {
+        "name": "鹽及胡椒",
+        "quantity": "少許",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "先將九層塔剪碎。",
+      "打入兩顆雞蛋並撒些許鹽及胡椒拌勻。",
+      "鍋中倒入多一點點的油熱鍋、將雞蛋液倒入。",
+      "兩面半煎半炸至金黃即可取出。",
+      "金黃色澤「九層塔蛋」還帶著九層塔的香氣！！",
+      "酥酥脆脆的蛋香～～也太好吃了吧！！"
+    ],
+    "combined_text": "好簡單「九層塔蛋」熱炒店必點！！。食材：九層塔少許，雞蛋2顆，鹽及胡椒少許。做法：先將九層塔剪碎。，打入兩顆雞蛋並撒些許鹽及胡椒拌勻。，鍋中倒入多一點點的油熱鍋、將雞蛋液倒入。，兩面半煎半炸至金黃即可取出。，金黃色澤「九層塔蛋」還帶著九層塔的香氣！！，酥酥脆脆的蛋香～～也太好吃了吧！！。",
+    "image_path": "九層塔/472236_好簡單「九層塔蛋」熱炒店必點！！.jpg"
+  },
+  {
     "id": "462579",
     "name": "九層塔起司豆腐三明治",
     "url": "https://icook.tw/recipes/462579",
@@ -1143,9 +1298,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "板豆腐 盒",
+        "name": "板豆腐",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "起司片",
@@ -1153,14 +1308,14 @@
         "unit": "片"
       },
       {
-        "name": "層塔8片 層塔8",
-        "quantity": 9,
+        "name": "九層塔",
+        "quantity": 8.0,
         "unit": "片"
       },
       {
-        "name": "醬油",
-        "quantity": null,
-        "unit": null
+        "name": "醬油膏",
+        "quantity": 1.0,
+        "unit": "大匙"
       },
       {
         "name": "糖",
@@ -1248,8 +1403,8 @@
         "unit": null
       },
       {
-        "name": "層塔20克 層塔20",
-        "quantity": 9,
+        "name": "九層塔",
+        "quantity": 20.0,
         "unit": "克"
       },
       {
@@ -1303,9 +1458,9 @@
         "unit": "顆"
       },
       {
-        "name": "層塔1大把 層塔1大把",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 1.0,
+        "unit": "大把"
       },
       {
         "name": "薑",
@@ -1355,18 +1510,18 @@
     ],
     "structured_ingredients": [
       {
-        "name": "牛肉絲 份",
+        "name": "牛肉絲",
         "quantity": 1.0,
-        "unit": null
+        "unit": "份"
       },
       {
-        "name": "紅辣椒 條",
+        "name": "紅辣椒",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "層塔1包 層塔1",
-        "quantity": 9,
+        "name": "九層塔",
+        "quantity": 1.0,
         "unit": "包"
       },
       {
@@ -1414,8 +1569,8 @@
     ],
     "structured_ingredients": [
       {
-        "name": "層塔200克 層塔200",
-        "quantity": 9,
+        "name": "九層塔",
+        "quantity": 200.0,
         "unit": "克"
       },
       {
@@ -1465,6 +1620,60 @@
     "image_path": "九層塔/459428_青醬（九層塔版）.jpg"
   },
   {
+    "id": "468950",
+    "name": "10分鐘搞定！簡單又好吃的九層塔煎蛋",
+    "url": "https://icook.tw/recipes/468950",
+    "preview_ingredients": "雞蛋、九層塔、韭菜、鹽巴、鰹魚粉、二砂",
+    "ingredients": [
+      "雞蛋5顆",
+      "九層塔一把",
+      "韭菜2支",
+      "鹽巴適量",
+      "鰹魚粉適量",
+      "二砂適量"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "雞蛋",
+        "quantity": 5.0,
+        "unit": "顆"
+      },
+      {
+        "name": "九層塔",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "韭菜",
+        "quantity": 2.0,
+        "unit": "支"
+      },
+      {
+        "name": "鹽巴",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "鰹魚粉",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "二砂",
+        "quantity": "適量",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "九層塔、韭菜洗乾淨後，切成碎備用",
+      "雞蛋、九層塔、韭菜、調味料混合均勻，攪拌至有點打發的狀態",
+      "鍋子放入由，熱鍋後，一邊攪拌一遍倒入蛋液，然後在蛋成形前，不斷從中間攪拌至外圍，讓蛋液熱度更均勻",
+      "翻面煎好後，即可起鍋"
+    ],
+    "combined_text": "10分鐘搞定！簡單又好吃的九層塔煎蛋。食材：雞蛋5顆，九層塔一把，韭菜2支，鹽巴適量，鰹魚粉適量，二砂適量。做法：九層塔、韭菜洗乾淨後，切成碎備用，雞蛋、九層塔、韭菜、調味料混合均勻，攪拌至有點打發的狀態，鍋子放入由，熱鍋後，一邊攪拌一遍倒入蛋液，然後在蛋成形前，不斷從中間攪拌至外圍，讓蛋液熱度更均勻，翻面煎好後，即可起鍋。",
+    "image_path": "九層塔/468950_10分鐘搞定！簡單又好吃的九層塔煎蛋.jpg"
+  },
+  {
     "id": "453947",
     "name": "三杯九層塔蛤蜊",
     "url": "https://icook.tw/recipes/453947",
@@ -1492,18 +1701,18 @@
         "unit": "片"
       },
       {
-        "name": "紅辣椒 支",
+        "name": "紅辣椒",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "層塔1小把 層塔1",
-        "quantity": 9,
+        "name": "九層塔",
+        "quantity": 1.0,
         "unit": "小把"
       },
       {
@@ -1597,9 +1806,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "水",
-        "quantity": null,
-        "unit": null
+        "name": "水手牌法國麵包粉",
+        "quantity": 150.0,
+        "unit": "g"
       },
       {
         "name": "酵母",
@@ -1632,9 +1841,9 @@
         "unit": "g"
       },
       {
-        "name": "葵花油 ｇ",
+        "name": "葵花油",
         "quantity": 15.0,
-        "unit": null
+        "unit": "ｇ"
       }
     ],
     "steps": [
@@ -1681,14 +1890,14 @@
         "unit": "g"
       },
       {
-        "name": "層塔15片 層塔15",
-        "quantity": 9,
+        "name": "九層塔",
+        "quantity": 15.0,
         "unit": "片"
       },
       {
-        "name": "姜絲 條",
+        "name": "姜絲",
         "quantity": 20.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "油",
@@ -1750,9 +1959,9 @@
         "unit": "小匙"
       },
       {
-        "name": "醬油",
-        "quantity": null,
-        "unit": null
+        "name": "醬油 （可省略）",
+        "quantity": 1.0,
+        "unit": "小匙"
       }
     ],
     "steps": [
@@ -1776,13 +1985,13 @@
     ],
     "structured_ingredients": [
       {
-        "name": "麵腸 條",
+        "name": "麵腸",
         "quantity": 2.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "層塔1小把 層塔1",
-        "quantity": 9,
+        "name": "九層塔",
+        "quantity": 1.0,
         "unit": "小把"
       },
       {
@@ -1804,6 +2013,136 @@
     "image_path": "九層塔/450744_九層塔炒麵腸.jpg"
   },
   {
+    "id": "452410",
+    "name": "蘋果加九層塔煎蛋",
+    "url": "https://icook.tw/recipes/452410",
+    "preview_ingredients": "雞蛋、九層塔葉、華盛頓加拉蘋果、鹽巴、起司粉、砂糖",
+    "ingredients": [
+      "雞蛋3顆",
+      "九層塔葉5克",
+      "華盛頓加拉蘋果1顆",
+      "鹽巴1大匙",
+      "起司粉5克",
+      "砂糖5克"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "雞蛋",
+        "quantity": 3.0,
+        "unit": "顆"
+      },
+      {
+        "name": "九層塔葉",
+        "quantity": 5.0,
+        "unit": "克"
+      },
+      {
+        "name": "華盛頓加拉蘋果",
+        "quantity": 1.0,
+        "unit": "顆"
+      },
+      {
+        "name": "鹽巴",
+        "quantity": 1.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "起司粉",
+        "quantity": 5.0,
+        "unit": "克"
+      },
+      {
+        "name": "砂糖",
+        "quantity": 5.0,
+        "unit": "克"
+      }
+    ],
+    "steps": [
+      "華盛頓加拉蘋果是我這次使用的蘋果產地來源",
+      "雞蛋打成蛋液加入九層塔及切碎華盛頓加拉蘋果加入蛋液中，再加入鹽巴調味",
+      "油先熱再把蛋液倒入鍋中",
+      "煎到蛋液快乾的時候再撒上起司粉翻面",
+      "等到這一面也微焦後就差不多了！",
+      "放入盤子中"
+    ],
+    "combined_text": "蘋果加九層塔煎蛋。食材：雞蛋3顆，九層塔葉5克，華盛頓加拉蘋果1顆，鹽巴1大匙，起司粉5克，砂糖5克。做法：華盛頓加拉蘋果是我這次使用的蘋果產地來源，雞蛋打成蛋液加入九層塔及切碎華盛頓加拉蘋果加入蛋液中，再加入鹽巴調味，油先熱再把蛋液倒入鍋中，煎到蛋液快乾的時候再撒上起司粉翻面，等到這一面也微焦後就差不多了！，放入盤子中。",
+    "image_path": "九層塔/452410_蘋果加九層塔煎蛋.jpg"
+  },
+  {
+    "id": "458405",
+    "name": "羅勒蜂蜜蛋糕（無木框）",
+    "url": "https://icook.tw/recipes/458405",
+    "preview_ingredients": "煉乳、奶油、蜂蜜、蛋、低筋麵粉、杏仁粉(或玉米粉)、二砂糖(或普通砂糖)、羅勒葉",
+    "ingredients": [
+      "煉乳12g",
+      "奶油21g",
+      "蜂蜜38g",
+      "蛋3",
+      "低筋麵粉75g",
+      "杏仁粉(或玉米粉)13g",
+      "二砂糖(或普通砂糖)63g",
+      "羅勒葉2g"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "煉乳",
+        "quantity": 12.0,
+        "unit": "g"
+      },
+      {
+        "name": "奶油",
+        "quantity": 21.0,
+        "unit": "g"
+      },
+      {
+        "name": "蜂蜜",
+        "quantity": 38.0,
+        "unit": "g"
+      },
+      {
+        "name": "蛋 ",
+        "quantity": 3.0,
+        "unit": null
+      },
+      {
+        "name": "低筋麵粉",
+        "quantity": 75.0,
+        "unit": "g"
+      },
+      {
+        "name": "杏仁粉(或玉米粉)",
+        "quantity": 13.0,
+        "unit": "g"
+      },
+      {
+        "name": "二砂糖(或普通砂糖)",
+        "quantity": 63.0,
+        "unit": "g"
+      },
+      {
+        "name": "羅勒葉",
+        "quantity": 2.0,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "烤模四周抹油，倒入麵粉並且轉動烤模，讓所有麵粉平均分布在烤模上，多餘麵粉倒出，並且在底部剪一個圓形烘焙紙",
+      "雞蛋打散與砂糖放好，放置室溫，可加入香草籽醬",
+      "預熱200度",
+      "奶油，羅勒葉（小磨坊的那種），煉乳和蜂蜜加熱到全部溶化，並且拌勻，拌勻後關火\n狀態會是與蜂蜜本身的稠度類似（沒拍到抱歉QQ",
+      "全蛋跟砂糖打發到這樣\n紋路可以停留起碼20秒以上",
+      "篩入低筋麵粉和杏仁粉翻拌均勻，由下往上不要多次胡攪蠻纏，拌勻了就停下動作",
+      "再次加熱蜂蜜那一鍋\n跟步驟４一樣",
+      "取一點麵糊到蜂蜜那一區，快速拌勻",
+      "將蜂蜜那一個倒回主麵糊，跟步驟６一樣，且切拌不會超過十下",
+      "倒入烤模，用竹籤畫個幾圈後，以180度烤43分鐘後就可出爐",
+      "將其倒扣放涼",
+      "脫模後就可享用"
+    ],
+    "combined_text": "羅勒蜂蜜蛋糕（無木框）。食材：煉乳12g，奶油21g，蜂蜜38g，蛋3，低筋麵粉75g，杏仁粉(或玉米粉)13g，二砂糖(或普通砂糖)63g，羅勒葉2g。做法：烤模四周抹油，倒入麵粉並且轉動烤模，讓所有麵粉平均分布在烤模上，多餘麵粉倒出，並且在底部剪一個圓形烘焙紙，雞蛋打散與砂糖放好，放置室溫，可加入香草籽醬，預熱200度，奶油，羅勒葉（小磨坊的那種），煉乳和蜂蜜加熱到全部溶化，並且拌勻，拌勻後關火\n狀態會是與蜂蜜本身的稠度類似（沒拍到抱歉QQ，全蛋跟砂糖打發到這樣\n紋路可以停留起碼20秒以上，篩入低筋麵粉和杏仁粉翻拌均勻，由下往上不要多次胡攪蠻纏，拌勻了就停下動作，再次加熱蜂蜜那一鍋\n跟步驟４一樣，取一點麵糊到蜂蜜那一區，快速拌勻，將蜂蜜那一個倒回主麵糊，跟步驟６一樣，且切拌不會超過十下，倒入烤模，用竹籤畫個幾圈後，以180度烤43分鐘後就可出爐，將其倒扣放涼，脫模後就可享用。",
+    "image_path": "九層塔/458405_羅勒蜂蜜蛋糕（無木框）.jpg"
+  },
+  {
     "id": "449881",
     "name": "九層塔蛋炒飯",
     "url": "https://icook.tw/recipes/449881",
@@ -1823,9 +2162,9 @@
         "unit": "碗"
       },
       {
-        "name": "層塔2把 層塔2把",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 2.0,
+        "unit": "把"
       },
       {
         "name": "雞蛋",
@@ -1857,6 +2196,78 @@
     "image_path": "九層塔/449881_九層塔蛋炒飯.jpg"
   },
   {
+    "id": "465464",
+    "name": "超下飯九層塔炒蛤蠣3分鐘就學會！",
+    "url": "https://icook.tw/recipes/465464",
+    "preview_ingredients": "蛤蠣、九層塔、蒜頭、薑片、蔥、黑麻油、醬油膏、米酒、烏醋",
+    "ingredients": [
+      "蛤蠣2斤",
+      "九層塔1把",
+      "蒜頭5顆",
+      "薑片5片",
+      "蔥2支",
+      "黑麻油3大匙",
+      "醬油膏3大匙",
+      "米酒3大匙",
+      "烏醋1大匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "蛤蠣",
+        "quantity": 2.0,
+        "unit": "斤"
+      },
+      {
+        "name": "九層塔",
+        "quantity": 1.0,
+        "unit": "把"
+      },
+      {
+        "name": "蒜頭",
+        "quantity": 5.0,
+        "unit": "顆"
+      },
+      {
+        "name": "薑片",
+        "quantity": 5.0,
+        "unit": "片"
+      },
+      {
+        "name": "蔥",
+        "quantity": 2.0,
+        "unit": "支"
+      },
+      {
+        "name": "黑麻油",
+        "quantity": 3.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "醬油膏",
+        "quantity": 3.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "米酒",
+        "quantity": 3.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "烏醋",
+        "quantity": 1.0,
+        "unit": "大匙"
+      }
+    ],
+    "steps": [
+      "黑麻油熱鍋後，加入蒜、薑爆香",
+      "炒出香氣後，放入蛤蠣",
+      "放入所有調味料，蓋上鍋蓋，大火悶煮至蛤蠣打開",
+      "起鍋前，放入九層塔、蔥跟烏醋，拌一拌即可起鍋"
+    ],
+    "combined_text": "超下飯九層塔炒蛤蠣3分鐘就學會！。食材：蛤蠣2斤，九層塔1把，蒜頭5顆，薑片5片，蔥2支，黑麻油3大匙，醬油膏3大匙，米酒3大匙，烏醋1大匙。做法：黑麻油熱鍋後，加入蒜、薑爆香，炒出香氣後，放入蛤蠣，放入所有調味料，蓋上鍋蓋，大火悶煮至蛤蠣打開，起鍋前，放入九層塔、蔥跟烏醋，拌一拌即可起鍋。",
+    "image_path": "九層塔/465464_超下飯九層塔炒蛤蠣3分鐘就學會！.jpg"
+  },
+  {
     "id": "464974",
     "name": "超簡單四步驟，九層塔酥脆蚵仔酥這樣做！",
     "url": "https://icook.tw/recipes/464974",
@@ -1869,9 +2280,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蚵仔 斤",
+        "name": "蚵仔",
         "quantity": 2.0,
-        "unit": null
+        "unit": "斤"
       },
       {
         "name": "地瓜粉",
@@ -1879,9 +2290,9 @@
         "unit": "g"
       },
       {
-        "name": "層塔1把 層塔1把",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 1.0,
+        "unit": "把"
       },
       {
         "name": "胡椒粉",
@@ -1913,9 +2324,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "櫛瓜 條",
+        "name": "櫛瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蝦花蝦",
@@ -1933,9 +2344,9 @@
         "unit": null
       },
       {
-        "name": "層塔1把 層塔1把",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 1.0,
+        "unit": "把"
       },
       {
         "name": "蛋",
@@ -1966,9 +2377,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "層塔100公克 層塔100公",
-        "quantity": 9,
-        "unit": "克"
+        "name": "九層塔",
+        "quantity": 100.0,
+        "unit": "公克"
       },
       {
         "name": "核桃",
@@ -2031,8 +2442,8 @@
         "unit": "克"
       },
       {
-        "name": "層塔葉5克 層塔葉5",
-        "quantity": 9,
+        "name": "九層塔葉",
+        "quantity": 5.0,
         "unit": "克"
       },
       {
@@ -2061,9 +2472,9 @@
         "unit": "克"
       },
       {
-        "name": "胡蘿蔔 條",
+        "name": "胡蘿蔔",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蓮藕粉",
@@ -2105,13 +2516,13 @@
         "unit": "克"
       },
       {
-        "name": "蔥 -2 根",
-        "quantity": 1.0,
-        "unit": null
+        "name": "蔥1-",
+        "quantity": 2.0,
+        "unit": "根"
       },
       {
-        "name": "35克 層塔約 35",
-        "quantity": 9,
+        "name": "九層塔約",
+        "quantity": 35.0,
         "unit": "克"
       },
       {
@@ -2130,19 +2541,19 @@
         "unit": "大匙"
       },
       {
-        "name": "細砂糖 /2",
-        "quantity": 1.0,
+        "name": "細砂糖",
+        "quantity": 0.5,
         "unit": "大匙"
       },
       {
-        "name": "起司粉 /2",
-        "quantity": 1.0,
+        "name": "起司粉",
+        "quantity": 0.5,
         "unit": "大匙"
       },
       {
-        "name": "Kolin 歌林多功能食物調理 台",
+        "name": "Kolin 歌林多功能食物調理",
         "quantity": 1.0,
-        "unit": null
+        "unit": "台"
       }
     ],
     "steps": [
@@ -2176,9 +2587,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "茄子 條",
+        "name": "茄子",
         "quantity": 2.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蒜末",
@@ -2191,13 +2602,13 @@
         "unit": null
       },
       {
-        "name": "辣椒末 條",
+        "name": "辣椒末",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "層塔切絲1大匙 層塔切絲1",
-        "quantity": 9,
+        "name": "九層塔切絲",
+        "quantity": 1.0,
         "unit": "大匙"
       },
       {
@@ -2211,9 +2622,9 @@
         "unit": "小匙"
       },
       {
-        "name": "米",
-        "quantity": null,
-        "unit": null
+        "name": "米醋",
+        "quantity": 2.0,
+        "unit": "小匙"
       },
       {
         "name": "醬油",
@@ -2282,8 +2693,8 @@
         "unit": "小匙"
       },
       {
-        "name": "層塔1小把 層塔1",
-        "quantity": 9,
+        "name": "九層塔",
+        "quantity": 1.0,
         "unit": "小把"
       }
     ],
@@ -2315,19 +2726,19 @@
     ],
     "structured_ingredients": [
       {
-        "name": "吳郭魚 尾",
+        "name": "吳郭魚",
         "quantity": 2.0,
-        "unit": null
+        "unit": "尾"
       },
       {
-        "name": "層塔1把 層塔1把",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 1.0,
+        "unit": "把"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 6.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "蔥段",

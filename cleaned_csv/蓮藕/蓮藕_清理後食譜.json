@@ -907,57 +907,6 @@
     "image_path": "蓮藕/465652_醬炒蓮藕.jpg"
   },
   {
-    "id": "470448",
-    "name": "黃瓜蓮藕排骨玉米湯",
-    "url": "https://icook.tw/recipes/470448",
-    "preview_ingredients": "排骨、玉米、蓮藕片、大黃瓜、鹽巴、味精",
-    "ingredients": [
-      "排骨1份",
-      "玉米3根",
-      "蓮藕片1份",
-      "大黃瓜1條",
-      "鹽巴2匙",
-      "味精1小匙"
-    ],
-    "structured_ingredients": [
-      {
-        "name": "排骨 份",
-        "quantity": 1.0,
-        "unit": null
-      },
-      {
-        "name": "玉米",
-        "quantity": 3.0,
-        "unit": "根"
-      },
-      {
-        "name": "蓮藕片 份",
-        "quantity": 1.0,
-        "unit": null
-      },
-      {
-        "name": "大黃瓜 條",
-        "quantity": 1.0,
-        "unit": null
-      },
-      {
-        "name": "鹽巴",
-        "quantity": 2.0,
-        "unit": "匙"
-      },
-      {
-        "name": "味精",
-        "quantity": 1.0,
-        "unit": "小匙"
-      }
-    ],
-    "steps": [
-      "排骨冷水川燙撈起洗淨後放入湯鍋煮滾\n先加玉米熟後加入蓮藕片和大黃瓜\n加鹽跟味精 湯鮮味美"
-    ],
-    "combined_text": "黃瓜蓮藕排骨玉米湯。食材：排骨1份，玉米3根，蓮藕片1份，大黃瓜1條，鹽巴2匙，味精1小匙。做法：排骨冷水川燙撈起洗淨後放入湯鍋煮滾\n先加玉米熟後加入蓮藕片和大黃瓜\n加鹽跟味精 湯鮮味美。",
-    "image_path": "蓮藕/470448_黃瓜蓮藕排骨玉米湯.jpg"
-  },
-  {
     "id": "466584",
     "name": "蓮藕山藥排骨湯",
     "url": "https://icook.tw/recipes/466584",
