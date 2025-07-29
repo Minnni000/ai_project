@@ -13,12 +13,12 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 ",
+        "name": "絲瓜",
         "quantity": 1.0,
         "unit": null
       },
       {
-        "name": "蛋 ",
+        "name": "蛋",
         "quantity": 2.0,
         "unit": null
       },
@@ -64,9 +64,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蛤蜊",
@@ -76,12 +76,12 @@
       {
         "name": "米酒",
         "quantity": 15.0,
-        "unit": null
+        "unit": "毫升"
       },
       {
         "name": "水",
         "quantity": 30.0,
-        "unit": null
+        "unit": "毫升"
       },
       {
         "name": "生薑",
@@ -101,7 +101,7 @@
       {
         "name": "香油",
         "quantity": 5.0,
-        "unit": null
+        "unit": "毫升"
       }
     ],
     "steps": [
@@ -127,9 +127,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "薑絲",
@@ -181,9 +181,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "越南春捲皮（米紙）數張",
@@ -191,9 +191,9 @@
         "unit": null
       },
       {
-        "name": "杏鮑菇（小條） 條",
+        "name": "杏鮑菇（小條）",
         "quantity": 6.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "玉米粒",
@@ -241,6 +241,83 @@
     "image_path": "絲瓜/477675_絲瓜捲.jpg"
   },
   {
+    "id": "477218",
+    "name": "蛤蜊絲瓜",
+    "url": "https://icook.tw/recipes/477218",
+    "preview_ingredients": "蛤蜊、絲瓜、米酒、醬油膏、蔥、香油、薑片、大蒜、九層塔葉",
+    "ingredients": [
+      "蛤蜊1台斤",
+      "絲瓜1條",
+      "米酒適量",
+      "醬油膏1小匙",
+      "香油少許",
+      "蔥1根",
+      "薑片4片",
+      "大蒜1顆",
+      "九層塔葉適量"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "蛤蜊",
+        "quantity": 1.0,
+        "unit": "台斤"
+      },
+      {
+        "name": "絲瓜",
+        "quantity": 1.0,
+        "unit": "條"
+      },
+      {
+        "name": "米酒",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "醬油膏",
+        "quantity": 1.0,
+        "unit": "小匙"
+      },
+      {
+        "name": "香油",
+        "quantity": "少許",
+        "unit": null
+      },
+      {
+        "name": "蔥",
+        "quantity": 1.0,
+        "unit": "根"
+      },
+      {
+        "name": "薑片",
+        "quantity": 4.0,
+        "unit": "片"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 1.0,
+        "unit": "顆"
+      },
+      {
+        "name": "九層塔葉",
+        "quantity": "適量",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "蛤蜊在料理前，以清水加2-3匙的鹽，於室溫進行吐沙兩小時。",
+      "蔥切段，薑片及大蒜切碎備用。絲瓜削皮後，從中對切後再切成大塊（切大塊較有口感，且不易出水）。吐沙後的蛤蜊洗淨備用。",
+      "起油鍋，下絲瓜乾煸，直到表皮烙出焦香，此時絲瓜會釋放出甜甜的味道。",
+      "加入辛香料，稍微拌炒",
+      "拌炒後，將絲瓜推至周圍，中間留洞，放入蛤蜊，鍋邊嗆入米酒。",
+      "蓋上鍋蓋等蛤蜊打開。",
+      "蛤蜊開始打開時，掀鍋蓋加入醬油膏，輕輕晃動鍋子，或是稍微拌一下，以免攪拌太劇烈，造成已經打開的蛤蜊可能會從殼掉出來，蛤蜊會縮水，不飽滿。",
+      "蓋鍋蓋燜煮，待蛤蜊完整打開後，放入九層塔，滴入香油，即可起鍋。",
+      "香噴噴上桌了喔"
+    ],
+    "combined_text": "蛤蜊絲瓜。食材：蛤蜊1台斤，絲瓜1條，米酒適量，醬油膏1小匙，香油少許，蔥1根，薑片4片，大蒜1顆，九層塔葉適量。做法：蛤蜊在料理前，以清水加2-3匙的鹽，於室溫進行吐沙兩小時。，蔥切段，薑片及大蒜切碎備用。絲瓜削皮後，從中對切後再切成大塊（切大塊較有口感，且不易出水）。吐沙後的蛤蜊洗淨備用。，起油鍋，下絲瓜乾煸，直到表皮烙出焦香，此時絲瓜會釋放出甜甜的味道。，加入辛香料，稍微拌炒，拌炒後，將絲瓜推至周圍，中間留洞，放入蛤蜊，鍋邊嗆入米酒。，蓋上鍋蓋等蛤蜊打開。，蛤蜊開始打開時，掀鍋蓋加入醬油膏，輕輕晃動鍋子，或是稍微拌一下，以免攪拌太劇烈，造成已經打開的蛤蜊可能會從殼掉出來，蛤蜊會縮水，不飽滿。，蓋鍋蓋燜煮，待蛤蜊完整打開後，放入九層塔，滴入香油，即可起鍋。，香噴噴上桌了喔。",
+    "image_path": "絲瓜/477218_蛤蜊絲瓜.jpg"
+  },
+  {
     "id": "473155",
     "name": "絲瓜木耳炒蛋",
     "url": "https://icook.tw/recipes/473155",
@@ -254,9 +331,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "雞蛋",
@@ -264,9 +341,9 @@
         "unit": "顆"
       },
       {
-        "name": "木耳 朵",
+        "name": "木耳",
         "quantity": 2.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "雞粉",
@@ -354,14 +431,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蛤蜊 斤",
+        "name": "蛤蜊",
         "quantity": 0.5,
-        "unit": null
+        "unit": "斤"
       },
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "鴻禧菇 朵",
@@ -369,9 +446,9 @@
         "unit": null
       },
       {
-        "name": "紅蘿蔔 /4條",
-        "quantity": 1.0,
-        "unit": null
+        "name": "紅蘿蔔",
+        "quantity": 0.25,
+        "unit": "條"
       },
       {
         "name": "麵線",
@@ -384,9 +461,9 @@
         "unit": "顆"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 5.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "蔥",
@@ -399,8 +476,8 @@
         "unit": "小匙"
       },
       {
-        "name": "砂糖1小匙 砂糖1",
-        "quantity": 2,
+        "name": "二砂糖",
+        "quantity": 1.0,
         "unit": "小匙"
       }
     ],
@@ -434,9 +511,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蛋",
@@ -444,9 +521,9 @@
         "unit": "顆"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "蔥",
@@ -532,9 +609,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "年糕",
@@ -570,9 +647,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蛤蜊",
@@ -637,9 +714,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "雞蛋",
@@ -725,23 +802,23 @@
         "unit": null
       },
       {
-        "name": "黃麵少量",
-        "quantity": null,
+        "name": "黃麵",
+        "quantity": "少量",
         "unit": null
       },
       {
-        "name": "蝦仁 盒",
+        "name": "蝦仁",
         "quantity": 0.5,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "鹽",
-        "quantity": null,
+        "quantity": "少量",
         "unit": null
       },
       {
         "name": "味精",
-        "quantity": null,
+        "quantity": "少量",
         "unit": null
       }
     ],
@@ -767,9 +844,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "海帶芽",
@@ -809,19 +886,19 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "烤雞腿 隻",
+        "name": "烤雞腿",
         "quantity": 1.0,
-        "unit": null
+        "unit": "隻"
       },
       {
-        "name": "鹽",
-        "quantity": null,
-        "unit": null
+        "name": "鹽水意麵",
+        "quantity": 1.0,
+        "unit": "顆"
       },
       {
         "name": "蒜末",
@@ -857,9 +934,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "玉米筍",
@@ -917,24 +994,24 @@
     ],
     "structured_ingredients": [
       {
-        "name": "雞蛋 -4",
-        "quantity": 2.0,
+        "name": "雞蛋2-",
+        "quantity": 4.0,
         "unit": "顆"
       },
       {
-        "name": "澎湖絲瓜 條",
+        "name": "澎湖絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "小顆蒜頭 瓣",
+        "name": "小顆蒜頭",
         "quantity": 1.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "乾香菇 朵",
+        "name": "乾香菇",
         "quantity": 1.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "薑片",
@@ -978,14 +1055,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "豆腸 條",
+        "name": "豆腸",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蒜末",
@@ -1032,9 +1109,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "素腰花",
@@ -1090,12 +1167,12 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蒜頭切末 瓣",
+        "name": "蒜頭切末",
         "quantity": 5.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "絲瓜切片 ",
+        "name": "絲瓜切片",
         "quantity": 2.0,
         "unit": null
       },
@@ -1141,9 +1218,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蒜頭",
@@ -1189,9 +1266,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 小條",
+        "name": "絲瓜",
         "quantity": 2.0,
-        "unit": null
+        "unit": "小條"
       },
       {
         "name": "鹽巴",
@@ -1199,9 +1276,9 @@
         "unit": "小匙"
       },
       {
-        "name": "薑 小塊",
+        "name": "薑",
         "quantity": 1.0,
-        "unit": null
+        "unit": "小塊"
       },
       {
         "name": "虱目魚丸",
@@ -1219,14 +1296,14 @@
         "unit": "小把"
       },
       {
-        "name": "食用油 匙",
+        "name": "食用油",
         "quantity": 1.0,
-        "unit": null
+        "unit": "匙"
       },
       {
-        "name": "木細關東麵5束 木細關東麵5束",
-        "quantity": 5,
-        "unit": null
+        "name": "五木細關東麵",
+        "quantity": 5.0,
+        "unit": "束"
       }
     ],
     "steps": [
@@ -1239,6 +1316,54 @@
     ],
     "combined_text": "十分鐘上菜-颱風絲瓜麵。食材：絲瓜2小條，鹽巴1小匙，薑1小塊，虱目魚丸5顆，水5碗，枸杞1小把，食用油1匙，五木細關東麵5束。做法：加熱鍋具，倒入食用油，嫩薑洗淨先切成片再切成絲，放入鍋中爆香；虱目魚丸切薄片一起拌炒。，絲瓜削去外皮，切圓輪狀，再切成六等分，放入鍋中一起拌炒，枸杞沖洗後放入鍋中一起拌炒。，待拌炒的絲瓜接觸油脂後，倒入開水進行煮沸動作。透過拌炒，可以讓絲瓜易熟及保持鮮脆口感。，加入五木細關東麵麵條進行煮麵動作。，待麵條與絲瓜都即將完熟時加入鹽巴調味。調味後即可熄火裝碗準備開動，藉由餘溫讓麵條和絲瓜達到完美口感。，開動嘍！。",
     "image_path": "絲瓜/479244_十分鐘上菜-颱風絲瓜麵.jpg"
+  },
+  {
+    "id": "460485",
+    "name": "絲瓜雞絲冬粉",
+    "url": "https://icook.tw/recipes/460485",
+    "preview_ingredients": "冬粉、油雞絲、雞粉、絲瓜、鹽",
+    "ingredients": [
+      "冬粉1把",
+      "油雞絲150克",
+      "絲瓜1條",
+      "雞粉1小匙",
+      "鹽1茶匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "冬粉",
+        "quantity": 1.0,
+        "unit": "把"
+      },
+      {
+        "name": "油雞絲",
+        "quantity": 150.0,
+        "unit": "克"
+      },
+      {
+        "name": "絲瓜",
+        "quantity": 1.0,
+        "unit": "條"
+      },
+      {
+        "name": "雞粉",
+        "quantity": 1.0,
+        "unit": "小匙"
+      },
+      {
+        "name": "鹽",
+        "quantity": 1.0,
+        "unit": "茶匙"
+      }
+    ],
+    "steps": [
+      "將絲瓜去皮切塊、冬粉泡軟備用",
+      "熱油鍋放入絲瓜炒之熟軟",
+      "加入雞粉鹽調味，將冬粉煨絲瓜湯汁煮熟",
+      "撒上油雞絲蓋過燜煮2分鐘即可"
+    ],
+    "combined_text": "絲瓜雞絲冬粉。食材：冬粉1把，油雞絲150克，絲瓜1條，雞粉1小匙，鹽1茶匙。做法：將絲瓜去皮切塊、冬粉泡軟備用，熱油鍋放入絲瓜炒之熟軟，加入雞粉鹽調味，將冬粉煨絲瓜湯汁煮熟，撒上油雞絲蓋過燜煮2分鐘即可。",
+    "image_path": "絲瓜/460485_絲瓜雞絲冬粉.jpg"
   },
   {
     "id": "461630",
@@ -1254,9 +1379,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "雞絲麵",
@@ -1301,9 +1426,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "冬，粉",
@@ -1349,9 +1474,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "鹹蛋",
@@ -1422,9 +1547,9 @@
         "unit": "包"
       },
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "昆布鹽",
@@ -1486,9 +1611,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "白玉菇",
@@ -1560,9 +1685,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "XO醬",
@@ -1603,9 +1728,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蛤蜊",
@@ -1667,14 +1792,14 @@
         "unit": "杯"
       },
       {
-        "name": "蝦米些許",
-        "quantity": null,
+        "name": "蝦米",
+        "quantity": "些許",
         "unit": null
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鰹魚粉",
@@ -1719,14 +1844,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "薑 小塊",
+        "name": "薑",
         "quantity": 1.0,
-        "unit": null
+        "unit": "小塊"
       },
       {
         "name": "枸杞",
@@ -1739,9 +1864,9 @@
         "unit": "小匙"
       },
       {
-        "name": "食用油 子",
+        "name": "食用油",
         "quantity": 1.0,
-        "unit": null
+        "unit": "子"
       },
       {
         "name": "水",
@@ -1773,14 +1898,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "嫩豆腐 盒",
+        "name": "嫩豆腐",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "鰹魚高湯包",
@@ -1817,9 +1942,9 @@
         "unit": "片"
       },
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "雞蛋",
@@ -1827,14 +1952,14 @@
         "unit": "個"
       },
       {
-        "name": "大蒜（蒜苗） 支",
+        "name": "大蒜（蒜苗）",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "去尾蝦仁 尾",
+        "name": "去尾蝦仁",
         "quantity": 8.0,
-        "unit": null
+        "unit": "尾"
       },
       {
         "name": "雞高湯",
@@ -1906,9 +2031,9 @@
         "unit": null
       },
       {
-        "name": "高湯",
-        "quantity": null,
-        "unit": null
+        "name": "高湯磚",
+        "quantity": 1.0,
+        "unit": "塊"
       }
     ],
     "steps": [
@@ -1918,6 +2043,65 @@
     ],
     "combined_text": "蛤蠣絲瓜魚肉燉飯。食材：絲瓜適量，蛤蜊6顆，雪白菇適量，胡蘿蔔0.5顆，虱目魚肉1顆，白飯適量，高湯磚1塊。做法：把高湯和蛤蠣一起煮開後用布過濾（我用的布是滷包的布），把其他料炒香後加入高湯，滾開後加入白飯一起拌煮。",
     "image_path": "絲瓜/473245_蛤蠣絲瓜魚肉燉飯.jpg"
+  },
+  {
+    "id": "468444",
+    "name": "絲瓜炒蛤蜊",
+    "url": "https://icook.tw/recipes/468444",
+    "preview_ingredients": "絲瓜削皮切塊、蛤蜊、薑切絲、枸杞、糖、香油、清水",
+    "ingredients": [
+      "絲瓜削皮切塊1條",
+      "蛤蜊300公克",
+      "薑切絲3片",
+      "枸杞隨意",
+      "香油1大湯匙",
+      "糖1/8大湯匙",
+      "清水30cc"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "絲瓜削皮切塊",
+        "quantity": 1.0,
+        "unit": "條"
+      },
+      {
+        "name": "蛤蜊",
+        "quantity": 300.0,
+        "unit": "公克"
+      },
+      {
+        "name": "薑切絲",
+        "quantity": 3.0,
+        "unit": "片"
+      },
+      {
+        "name": "枸杞",
+        "quantity": "隨意",
+        "unit": null
+      },
+      {
+        "name": "香油",
+        "quantity": 1.0,
+        "unit": "大湯匙"
+      },
+      {
+        "name": "糖",
+        "quantity": 0.125,
+        "unit": "大湯匙"
+      },
+      {
+        "name": "清水",
+        "quantity": 30.0,
+        "unit": "cc"
+      }
+    ],
+    "steps": [
+      "冷鍋加入2大湯匙的油，開中火等油熱後加入絲瓜拌炒至稍微上色",
+      "加入清水和蛤蜊蓋上鍋蓋等到蛤蜊全開再加入薑絲拌炒一下",
+      "加入枸杞、香油及糖拌炒一下即可收工"
+    ],
+    "combined_text": "絲瓜炒蛤蜊。食材：絲瓜削皮切塊1條，蛤蜊300公克，薑切絲3片，枸杞隨意，香油1大湯匙，糖1/8大湯匙，清水30cc。做法：冷鍋加入2大湯匙的油，開中火等油熱後加入絲瓜拌炒至稍微上色，加入清水和蛤蜊蓋上鍋蓋等到蛤蜊全開再加入薑絲拌炒一下，加入枸杞、香油及糖拌炒一下即可收工。",
+    "image_path": "絲瓜/468444_絲瓜炒蛤蜊.jpg"
   },
   {
     "id": "465122",
@@ -1946,9 +2130,9 @@
         "unit": null
       },
       {
-        "name": "eleven煙燻豬肝1塊1塊",
-        "quantity": 7.0,
-        "unit": "-eleven煙燻豬肝"
+        "name": "7-eleven煙燻豬肝",
+        "quantity": 1.0,
+        "unit": "塊"
       },
       {
         "name": "炒蛋",
@@ -1956,23 +2140,23 @@
         "unit": "個"
       },
       {
-        "name": "雞里肌肉 條",
+        "name": "雞里肌肉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "鹽",
-        "quantity": null,
+        "quantity": "少量",
         "unit": null
       },
       {
         "name": "味精",
-        "quantity": null,
+        "quantity": "少量",
         "unit": null
       },
       {
         "name": "香油",
-        "quantity": null,
+        "quantity": "少量",
         "unit": null
       }
     ],
@@ -2006,14 +2190,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜（小） 條",
+        "name": "絲瓜（小）",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "金針菇 /3把",
-        "quantity": 1.0,
-        "unit": null
+        "name": "金針菇",
+        "quantity": 0.333,
+        "unit": "把"
       },
       {
         "name": "火腿丁",
@@ -2094,9 +2278,9 @@
         "unit": "顆"
       },
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "麵線",
@@ -2132,6 +2316,66 @@
     "image_path": "絲瓜/466705_鹹蛋絲瓜麵線.jpg"
   },
   {
+    "id": "467411",
+    "name": "絲瓜雞蛋麵線",
+    "url": "https://icook.tw/recipes/467411",
+    "preview_ingredients": "麵線、絲瓜中型、雞蛋、鹽巴、鮮味炒手、糖、薑絲",
+    "ingredients": [
+      "麵線1.5把",
+      "絲瓜中型1條",
+      "雞蛋1顆",
+      "鹽巴1茶匙",
+      "鮮味炒手1茶匙",
+      "糖1茶匙",
+      "薑絲1茶匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "麵線",
+        "quantity": 1.5,
+        "unit": "把"
+      },
+      {
+        "name": "絲瓜中型",
+        "quantity": 1.0,
+        "unit": "條"
+      },
+      {
+        "name": "雞蛋",
+        "quantity": 1.0,
+        "unit": "顆"
+      },
+      {
+        "name": "鹽巴",
+        "quantity": 1.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "鮮味炒手",
+        "quantity": 1.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "糖",
+        "quantity": 1.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "薑絲",
+        "quantity": 1.0,
+        "unit": "茶匙"
+      }
+    ],
+    "steps": [
+      "絲瓜削皮，切成條狀，小豆泡剪半，雞蛋中加點油打散",
+      "起鍋燒油，先將雞蛋炒散，加入絲瓜也加1杯水，將絲瓜煮軟",
+      "倒入豬肉高湯，放薑，有點冒泡現象加入麵線煮軟",
+      "加入豆泡，蓋鍋蓋，煮沸加入調味料，再次煮沸後即可起鍋食用。"
+    ],
+    "combined_text": "絲瓜雞蛋麵線。食材：麵線1.5把，絲瓜中型1條，雞蛋1顆，鹽巴1茶匙，鮮味炒手1茶匙，糖1茶匙，薑絲1茶匙。做法：絲瓜削皮，切成條狀，小豆泡剪半，雞蛋中加點油打散，起鍋燒油，先將雞蛋炒散，加入絲瓜也加1杯水，將絲瓜煮軟，倒入豬肉高湯，放薑，有點冒泡現象加入麵線煮軟，加入豆泡，蓋鍋蓋，煮沸加入調味料，再次煮沸後即可起鍋食用。。",
+    "image_path": "絲瓜/467411_絲瓜雞蛋麵線.jpg"
+  },
+  {
     "id": "460005",
     "name": "絲瓜炒杏鮑菇",
     "url": "https://icook.tw/recipes/460005",
@@ -2146,9 +2390,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "杏鮑菇",
@@ -2156,9 +2400,9 @@
         "unit": "根"
       },
       {
-        "name": "蒜末 匙",
+        "name": "蒜末",
         "quantity": 1.0,
-        "unit": null
+        "unit": "匙"
       },
       {
         "name": "鹽",
@@ -2195,9 +2439,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蝦米",
@@ -2234,9 +2478,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絲瓜 條",
+        "name": "絲瓜",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "胡蘿蔔",
@@ -2249,14 +2493,14 @@
         "unit": "片"
       },
       {
-        "name": "蒜頭 大瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "大瓣"
       },
       {
-        "name": "楓康吳羽保鮮膜 張",
+        "name": "楓康吳羽保鮮膜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "張"
       },
       {
         "name": "鹽巴",

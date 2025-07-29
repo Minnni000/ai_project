@@ -62,13 +62,13 @@
     ],
     "structured_ingredients": [
       {
-        "name": "花豬肉火鍋片200克200克",
-        "quantity": 5,
-        "unit": "花豬肉火鍋片"
+        "name": "五花豬肉火鍋片",
+        "quantity": 200.0,
+        "unit": "克"
       },
       {
-        "name": "洋蔥切片 /4",
-        "quantity": 1.0,
+        "name": "洋蔥切片",
+        "quantity": 0.25,
         "unit": "顆"
       },
       {
@@ -126,9 +126,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "夏季嫩薑 斤",
+        "name": "夏季嫩薑",
         "quantity": 1.0,
-        "unit": null
+        "unit": "斤"
       },
       {
         "name": "鹽巴",
@@ -136,9 +136,9 @@
         "unit": "大匙"
       },
       {
-        "name": "糖",
-        "quantity": "少許",
-        "unit": null
+        "name": "糖（冰糖或二砂糖皆可）",
+        "quantity": 2.0,
+        "unit": "杯"
       },
       {
         "name": "白醋",
@@ -240,8 +240,8 @@
       },
       {
         "name": "米酒",
-        "quantity": 300.0,
-        "unit": null
+        "quantity": 30.0,
+        "unit": "0"
       },
       {
         "name": "麻油",
@@ -249,9 +249,9 @@
         "unit": null
       },
       {
-        "name": "薑 塊",
+        "name": "薑",
         "quantity": 4.0,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "黃耆",
@@ -299,9 +299,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "辣椒🌶️ 支",
+        "name": "辣椒🌶️",
         "quantity": 3.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "薑絲 隻",
@@ -309,14 +309,14 @@
         "unit": null
       },
       {
-        "name": "蔥段 ～3支",
-        "quantity": 2.0,
-        "unit": null
+        "name": "蔥段",
+        "quantity": "2～3",
+        "unit": "支"
       },
       {
         "name": "水",
-        "quantity": 300.0,
-        "unit": "～"
+        "quantity": "300～400",
+        "unit": "毫升"
       },
       {
         "name": "醬油",
@@ -324,14 +324,14 @@
         "unit": "大匙"
       },
       {
-        "name": "味素 /4",
-        "quantity": 1.0,
+        "name": "味素",
+        "quantity": 0.25,
         "unit": "小匙"
       },
       {
-        "name": "煎魚 隻",
+        "name": "煎魚",
         "quantity": 1.0,
-        "unit": null
+        "unit": "隻"
       }
     ],
     "steps": [
@@ -360,9 +360,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "嫩薑 元",
+        "name": "嫩薑",
         "quantity": 50.0,
-        "unit": null
+        "unit": "元"
       },
       {
         "name": "鹽",
@@ -400,9 +400,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "秋葵Okra 條 pieces",
+        "name": "秋葵Okra",
         "quantity": 3.0,
-        "unit": null
+        "unit": "條 pieces"
       },
       {
         "name": "有機薑nonGMOGinger",
@@ -438,9 +438,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "有機薑 盎司",
+        "name": "有機薑",
         "quantity": 8.0,
-        "unit": null
+        "unit": "盎司"
       },
       {
         "name": "麻油",
@@ -584,9 +584,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蛤蜊80g2",
+        "name": "蛤蜊",
         "quantity": 1.0,
-        "unit": "顆"
+        "unit": "顆80g2"
       },
       {
         "name": "去油豬皮",
@@ -599,9 +599,9 @@
         "unit": "g"
       },
       {
-        "name": "味霖 cc",
+        "name": "味霖",
         "quantity": 5.0,
-        "unit": null
+        "unit": "cc"
       },
       {
         "name": "香茅段",
@@ -609,13 +609,13 @@
         "unit": "根"
       },
       {
-        "name": "昆布柴魚高湯 cc",
+        "name": "昆布柴魚高湯",
         "quantity": 30.0,
-        "unit": null
+        "unit": "cc"
       },
       {
-        "name": "薑黃粉 /3",
-        "quantity": 2.0,
+        "name": "薑黃粉",
+        "quantity": 0.667,
         "unit": "小匙"
       },
       {
@@ -708,9 +708,9 @@
         "unit": "g"
       },
       {
-        "name": "青花椒(麻椒) ~8g",
-        "quantity": 5.0,
-        "unit": null
+        "name": "青花椒(麻椒)",
+        "quantity": "5~8",
+        "unit": "g"
       }
     ],
     "steps": [
@@ -793,9 +793,9 @@
         "unit": null
       },
       {
-        "name": "白蘿蔔 條",
+        "name": "白蘿蔔",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "紅棗",
@@ -847,14 +847,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "小磨坊椰奶 瓶",
+        "name": "小磨坊椰奶",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓶"
       },
       {
-        "name": "薑 大塊",
+        "name": "薑",
         "quantity": 1.0,
-        "unit": null
+        "unit": "大塊"
       },
       {
         "name": "檸檬",
@@ -1065,14 +1065,14 @@
         "unit": "g"
       },
       {
-        "name": "紅辣椒 支",
+        "name": "紅辣椒",
         "quantity": 4.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "朝天椒 支",
+        "name": "朝天椒",
         "quantity": 4.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "蒜末",
@@ -1080,9 +1080,9 @@
         "unit": "大匙"
       },
       {
-        "name": "醬油",
-        "quantity": null,
-        "unit": null
+        "name": "醬油膏",
+        "quantity": 5.0,
+        "unit": "大匙"
       },
       {
         "name": "白醋",
@@ -1171,9 +1171,9 @@
         "unit": "片"
       },
       {
-        "name": "角1粒 角1粒",
-        "quantity": 8,
-        "unit": null
+        "name": "八角",
+        "quantity": 1.0,
+        "unit": "粒"
       },
       {
         "name": "米酒",
@@ -1217,9 +1217,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蛤蜊70g",
-        "quantity": 3.0,
-        "unit": "顆"
+        "name": "蛤蜊3顆",
+        "quantity": 70.0,
+        "unit": "g"
       },
       {
         "name": "香菜",
@@ -1227,8 +1227,8 @@
         "unit": "g"
       },
       {
-        "name": "海帶芽乾 /2",
-        "quantity": 1.0,
+        "name": "海帶芽乾",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
@@ -1242,29 +1242,29 @@
         "unit": "根"
       },
       {
-        "name": "酒 cc",
+        "name": "酒",
         "quantity": 3.0,
-        "unit": null
+        "unit": "cc"
       },
       {
-        "name": "味霖 cc",
+        "name": "味霖",
         "quantity": 3.0,
-        "unit": null
+        "unit": "cc"
       },
       {
-        "name": "薑黃粉 /4",
-        "quantity": 1.0,
+        "name": "薑黃粉",
+        "quantity": 0.25,
         "unit": "小匙"
       },
       {
-        "name": "椰漿粉 /3",
-        "quantity": 1.0,
+        "name": "椰漿粉",
+        "quantity": 0.333,
         "unit": "小匙"
       },
       {
-        "name": "昆布柴魚高湯 cc",
+        "name": "昆布柴魚高湯",
         "quantity": 15.0,
-        "unit": null
+        "unit": "cc"
       }
     ],
     "steps": [
@@ -1290,9 +1290,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "溫水 c.c",
+        "name": "溫水",
         "quantity": 110.0,
-        "unit": null
+        "unit": "c.c"
       },
       {
         "name": "中筋麵粉",
@@ -1452,14 +1452,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "魚 條",
+        "name": "魚",
         "quantity": 1,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "青蔥 支",
+        "name": "青蔥",
         "quantity": 3.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "辣椒",
@@ -1477,9 +1477,9 @@
         "unit": "片"
       },
       {
-        "name": "蒜頭 粒",
+        "name": "蒜頭",
         "quantity": 10.0,
-        "unit": null
+        "unit": "粒"
       },
       {
         "name": "米酒",
@@ -1531,9 +1531,9 @@
         "unit": "克"
       },
       {
-        "name": "海鹽 茶匙",
+        "name": "海鹽",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       }
     ],
     "steps": [
@@ -1573,9 +1573,9 @@
         "unit": "克"
       },
       {
-        "name": "米",
-        "quantity": null,
-        "unit": null
+        "name": "米醋或白醋",
+        "quantity": 125.0,
+        "unit": "毫升"
       },
       {
         "name": "飲用水",
@@ -1629,9 +1629,9 @@
         "unit": "杯"
       },
       {
-        "name": "香茅(檸檬草) 支",
+        "name": "香茅(檸檬草)",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "南薑(高良薑)",
@@ -1654,9 +1654,9 @@
         "unit": "大匙"
       },
       {
-        "name": "油",
-        "quantity": null,
-        "unit": null
+        "name": "油蔥酥",
+        "quantity": 2.0,
+        "unit": "大匙"
       },
       {
         "name": "蒜頭",
@@ -1664,14 +1664,14 @@
         "unit": "大匙"
       },
       {
-        "name": "薑黃粉 /2茶匙",
-        "quantity": 1.0,
-        "unit": null
+        "name": "薑黃粉",
+        "quantity": 0.5,
+        "unit": "茶匙"
       },
       {
-        "name": "食鹽 /4茶匙",
-        "quantity": 1.0,
-        "unit": null
+        "name": "食鹽",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "濃椰漿",
@@ -1739,9 +1739,9 @@
         "unit": "小匙"
       },
       {
-        "name": "(薑黃飯)鹽巴 匙",
+        "name": "(薑黃飯)鹽巴",
         "quantity": 1.0,
-        "unit": null
+        "unit": "匙"
       },
       {
         "name": "(薑黃飯)泰國米",
@@ -1754,9 +1754,9 @@
         "unit": "杯半"
       },
       {
-        "name": "棒棒雞腿 隻",
+        "name": "棒棒雞腿",
         "quantity": 2.0,
-        "unit": null
+        "unit": "隻"
       },
       {
         "name": "油",
@@ -1779,19 +1779,19 @@
         "unit": "大匙"
       },
       {
-        "name": "腐竹 人",
+        "name": "腐竹",
         "quantity": 2.0,
-        "unit": null
+        "unit": "人"
       },
       {
-        "name": "薑絲 人",
+        "name": "薑絲",
         "quantity": 2.0,
-        "unit": null
+        "unit": "人"
       },
       {
-        "name": "新鮮香菇 人份",
+        "name": "新鮮香菇",
         "quantity": 2.0,
-        "unit": null
+        "unit": "人份"
       },
       {
         "name": "辣豆瓣醬",
@@ -1839,9 +1839,9 @@
         "unit": "顆"
       },
       {
-        "name": "麻油",
-        "quantity": null,
-        "unit": null
+        "name": "麻油薑泥",
+        "quantity": 2.0,
+        "unit": "大匙"
       },
       {
         "name": "櫛瓜",
@@ -1899,9 +1899,9 @@
         "unit": null
       },
       {
-        "name": "白蘿蔔 條",
+        "name": "白蘿蔔",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蜂蜜",
@@ -1951,14 +1951,14 @@
         "unit": "根"
       },
       {
-        "name": "酒 cc",
+        "name": "酒",
         "quantity": 5.0,
-        "unit": null
+        "unit": "cc"
       },
       {
-        "name": "味霖 cc",
+        "name": "味霖",
         "quantity": 3.0,
-        "unit": null
+        "unit": "cc"
       },
       {
         "name": "鹽",
@@ -1966,19 +1966,19 @@
         "unit": "小匙"
       },
       {
-        "name": "薑黃粉 /2",
-        "quantity": 1.0,
+        "name": "薑黃粉",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
         "name": "花椒粉",
-        "quantity": 0.67,
+        "quantity": 0.667,
         "unit": "小匙"
       },
       {
-        "name": "昆布柴魚高湯 cc",
+        "name": "昆布柴魚高湯",
         "quantity": 15.0,
-        "unit": null
+        "unit": "cc"
       }
     ],
     "steps": [
@@ -2002,14 +2002,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蔥花 G",
+        "name": "蔥花",
         "quantity": 50.0,
-        "unit": null
+        "unit": "G"
       },
       {
-        "name": "薑末 G",
+        "name": "薑末",
         "quantity": 20.0,
-        "unit": null
+        "unit": "G"
       },
       {
         "name": "鹽",
@@ -2108,14 +2108,14 @@
         "unit": "小匙"
       },
       {
-        "name": "酒 cc",
+        "name": "酒",
         "quantity": 5.0,
-        "unit": null
+        "unit": "cc"
       },
       {
-        "name": "味霖 cc",
+        "name": "味霖",
         "quantity": 5.0,
-        "unit": null
+        "unit": "cc"
       },
       {
         "name": "紅麴醬",
@@ -2215,8 +2215,8 @@
         "unit": "顆"
       },
       {
-        "name": "牛番茄 ~3",
-        "quantity": 2.0,
+        "name": "牛番茄",
+        "quantity": "2~3",
         "unit": "顆"
       },
       {
@@ -2240,9 +2240,9 @@
         "unit": "顆"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 6.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "老薑",
@@ -2260,19 +2260,19 @@
         "unit": "大匙"
       },
       {
-        "name": "薑黃粉 茶匙",
+        "name": "薑黃粉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
-        "name": "咖喱粉 茶匙",
+        "name": "咖喱粉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
-        "name": "素食高湯粉 茶匙",
+        "name": "素食高湯粉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "砂糖",
@@ -2336,19 +2336,19 @@
     ],
     "structured_ingredients": [
       {
-        "name": "楓康吳羽保鮮膜 張",
+        "name": "楓康吳羽保鮮膜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "張"
       },
       {
-        "name": "雞腿肉 盒",
+        "name": "雞腿肉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "小黃瓜片 條",
+        "name": "小黃瓜片",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "紅蘿蔔丁",
@@ -2356,14 +2356,14 @@
         "unit": "片"
       },
       {
-        "name": "鴻喜菇丁 ／4",
-        "quantity": 1.0,
+        "name": "鴻喜菇丁",
+        "quantity": 0.25,
         "unit": "包"
       },
       {
-        "name": "洋蔥丁 小塊",
+        "name": "洋蔥丁",
         "quantity": 1.0,
-        "unit": null
+        "unit": "小塊"
       },
       {
         "name": "蔥花",
@@ -2371,9 +2371,9 @@
         "unit": "根"
       },
       {
-        "name": "蒜末 瓣",
+        "name": "蒜末",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "薑末",
@@ -2386,8 +2386,8 @@
         "unit": "米杯"
       },
       {
-        "name": "黑胡椒 ／4",
-        "quantity": 1.0,
+        "name": "黑胡椒",
+        "quantity": 0.25,
         "unit": "小匙"
       },
       {
@@ -2465,9 +2465,9 @@
         "unit": "小匙"
       },
       {
-        "name": "全聯里肉塊 盒",
+        "name": "全聯里肉塊",
         "quantity": 0.5,
-        "unit": null
+        "unit": "盒"
       }
     ],
     "steps": [
@@ -2590,9 +2590,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "水",
-        "quantity": null,
-        "unit": null
+        "name": "水手牌特級粉心粉（中筋）",
+        "quantity": 300.0,
+        "unit": "g"
       },
       {
         "name": "室溫水",
@@ -2610,9 +2610,9 @@
         "unit": "g"
       },
       {
-        "name": "砂糖25g 砂糖25g",
-        "quantity": 2,
-        "unit": null
+        "name": "二砂糖",
+        "quantity": 25.0,
+        "unit": "g"
       },
       {
         "name": "芥花油",
@@ -2665,9 +2665,9 @@
         "unit": "片"
       },
       {
-        "name": "小白菜 棵",
+        "name": "小白菜",
         "quantity": 3.0,
-        "unit": null
+        "unit": "棵"
       },
       {
         "name": "香菜",
@@ -2680,9 +2680,9 @@
         "unit": null
       },
       {
-        "name": "去骨雞腿排 塊/200g",
-        "quantity": 1.0,
-        "unit": null
+        "name": "去骨雞腿排1塊/",
+        "quantity": 200.0,
+        "unit": "g"
       },
       {
         "name": "薑",
@@ -2690,9 +2690,9 @@
         "unit": "片"
       },
       {
-        "name": "蔥 支",
+        "name": "蔥",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "洋蔥",
@@ -2706,28 +2706,28 @@
       },
       {
         "name": "鹽",
-        "quantity": null,
-        "unit": null
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "雞粉",
-        "quantity": null,
-        "unit": null
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
-        "name": "薑黃粉¼茶匙",
-        "quantity": null,
-        "unit": null
+        "name": "薑黃粉",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "黑胡椒粉",
-        "quantity": null,
-        "unit": null
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
-        "name": "雞高湯 ℓ",
+        "name": "雞高湯",
         "quantity": 1.0,
-        "unit": null
+        "unit": "ℓ"
       }
     ],
     "steps": [
@@ -2782,23 +2782,23 @@
         "unit": "根"
       },
       {
-        "name": "酒 cc",
+        "name": "酒",
         "quantity": 3.0,
-        "unit": null
+        "unit": "cc"
       },
       {
-        "name": "味霖 cc",
+        "name": "味霖",
         "quantity": 3.0,
-        "unit": null
+        "unit": "cc"
       },
       {
-        "name": "無鹽自製紅麴醬 /2",
-        "quantity": 1.0,
+        "name": "無鹽自製紅麴醬",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
-        "name": "薑黃粉 /2",
-        "quantity": 1.0,
+        "name": "薑黃粉",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
@@ -2807,14 +2807,14 @@
         "unit": null
       },
       {
-        "name": "椰漿粉 /3",
-        "quantity": 1.0,
+        "name": "椰漿粉",
+        "quantity": 0.333,
         "unit": "小匙"
       },
       {
-        "name": "昆布柴魚高湯 cc",
+        "name": "昆布柴魚高湯",
         "quantity": 30.0,
-        "unit": null
+        "unit": "cc"
       }
     ],
     "steps": [

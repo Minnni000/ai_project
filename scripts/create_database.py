@@ -288,9 +288,14 @@ class DatabaseCreator:
 
                 for step_no, description in enumerate(steps, 1):
                     if description.strip():  # 跳過空步驟
+                        # 清理步驟描述：移除換行符號，避免 CSV 格式錯誤
+                        cleaned_description = description.strip().replace('\n', ' ').replace('\r', ' ')
+                        # 移除多餘的空格
+                        cleaned_description = ' '.join(cleaned_description.split())
+
                         record = {
                             "id": recipe_id,
-                            "description": description.strip(),
+                            "description": cleaned_description,
                             "step_no": step_no
                         }
                         step_data.append(record)

@@ -116,9 +116,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "絞肉 盒",
+        "name": "絞肉",
         "quantity": 0.5,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "醬油",
@@ -141,9 +141,9 @@
         "unit": null
       },
       {
-        "name": "青蔥 支",
+        "name": "青蔥",
         "quantity": 0.5,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "大白菜",
@@ -199,9 +199,9 @@
         "unit": "把"
       },
       {
-        "name": "乾香菇 朵",
+        "name": "乾香菇",
         "quantity": 6.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "豬肉絲",
@@ -265,14 +265,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "大白菜 /2",
-        "quantity": 1.0,
+        "name": "大白菜",
+        "quantity": 0.5,
         "unit": "顆"
       },
       {
-        "name": "板豆腐 塊",
+        "name": "板豆腐",
         "quantity": 1.0,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "雞蛋",
@@ -280,14 +280,14 @@
         "unit": "顆"
       },
       {
-        "name": "豆皮 盒",
+        "name": "豆皮",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "薑 小塊",
+        "name": "薑",
         "quantity": 1.0,
-        "unit": null
+        "unit": "小塊"
       },
       {
         "name": "蔥花",
@@ -463,19 +463,19 @@
         "unit": "片"
       },
       {
-        "name": "白蘿蔔 小塊",
+        "name": "白蘿蔔",
         "quantity": 1.0,
-        "unit": null
+        "unit": "小塊"
       },
       {
-        "name": "火鍋牛肉片 盒",
+        "name": "火鍋牛肉片",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "蔥段 支",
+        "name": "蔥段",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "薑泥",
@@ -525,24 +525,24 @@
         "unit": "片"
       },
       {
-        "name": "乾辣椒 支",
+        "name": "乾辣椒",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "青蔥 支",
+        "name": "青蔥",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "香菜 株",
+        "name": "香菜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "株"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "香油",
@@ -560,14 +560,14 @@
         "unit": "大匙"
       },
       {
-        "name": "食鹽¼茶匙",
-        "quantity": null,
-        "unit": null
+        "name": "食鹽",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "味精",
-        "quantity": null,
-        "unit": null
+        "quantity": 0.25,
+        "unit": "茶匙"
       }
     ],
     "steps": [
@@ -614,9 +614,9 @@
         "unit": "小匙"
       },
       {
-        "name": "日式醬油 匙",
+        "name": "日式醬油",
         "quantity": 2.0,
-        "unit": null
+        "unit": "匙"
       }
     ],
     "steps": [
@@ -626,6 +626,66 @@
     ],
     "combined_text": "絞肉炒包心大白菜。食材：絞肉200克，包心白菜1顆，雞粉1大匙，鹽巴1小匙，日式醬油2匙。做法：絞肉下鍋炒香，加入雞粉和鹽巴繼續翻炒。，倒入洗淨切塊的大白菜，加少許水蓋鍋悶至菜軟化，加入日式醬油調味即可。",
     "image_path": "大白菜/455364_絞肉炒包心大白菜.jpg"
+  },
+  {
+    "id": "463746",
+    "name": "蝦皮炒大白菜",
+    "url": "https://icook.tw/recipes/463746",
+    "preview_ingredients": "麵筋、大白菜、鹽、火鍋肉片、味精、香油、米酒",
+    "ingredients": [
+      "麵筋半條",
+      "大白菜適量",
+      "火鍋肉片2片",
+      "鹽少量",
+      "味精少量",
+      "香油少量",
+      "米酒少量"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "麵筋",
+        "quantity": 0.5,
+        "unit": "條"
+      },
+      {
+        "name": "大白菜",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "火鍋肉片",
+        "quantity": 2.0,
+        "unit": "片"
+      },
+      {
+        "name": "鹽",
+        "quantity": "少量",
+        "unit": null
+      },
+      {
+        "name": "味精",
+        "quantity": "少量",
+        "unit": null
+      },
+      {
+        "name": "香油",
+        "quantity": "少量",
+        "unit": null
+      },
+      {
+        "name": "米酒",
+        "quantity": "少量",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "大白菜切",
+      "麵筋切",
+      "鍋燒熱加油，料全入，下調味料",
+      "盛"
+    ],
+    "combined_text": "蝦皮炒大白菜。食材：麵筋半條，大白菜適量，火鍋肉片2片，鹽少量，味精少量，香油少量，米酒少量。做法：大白菜切，麵筋切，鍋燒熱加油，料全入，下調味料，盛。",
+    "image_path": "大白菜/463746_蝦皮炒大白菜.jpg"
   },
   {
     "id": "449548",
@@ -644,9 +704,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "米",
-        "quantity": null,
-        "unit": null
+        "name": "米粉",
+        "quantity": 1.0,
+        "unit": "包"
       },
       {
         "name": "大白菜",
@@ -654,9 +714,9 @@
         "unit": "顆"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 4.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "紅蘿蔔絲",
@@ -711,9 +771,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "白米飯（約2 碗",
-        "quantity": 1,
-        "unit": "杯米）"
+        "name": "白米飯（約一杯米）",
+        "quantity": 2.0,
+        "unit": "碗"
       },
       {
         "name": "大白菜",
@@ -726,34 +786,34 @@
         "unit": "顆"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 7.0,
+        "unit": "瓣"
+      },
+      {
+        "name": "蝦米",
+        "quantity": "些許",
         "unit": null
       },
       {
-        "name": "蝦米些許",
-        "quantity": null,
-        "unit": null
-      },
-      {
-        "name": "乾香菇 朵",
+        "name": "乾香菇",
         "quantity": 2.0,
-        "unit": null
+        "unit": "朵"
       },
       {
-        "name": "鹽",
-        "quantity": 1.0,
-        "unit": "-"
+        "name": "鹽1-",
+        "quantity": 2.0,
+        "unit": "小匙"
       },
       {
-        "name": "蝦仁 尾",
+        "name": "蝦仁",
         "quantity": 8.0,
-        "unit": null
+        "unit": "尾"
       },
       {
         "name": "水",
         "quantity": 600.0,
-        "unit": null
+        "unit": "ml"
       },
       {
         "name": "白胡椒",
@@ -794,9 +854,9 @@
         "unit": "顆"
       },
       {
-        "name": "雞蛋豆腐 盒",
+        "name": "雞蛋豆腐",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "蝦米",
@@ -864,9 +924,9 @@
         "unit": "顆"
       },
       {
-        "name": "油",
-        "quantity": null,
-        "unit": null
+        "name": "油豆腐",
+        "quantity": 5.0,
+        "unit": "塊"
       },
       {
         "name": "冬粉",
@@ -895,8 +955,8 @@
       },
       {
         "name": "糖",
-        "quantity": 0.5,
-        "unit": null
+        "quantity": 0.0,
+        "unit": ".5"
       }
     ],
     "steps": [
@@ -931,9 +991,9 @@
         "unit": "片"
       },
       {
-        "name": "蒜末 瓣",
+        "name": "蒜末",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "橄欖油",
@@ -965,9 +1025,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "麵筋罐頭 罐",
+        "name": "麵筋罐頭",
         "quantity": 0.5,
-        "unit": null
+        "unit": "罐"
       },
       {
         "name": "大白菜",
@@ -1004,19 +1064,19 @@
     ],
     "structured_ingredients": [
       {
-        "name": "大白菜 邊",
+        "name": "大白菜",
         "quantity": 0.5,
-        "unit": null
+        "unit": "邊"
       },
       {
-        "name": "雞蛋豆腐 盒",
+        "name": "雞蛋豆腐",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "粉絲 卷",
+        "name": "粉絲",
         "quantity": 2.0,
-        "unit": null
+        "unit": "卷"
       },
       {
         "name": "蒜末",
@@ -1169,8 +1229,8 @@
         "unit": "g"
       },
       {
-        "name": "粗辣椒粉 /2",
-        "quantity": 1.0,
+        "name": "粗辣椒粉",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
@@ -1179,19 +1239,19 @@
         "unit": "顆份"
       },
       {
-        "name": "酒 cc",
+        "name": "酒",
         "quantity": 3.0,
-        "unit": null
+        "unit": "cc"
       },
       {
-        "name": "味霖 cc",
+        "name": "味霖",
         "quantity": 3.0,
-        "unit": null
+        "unit": "cc"
       },
       {
-        "name": "山西陳醋 cc",
+        "name": "山西陳醋",
         "quantity": 3.0,
-        "unit": null
+        "unit": "cc"
       },
       {
         "name": "鹽",
@@ -1199,14 +1259,14 @@
         "unit": null
       },
       {
-        "name": "昆布柴魚高湯 cc",
+        "name": "昆布柴魚高湯",
         "quantity": 15.0,
-        "unit": null
+        "unit": "cc"
       },
       {
-        "name": "泰國胡椒葉絲中 張份",
+        "name": "泰國胡椒葉絲中",
         "quantity": 1.0,
-        "unit": null
+        "unit": "張份"
       }
     ],
     "steps": [
@@ -1233,19 +1293,19 @@
     ],
     "structured_ingredients": [
       {
-        "name": "大白菜600g)",
+        "name": "大白菜(600g)",
         "quantity": 0.5,
-        "unit": "顆("
+        "unit": "顆"
       },
       {
-        "name": "紅蘿蔔 /6 條",
-        "quantity": 1.0,
-        "unit": null
+        "name": "紅蘿蔔",
+        "quantity": 0.167,
+        "unit": "條"
       },
       {
-        "name": "鮮黑木耳 小朵",
+        "name": "鮮黑木耳",
         "quantity": 5.0,
-        "unit": null
+        "unit": "小朵"
       },
       {
         "name": "老薑",
@@ -1263,9 +1323,9 @@
         "unit": "大匙"
       },
       {
-        "name": "水",
-        "quantity": 0.5,
-        "unit": "米杯("
+        "name": "水0.5米杯(",
+        "quantity": 80.0,
+        "unit": "cc"
       }
     ],
     "steps": [
@@ -1306,9 +1366,9 @@
         "unit": "顆"
       },
       {
-        "name": "蔥 條",
+        "name": "蔥",
         "quantity": 3.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "薑片",
@@ -1321,14 +1381,14 @@
         "unit": "顆"
       },
       {
-        "name": "花豬肉片1盒1盒",
-        "quantity": 5,
-        "unit": "花豬肉片"
+        "name": "五花豬肉片",
+        "quantity": 1.0,
+        "unit": "盒"
       },
       {
-        "name": "乾香菇 朵",
+        "name": "乾香菇",
         "quantity": 5.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "洋蔥",
@@ -1336,9 +1396,9 @@
         "unit": "顆"
       },
       {
-        "name": "醬油",
-        "quantity": 2.0,
-        "unit": "-"
+        "name": "醬油2-",
+        "quantity": 3.0,
+        "unit": "匙"
       },
       {
         "name": "鹽巴",
@@ -1456,23 +1516,23 @@
         "unit": "克"
       },
       {
-        "name": "香菇 朶",
+        "name": "香菇",
         "quantity": 3.0,
-        "unit": null
+        "unit": "朶"
       },
       {
-        "name": "湯圓 斤",
+        "name": "湯圓",
         "quantity": 0.5,
-        "unit": null
+        "unit": "斤"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 5.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "洋蔥 /2",
-        "quantity": 1.0,
+        "name": "洋蔥",
+        "quantity": 0.5,
         "unit": "個"
       }
     ],
@@ -1523,14 +1583,14 @@
         "unit": "g"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 4.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "嫩薑 支",
+        "name": "嫩薑",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "鹽",
@@ -1538,24 +1598,24 @@
         "unit": null
       },
       {
-        "name": "香菇粉¼茶匙",
-        "quantity": null,
-        "unit": null
+        "name": "香菇粉",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "白胡椒粉",
-        "quantity": null,
-        "unit": null
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "香油",
-        "quantity": null,
-        "unit": null
+        "quantity": 0.5,
+        "unit": "茶匙"
       },
       {
         "name": "植物油",
-        "quantity": 1.0,
-        "unit": "½大匙"
+        "quantity": 5.5,
+        "unit": "大匙"
       },
       {
         "name": "清水",
@@ -1600,14 +1660,14 @@
         "unit": "小把"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 3.0,
-        "unit": null
+        "unit": "朵"
       },
       {
-        "name": "杏鮑菇 條",
+        "name": "杏鮑菇",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "太白粉",
@@ -1680,14 +1740,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "大白菜 分之1",
-        "quantity": 4.0,
+        "name": "大白菜4分之",
+        "quantity": 1.0,
         "unit": "顆"
       },
       {
-        "name": "豬肉(火鍋用120g",
-        "quantity": 5,
-        "unit": "花肉片)"
+        "name": "豬肉(火鍋用五花肉片)",
+        "quantity": 120.0,
+        "unit": "g"
       }
     ],
     "steps": [
@@ -1721,14 +1781,14 @@
         "unit": "個"
       },
       {
-        "name": "豬肉 兩",
+        "name": "豬肉",
         "quantity": 10.0,
-        "unit": null
+        "unit": "兩"
       },
       {
-        "name": "木薯粉 兩",
+        "name": "木薯粉",
         "quantity": 5.0,
-        "unit": null
+        "unit": "兩"
       }
     ],
     "steps": [
@@ -1767,14 +1827,14 @@
         "unit": "顆"
       },
       {
-        "name": "蒜末 瓣",
+        "name": "蒜末",
         "quantity": 1.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "乾香菇（泡軟） 朵",
+        "name": "乾香菇（泡軟）",
         "quantity": 5.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "紅蘿蔔片",
@@ -1782,14 +1842,14 @@
         "unit": "片左右"
       },
       {
-        "name": "黑木耳（隨意加） 大朵",
+        "name": "黑木耳（隨意加）",
         "quantity": 2.0,
-        "unit": null
+        "unit": "大朵"
       },
       {
-        "name": "辣椒 ～2條",
-        "quantity": 1.0,
-        "unit": null
+        "name": "辣椒",
+        "quantity": "1～2",
+        "unit": "條"
       },
       {
         "name": "乾豆皮",
@@ -1807,8 +1867,8 @@
         "unit": "小匙"
       },
       {
-        "name": "地瓜粉水 :42",
-        "quantity": 2.0,
+        "name": "地瓜粉水2:",
+        "quantity": 42.0,
         "unit": "小匙"
       },
       {
@@ -1843,6 +1903,62 @@
     "image_path": "大白菜/407170_炒大白菜.jpg"
   },
   {
+    "id": "405945",
+    "name": "家常大白菜",
+    "url": "https://icook.tw/recipes/405945",
+    "preview_ingredients": "大白菜、肉、豆皮、蒜茉、蕃茄、香菇",
+    "ingredients": [
+      "大白菜1顆",
+      "肉150克",
+      "豆皮四個",
+      "蒜茉2匙",
+      "蕃茄4小顆",
+      "香菇4朶"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "大白菜",
+        "quantity": 1.0,
+        "unit": "顆"
+      },
+      {
+        "name": "肉",
+        "quantity": 150.0,
+        "unit": "克"
+      },
+      {
+        "name": "豆皮",
+        "quantity": 4,
+        "unit": "個"
+      },
+      {
+        "name": "蒜茉",
+        "quantity": 2.0,
+        "unit": "匙"
+      },
+      {
+        "name": "蕃茄",
+        "quantity": 4.0,
+        "unit": "小顆"
+      },
+      {
+        "name": "香菇",
+        "quantity": 4.0,
+        "unit": "朶"
+      }
+    ],
+    "steps": [
+      "備料，香菇水留著備用，豆皮切成三角形。",
+      "豬肉先下鍋，呈現小焦色就加入蒜末。",
+      "加入香菇炒香。就可以將白菜梗放入，再放入白菜葉。",
+      "只要再加入香菇水就加上鍋蓋。悶一下葉子軟了，放入豆皮。",
+      "再加入蕃茄（有沒有都不重要）。",
+      "盛盤。"
+    ],
+    "combined_text": "家常大白菜。食材：大白菜1顆，肉150克，豆皮四個，蒜茉2匙，蕃茄4小顆，香菇4朶。做法：備料，香菇水留著備用，豆皮切成三角形。，豬肉先下鍋，呈現小焦色就加入蒜末。，加入香菇炒香。就可以將白菜梗放入，再放入白菜葉。，只要再加入香菇水就加上鍋蓋。悶一下葉子軟了，放入豆皮。，再加入蕃茄（有沒有都不重要）。，盛盤。。",
+    "image_path": "大白菜/405945_家常大白菜.jpg"
+  },
+  {
     "id": "475293",
     "name": "鍋燒麵.烏龍湯麵",
     "url": "https://icook.tw/recipes/475293",
@@ -1861,9 +1977,9 @@
         "unit": "包"
       },
       {
-        "name": "水",
-        "quantity": null,
-        "unit": null
+        "name": "水約",
+        "quantity": 7.0,
+        "unit": "分滿的碗公"
       },
       {
         "name": "蛋",
@@ -1937,13 +2053,13 @@
         "unit": "片"
       },
       {
-        "name": "乾辣椒 支",
+        "name": "乾辣椒",
         "quantity": 8.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "角1顆 角1",
-        "quantity": 8,
+        "name": "八角",
+        "quantity": 1.0,
         "unit": "顆"
       },
       {
@@ -1957,9 +2073,9 @@
         "unit": "大匙"
       },
       {
-        "name": "豆瓣醬",
-        "quantity": 1.0,
-        "unit": "-"
+        "name": "豆瓣醬1-",
+        "quantity": 2.0,
+        "unit": "大匙"
       },
       {
         "name": "白胡椒粉",
@@ -2015,9 +2131,9 @@
         "unit": "克"
       },
       {
-        "name": "雞腿 隻",
+        "name": "雞腿",
         "quantity": 1.0,
-        "unit": null
+        "unit": "隻"
       },
       {
         "name": "大白菜",
@@ -2025,9 +2141,9 @@
         "unit": "顆"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 7.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "薑片",
@@ -2035,9 +2151,9 @@
         "unit": "片"
       },
       {
-        "name": "蛤蜊 盒",
+        "name": "蛤蜊",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "紅棗",
@@ -2278,9 +2394,9 @@
         "unit": "大匙"
       },
       {
-        "name": "洗米水 公升",
+        "name": "洗米水",
         "quantity": 1.5,
-        "unit": null
+        "unit": "公升"
       },
       {
         "name": "高濃度白酒",
@@ -2314,8 +2430,8 @@
         "unit": "顆"
       },
       {
-        "name": "紅蘿蔔些許",
-        "quantity": null,
+        "name": "紅蘿蔔",
+        "quantity": "些許",
         "unit": null
       },
       {
@@ -2329,8 +2445,8 @@
         "unit": "小湯匙"
       },
       {
-        "name": "白胡椒些許",
-        "quantity": null,
+        "name": "白胡椒",
+        "quantity": "些許",
         "unit": null
       },
       {
@@ -2468,9 +2584,9 @@
         "unit": "碗"
       },
       {
-        "name": "荸薺 兩",
+        "name": "荸薺",
         "quantity": 10.0,
-        "unit": null
+        "unit": "兩"
       },
       {
         "name": "蛋黃",
@@ -2483,9 +2599,9 @@
         "unit": "個"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 5.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "蕃茄",
@@ -2540,9 +2656,9 @@
         "unit": "克"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 8.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "老薑乾片",
@@ -2589,9 +2705,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "豬絞肉 兩",
+        "name": "豬絞肉",
         "quantity": 12.0,
-        "unit": null
+        "unit": "兩"
       },
       {
         "name": "洋蔥",
@@ -2609,19 +2725,19 @@
         "unit": "個"
       },
       {
-        "name": "麵粉 湯匙",
+        "name": "麵粉",
         "quantity": 2.0,
-        "unit": null
+        "unit": "湯匙"
       },
       {
-        "name": "木薯粉 湯匙",
+        "name": "木薯粉",
         "quantity": 2.0,
-        "unit": null
+        "unit": "湯匙"
       },
       {
-        "name": "大白菜 棵",
+        "name": "大白菜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "棵"
       },
       {
         "name": "蕃茄",
@@ -2683,8 +2799,8 @@
         "unit": null
       },
       {
-        "name": "青椒各 /4",
-        "quantity": 1.0,
+        "name": "青椒各",
+        "quantity": 0.25,
         "unit": "顆"
       },
       {
@@ -2718,14 +2834,14 @@
         "unit": "大匙"
       },
       {
-        "name": "白醋or檸檬汁 ～6",
-        "quantity": 4.0,
+        "name": "白醋or檸檬汁",
+        "quantity": "4～6",
         "unit": "大匙"
       },
       {
         "name": "烏醋",
-        "quantity": 1.0,
-        "unit": "～"
+        "quantity": "1～2",
+        "unit": "大匙˙"
       },
       {
         "name": "韓式芝麻油",
@@ -2743,8 +2859,8 @@
         "unit": "大匙"
       },
       {
-        "name": "薑泥 /2",
-        "quantity": 1.0,
+        "name": "薑泥",
+        "quantity": 0.5,
         "unit": "大匙"
       }
     ],
@@ -2803,9 +2919,9 @@
         "unit": "片"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 3.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "蝦米",
@@ -2813,9 +2929,9 @@
         "unit": null
       },
       {
-        "name": "魚翅 盒",
+        "name": "魚翅",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "香菇水",
@@ -2823,14 +2939,14 @@
         "unit": "碗"
       },
       {
-        "name": "雞腿肉 盒",
+        "name": "雞腿肉",
         "quantity": 2.0,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "雪白菇 盒",
+        "name": "雪白菇",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "杏鮑菇",
@@ -2838,8 +2954,8 @@
         "unit": "根"
       },
       {
-        "name": "山東大白菜 /2",
-        "quantity": 1.0,
+        "name": "山東大白菜",
+        "quantity": 0.5,
         "unit": "顆"
       }
     ],
@@ -2936,47 +3052,47 @@
     ],
     "structured_ingredients": [
       {
-        "name": "大白菜 ",
+        "name": "大白菜",
         "quantity": 1.0,
         "unit": null
       },
       {
-        "name": "蒜 -8",
+        "name": "蒜",
         "quantity": 6.0,
-        "unit": null
+        "unit": "-8"
       },
       {
-        "name": "紅蘿蔔 ",
+        "name": "紅蘿蔔",
         "quantity": 1.0,
         "unit": null
       },
       {
-        "name": "黑木耳 -6",
+        "name": "黑木耳",
         "quantity": 5.0,
-        "unit": null
+        "unit": "-6"
       },
       {
-        "name": "麵條 ",
+        "name": "麵條",
         "quantity": 3.0,
         "unit": null
       },
       {
-        "name": "豬肉絲 ",
+        "name": "豬肉絲",
         "quantity": 1.0,
         "unit": null
       },
       {
-        "name": "魚露 -2",
-        "quantity": 1.0,
+        "name": "魚露1-",
+        "quantity": 2.0,
         "unit": "大匙"
       },
       {
-        "name": "太白粉 ",
+        "name": "太白粉",
         "quantity": 1.0,
         "unit": null
       },
       {
-        "name": "胡椒 ",
+        "name": "胡椒",
         "quantity": 1.0,
         "unit": null
       }
@@ -3029,9 +3145,9 @@
         "unit": "根"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 3.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "食用油",
@@ -3159,6 +3275,50 @@
     "image_path": "大白菜/477053_微辣黃金泡菜(五辛素).jpg"
   },
   {
+    "id": "475487",
+    "name": "龜甲萬味自慢–日式醬燒醬｜白菜豚肉哥倆好",
+    "url": "https://icook.tw/recipes/475487",
+    "preview_ingredients": "龜甲萬味自慢–日式醬燒醬、梅花豬肉片、大白菜、金針菇",
+    "ingredients": [
+      "龜甲萬味自慢–日式醬燒醬1包",
+      "梅花豬肉片200克",
+      "大白菜1顆",
+      "金針菇1包"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "龜甲萬味自慢–日式醬燒醬",
+        "quantity": 1.0,
+        "unit": "包"
+      },
+      {
+        "name": "梅花豬肉片",
+        "quantity": 200.0,
+        "unit": "克"
+      },
+      {
+        "name": "大白菜",
+        "quantity": 1.0,
+        "unit": "顆"
+      },
+      {
+        "name": "金針菇",
+        "quantity": 1.0,
+        "unit": "包"
+      }
+    ],
+    "steps": [
+      "梅花豬要用牛肉片、菇類任選喜歡的種類都可以！最重要的是要有一包龜甲萬味自慢–日式醬燒醬",
+      "用半包龜甲萬味自慢–日式醬燒醬拌勻肉片並放置冷藏醃製30-60分鐘",
+      "將肉片一篇一篇撲在鍋底",
+      "擺上大白菜，之後依此推類，一層肉、一層菜",
+      "最上面的那一層要是菜，另外再放上自己喜歡的菇菇。再淋上剩下半包的龜甲萬味自慢–日式醬燒醬，蓋上蓋子小火悶煮10分鐘。",
+      "這道是用鍋子的密閉與蓄熱特性，讓食材本身的水分慢慢釋出、互相滲透，不加一滴水就能把蔬菜蒸得又甜又嫩。不但可以保留蔬菜的營養豬肉的油香、娃娃菜的清甜全都鎖在裡面。簡單燜煮10分鐘，就能煮出一鍋讓全家人夾光光的好菜，金價馬基打！！"
+    ],
+    "combined_text": "龜甲萬味自慢–日式醬燒醬｜白菜豚肉哥倆好。食材：龜甲萬味自慢–日式醬燒醬1包，梅花豬肉片200克，大白菜1顆，金針菇1包。做法：梅花豬要用牛肉片、菇類任選喜歡的種類都可以！最重要的是要有一包龜甲萬味自慢–日式醬燒醬，用半包龜甲萬味自慢–日式醬燒醬拌勻肉片並放置冷藏醃製30-60分鐘，將肉片一篇一篇撲在鍋底，擺上大白菜，之後依此推類，一層肉、一層菜，最上面的那一層要是菜，另外再放上自己喜歡的菇菇。再淋上剩下半包的龜甲萬味自慢–日式醬燒醬，蓋上蓋子小火悶煮10分鐘。，這道是用鍋子的密閉與蓄熱特性，讓食材本身的水分慢慢釋出、互相滲透，不加一滴水就能把蔬菜蒸得又甜又嫩。不但可以保留蔬菜的營養豬肉的油香、娃娃菜的清甜全都鎖在裡面。簡單燜煮10分鐘，就能煮出一鍋讓全家人夾光光的好菜，金價馬基打！！。",
+    "image_path": "大白菜/475487_龜甲萬味自慢–日式醬燒醬｜白菜豚肉哥倆好.jpg"
+  },
+  {
     "id": "431828",
     "name": "千層白菜豬肉鍋",
     "url": "https://icook.tw/recipes/431828",
@@ -3173,9 +3333,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "梅花豬肉片 盒",
+        "name": "梅花豬肉片",
         "quantity": 2.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "大白菜",
@@ -3183,9 +3343,9 @@
         "unit": "顆"
       },
       {
-        "name": "高湯",
-        "quantity": null,
-        "unit": null
+        "name": "高湯水或米酒",
+        "quantity": 100.0,
+        "unit": "毫升"
       },
       {
         "name": "水",

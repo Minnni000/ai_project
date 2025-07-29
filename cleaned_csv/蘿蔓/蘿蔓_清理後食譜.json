@@ -28,9 +28,9 @@
         "unit": "顆"
       },
       {
-        "name": "小黃瓜 條",
+        "name": "小黃瓜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "雞胸肉",
@@ -112,9 +112,9 @@
         "unit": "克"
       },
       {
-        "name": "胡蘿蔔 條",
+        "name": "胡蘿蔔",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蘿蔓葉",
@@ -122,14 +122,14 @@
         "unit": "包"
       },
       {
-        "name": "春風 秒抽廚房紙巾5張",
-        "quantity": 1,
-        "unit": null
+        "name": "春風一秒抽廚房紙巾",
+        "quantity": 5.0,
+        "unit": "張"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "薑片",
@@ -203,13 +203,13 @@
         "unit": "把"
       },
       {
-        "name": "蒜末 瓣",
+        "name": "蒜末",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鹽巴",
-        "quantity": null,
+        "quantity": "些許",
         "unit": null
       }
     ],
@@ -250,19 +250,19 @@
         "unit": "包"
       },
       {
-        "name": "胡蘿蔔 條",
+        "name": "胡蘿蔔",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "薑 小塊",
+        "name": "薑",
         "quantity": 3.0,
-        "unit": null
+        "unit": "小塊"
       },
       {
         "name": "油",
@@ -300,14 +300,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蘿蔓葉 -3株",
-        "quantity": 2.0,
-        "unit": null
+        "name": "蘿蔓葉2-",
+        "quantity": 3.0,
+        "unit": "株"
       },
       {
-        "name": "板豆腐 盒",
+        "name": "板豆腐",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "鴻禧菇",
@@ -315,9 +315,9 @@
         "unit": "包"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 4.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "酪梨油",
@@ -412,9 +412,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "烏魚子 塊",
+        "name": "烏魚子",
         "quantity": 0.5,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "馬鈴薯",
@@ -422,9 +422,9 @@
         "unit": "顆"
       },
       {
-        "name": "蘿蔓 支",
+        "name": "蘿蔓",
         "quantity": 4.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "玉米粒",
@@ -432,9 +432,9 @@
         "unit": "大匙"
       },
       {
-        "name": "美乃滋 條",
+        "name": "美乃滋",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       }
     ],
     "steps": [
@@ -460,9 +460,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蘿美萵苣 葉",
+        "name": "蘿美萵苣",
         "quantity": 3.0,
-        "unit": null
+        "unit": "葉"
       },
       {
         "name": "冷凍酪梨",
@@ -527,9 +527,9 @@
         "unit": "克"
       },
       {
-        "name": "台灣蘿美 葉",
+        "name": "台灣蘿美",
         "quantity": 5.0,
-        "unit": null
+        "unit": "葉"
       },
       {
         "name": "冷凍藍莓",
@@ -650,9 +650,9 @@
         "unit": null
       },
       {
-        "name": "玉米粒 匙",
+        "name": "玉米粒",
         "quantity": 1.0,
-        "unit": null
+        "unit": "匙"
       }
     ],
     "steps": [
@@ -685,9 +685,9 @@
         "unit": "包"
       },
       {
-        "name": "鹽",
-        "quantity": null,
-        "unit": null
+        "name": "鹽滷豆腐",
+        "quantity": 1.0,
+        "unit": "塊"
       },
       {
         "name": "梅花豬肉片",
@@ -743,9 +743,9 @@
         "unit": "顆"
       },
       {
-        "name": "卜峰雞胸肉 塊",
+        "name": "卜峰雞胸肉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "洋蔥",
@@ -753,9 +753,9 @@
         "unit": "顆"
       },
       {
-        "name": "美國蘿蔓 叢",
+        "name": "美國蘿蔓",
         "quantity": 1.0,
-        "unit": null
+        "unit": "叢"
       },
       {
         "name": "義美低脂牛奶",
@@ -804,9 +804,9 @@
         "unit": "個"
       },
       {
-        "name": "台灣蘿蔓 葉",
+        "name": "台灣蘿蔓",
         "quantity": 2.0,
-        "unit": null
+        "unit": "葉"
       },
       {
         "name": "雞蛋",
@@ -875,8 +875,8 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蘋果 /3",
-        "quantity": 1.0,
+        "name": "蘋果",
+        "quantity": 0.333,
         "unit": "顆"
       },
       {
@@ -890,13 +890,13 @@
         "unit": "克"
       },
       {
-        "name": "蘿蔓 -70",
-        "quantity": 60.0,
+        "name": "蘿蔓60-",
+        "quantity": 70.0,
         "unit": "克"
       },
       {
-        "name": "奇異果 /2",
-        "quantity": 1.0,
+        "name": "奇異果",
+        "quantity": 0.5,
         "unit": "顆"
       },
       {
@@ -941,8 +941,8 @@
         "unit": "片"
       },
       {
-        "name": "蘋果 /4",
-        "quantity": 1.0,
+        "name": "蘋果",
+        "quantity": 0.25,
         "unit": "顆"
       },
       {
@@ -1022,9 +1022,9 @@
         "unit": "顆"
       },
       {
-        "name": "生菜(蘿蔓/萵苣) -4葉",
-        "quantity": 3.0,
-        "unit": null
+        "name": "生菜(蘿蔓/萵苣)3-",
+        "quantity": 4.0,
+        "unit": "葉"
       },
       {
         "name": "小磨坊-和風壽喜燒鍋醬",
@@ -1070,13 +1070,13 @@
     ],
     "structured_ingredients": [
       {
-        "name": "內門阿隆師香酥鴨 份",
+        "name": "內門阿隆師香酥鴨",
         "quantity": 1.0,
-        "unit": null
+        "unit": "份"
       },
       {
-        "name": "蘿蔓 -2",
-        "quantity": 1.0,
+        "name": "蘿蔓1-",
+        "quantity": 2.0,
         "unit": "片"
       },
       {
@@ -1156,24 +1156,24 @@
         "unit": null
       },
       {
-        "name": "蘿蔓 -10",
-        "quantity": 5.0,
+        "name": "蘿蔓5-",
+        "quantity": 10.0,
         "unit": "片"
       },
       {
-        "name": "牛番茄¼顆",
-        "quantity": null,
-        "unit": null
+        "name": "牛番茄",
+        "quantity": 0.25,
+        "unit": "顆"
       },
       {
-        "name": "B B辣油一匙",
-        "quantity": ".",
-        "unit": null
-      },
-      {
-        "name": "胡麻醬 匙",
+        "name": "B.B辣油",
         "quantity": 1,
-        "unit": null
+        "unit": "匙"
+      },
+      {
+        "name": "胡麻醬",
+        "quantity": 1,
+        "unit": "匙"
       }
     ],
     "steps": [
@@ -1205,9 +1205,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蘿美 棵",
+        "name": "蘿美",
         "quantity": 1.0,
-        "unit": null
+        "unit": "棵"
       },
       {
         "name": "雞蛋",
@@ -1245,13 +1245,13 @@
         "unit": "大匙"
       },
       {
-        "name": "黑胡椒粒 /2",
-        "quantity": 1.0,
+        "name": "黑胡椒粒",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
-        "name": "海鹽 /3",
-        "quantity": 1.0,
+        "name": "海鹽",
+        "quantity": 0.333,
         "unit": "小匙"
       }
     ],
@@ -1334,28 +1334,28 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蘿蔓萵苣（蘿美） ~2",
-        "quantity": 1.0,
+        "name": "蘿蔓萵苣（蘿美）",
+        "quantity": "1~2",
         "unit": "顆"
       },
       {
-        "name": "白腰豆罐頭Cannellini 罐",
+        "name": "白腰豆罐頭Cannellini",
         "quantity": 1.0,
-        "unit": null
+        "unit": "罐"
       },
       {
-        "name": "新鮮巴西利 小株",
+        "name": "新鮮巴西利",
         "quantity": 1.0,
-        "unit": null
+        "unit": "小株"
       },
       {
-        "name": "紫洋蔥 /2",
-        "quantity": 1.0,
+        "name": "紫洋蔥",
+        "quantity": 0.5,
         "unit": "顆"
       },
       {
-        "name": "月桂葉 ~2",
-        "quantity": 1.0,
+        "name": "月桂葉",
+        "quantity": "1~2",
         "unit": "片"
       },
       {
@@ -1364,8 +1364,8 @@
         "unit": "小匙"
       },
       {
-        "name": "乾辣椒片 /2",
-        "quantity": 1.0,
+        "name": "乾辣椒片",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
@@ -1419,9 +1419,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "小地瓜 條",
+        "name": "小地瓜",
         "quantity": 4.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "雞蛋",
@@ -1429,9 +1429,9 @@
         "unit": "顆"
       },
       {
-        "name": "蘿美萵苣 葉",
+        "name": "蘿美萵苣",
         "quantity": 8.0,
-        "unit": null
+        "unit": "葉"
       },
       {
         "name": "冷凍藍莓",
@@ -1454,13 +1454,13 @@
         "unit": "大匙"
       },
       {
-        "name": "冷壓橄欖油 /2",
-        "quantity": 1.0,
+        "name": "冷壓橄欖油",
+        "quantity": 0.5,
         "unit": "大匙"
       },
       {
-        "name": "黑胡椒粒 /2",
-        "quantity": 1.0,
+        "name": "黑胡椒粒",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
@@ -1509,9 +1509,9 @@
         "unit": "克"
       },
       {
-        "name": "蘿美萵苣 葉",
+        "name": "蘿美萵苣",
         "quantity": 8.0,
-        "unit": null
+        "unit": "葉"
       },
       {
         "name": "冷凍草莓",
@@ -1534,13 +1534,13 @@
         "unit": "大匙"
       },
       {
-        "name": "冷壓初榨橄欖油 /2",
-        "quantity": 1.0,
+        "name": "冷壓初榨橄欖油",
+        "quantity": 0.5,
         "unit": "大匙"
       },
       {
-        "name": "黑胡椒粒 /2",
-        "quantity": 1.0,
+        "name": "黑胡椒粒",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
@@ -1577,8 +1577,8 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蕃石榴 /3",
-        "quantity": 1.0,
+        "name": "蕃石榴",
+        "quantity": 0.333,
         "unit": "顆"
       },
       {
@@ -1603,6 +1603,78 @@
     ],
     "combined_text": "蕃石榴黑莓沙拉/在美國料理隨手作14。食材：蕃石榴1/3顆，黑莓8顆，綜合菠菜1小把，切好的蘿蔓1小把。做法：蕃石榴比較不好處理，最好是穿上圍裙或是在處理時離它有些距離，要不然的話那汁噴在身上不好處理。用一小碗及湯匙，把蕃石榴用手撥開成一半再對半撥，用湯匙把蕃石榴挖到空碗內。，盤子上舖上生菜，再平均舖上蕃石榴及黑莓即完成。在處理時很忙碌，沒辦法拍照。。",
     "image_path": "蘿蔓/452105_蕃石榴黑莓沙拉_在美國料理隨手作14.jpg"
+  },
+  {
+    "id": "472994",
+    "name": "清冰箱沙拉",
+    "url": "https://icook.tw/recipes/472994",
+    "preview_ingredients": "蘿美萵苣、冷凍有機藍莓、天時野櫻莓果醋、冷凍草莓、冷壓初榨橄欖油、冷凍黑莓、黑胡椒粒、綜合堅果、薄鹽醬油",
+    "ingredients": [
+      "蘿美萵苣8葉",
+      "冷凍有機藍莓4大匙",
+      "冷凍草莓20顆",
+      "冷凍黑莓20顆",
+      "綜合堅果2大匙",
+      "天時野櫻莓果醋3大匙",
+      "冷壓初榨橄欖油1/2大匙",
+      "黑胡椒粒1/2小匙",
+      "薄鹽醬油1小匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "蘿美萵苣",
+        "quantity": 8.0,
+        "unit": "葉"
+      },
+      {
+        "name": "冷凍有機藍莓",
+        "quantity": 4.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "冷凍草莓",
+        "quantity": 20.0,
+        "unit": "顆"
+      },
+      {
+        "name": "冷凍黑莓",
+        "quantity": 20.0,
+        "unit": "顆"
+      },
+      {
+        "name": "綜合堅果",
+        "quantity": 2.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "天時野櫻莓果醋",
+        "quantity": 3.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "冷壓初榨橄欖油",
+        "quantity": 0.5,
+        "unit": "大匙"
+      },
+      {
+        "name": "黑胡椒粒",
+        "quantity": 0.5,
+        "unit": "小匙"
+      },
+      {
+        "name": "薄鹽醬油",
+        "quantity": 1.0,
+        "unit": "小匙"
+      }
+    ],
+    "steps": [
+      "●蘿蔓萵苣Romaine lettuce又名長葉萵苣、蘿蔓、羅馬生菜、蘿美生菜，是一種萵苣屬蔬菜。直型蘿美萵苣泡水洗淨瀝乾，生菜沙拉避免吃到生水，可以再用冷開水沖泡一次，再直立瀝乾後切3-4公分塊。",
+      "●冷凍莓果是我的早餐固定備料，冬天水果吃的較少，早餐沙拉加些莓果補充水果的營養成分。",
+      "●油醋醬使用材料建議\n油用初榨橄欖油味道比較純粹，醋用純釀的水果醋風味會很棒，黑胡椒粒能提鮮，鹹味來源:可用醬油或鹽巴平衡果醋甜味。",
+      "很愛這樣純粹的早餐，吳寶春桂圓麵包放冷凍保鮮，吃的時候放電鍋外鍋2大匙水蒸熱讓麵包回春。"
+    ],
+    "combined_text": "清冰箱沙拉。食材：蘿美萵苣8葉，冷凍有機藍莓4大匙，冷凍草莓20顆，冷凍黑莓20顆，綜合堅果2大匙，天時野櫻莓果醋3大匙，冷壓初榨橄欖油1/2大匙，黑胡椒粒1/2小匙，薄鹽醬油1小匙。做法：●蘿蔓萵苣Romaine lettuce又名長葉萵苣、蘿蔓、羅馬生菜、蘿美生菜，是一種萵苣屬蔬菜。直型蘿美萵苣泡水洗淨瀝乾，生菜沙拉避免吃到生水，可以再用冷開水沖泡一次，再直立瀝乾後切3-4公分塊。，●冷凍莓果是我的早餐固定備料，冬天水果吃的較少，早餐沙拉加些莓果補充水果的營養成分。，●油醋醬使用材料建議\n油用初榨橄欖油味道比較純粹，醋用純釀的水果醋風味會很棒，黑胡椒粒能提鮮，鹹味來源:可用醬油或鹽巴平衡果醋甜味。，很愛這樣純粹的早餐，吳寶春桂圓麵包放冷凍保鮮，吃的時候放電鍋外鍋2大匙水蒸熱讓麵包回春。。",
+    "image_path": "蘿蔓/472994_清冰箱沙拉.jpg"
   },
   {
     "id": "474340",
@@ -1656,8 +1728,8 @@
         "unit": null
       },
       {
-        "name": "白-洋蔥 /4",
-        "quantity": 1.0,
+        "name": "白-洋蔥",
+        "quantity": 0.25,
         "unit": "顆"
       },
       {
@@ -1671,19 +1743,19 @@
         "unit": "大匙"
       },
       {
-        "name": "食鹽 /4茶匙",
-        "quantity": 1.0,
-        "unit": null
+        "name": "食鹽",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
-        "name": "奧勒岡葉 /4茶匙",
-        "quantity": 1.0,
-        "unit": null
+        "name": "奧勒岡葉",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
-        "name": "煙燻紅椒粉 /4茶匙",
-        "quantity": 1.0,
-        "unit": null
+        "name": "煙燻紅椒粉",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "黑胡椒粉",
@@ -1743,9 +1815,9 @@
         "unit": "大匙"
       },
       {
-        "name": "台灣蘿蔓 葉",
+        "name": "台灣蘿蔓",
         "quantity": 4.0,
-        "unit": null
+        "unit": "葉"
       },
       {
         "name": "冷凍黑眉",
@@ -1773,8 +1845,8 @@
         "unit": "小匙"
       },
       {
-        "name": "黑胡椒粒 /4",
-        "quantity": 1.0,
+        "name": "黑胡椒粒",
+        "quantity": 0.25,
         "unit": "小匙"
       },
       {
@@ -1783,13 +1855,13 @@
         "unit": "小匙"
       },
       {
-        "name": "米酒",
-        "quantity": "少許",
-        "unit": null
+        "name": "米酒或水",
+        "quantity": 1.0,
+        "unit": "大匙"
       },
       {
-        "name": "玉米粉或太白粉 /2",
-        "quantity": 1.0,
+        "name": "玉米粉或太白粉",
+        "quantity": 0.5,
         "unit": "小匙"
       }
     ],
@@ -1834,8 +1906,8 @@
         "unit": "片"
       },
       {
-        "name": "洋蔥，切碎 /3",
-        "quantity": 1.0,
+        "name": "洋蔥，切碎",
+        "quantity": 0.333,
         "unit": "個"
       },
       {
@@ -1846,12 +1918,12 @@
       {
         "name": "鹽",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "黑胡椒粉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "紅黃甜椒酌量",
@@ -1889,9 +1961,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "米",
-        "quantity": null,
-        "unit": null
+        "name": "米粉",
+        "quantity": 2.0,
+        "unit": "綑"
       },
       {
         "name": "李錦記舊庄特級蠔油",
@@ -1904,9 +1976,9 @@
         "unit": "克"
       },
       {
-        "name": "蒜頭 大瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "大瓣"
       },
       {
         "name": "薑片",
@@ -1954,6 +2026,88 @@
     "image_path": "蘿蔓/459124_炒米粉~~.jpg"
   },
   {
+    "id": "459069",
+    "name": "炒米粉",
+    "url": "https://icook.tw/recipes/459069",
+    "preview_ingredients": "米粉、李錦記舊庄特級蠔油、胡蘿蔔絲、蒜頭、薑片、小黃瓜、雞胸肉、米酒、沙拉油、蘿蔓葉",
+    "ingredients": [
+      "米粉2綑",
+      "李錦記舊庄特級蠔油3大匙",
+      "胡蘿蔔絲20克",
+      "蒜頭2大瓣",
+      "薑片2大片",
+      "小黃瓜半根",
+      "雞胸肉1片",
+      "米酒1小匙",
+      "沙拉油1大匙",
+      "蘿蔓葉20克"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "米粉",
+        "quantity": 2.0,
+        "unit": "綑"
+      },
+      {
+        "name": "李錦記舊庄特級蠔油",
+        "quantity": 3.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "胡蘿蔔絲",
+        "quantity": 20.0,
+        "unit": "克"
+      },
+      {
+        "name": "蒜頭",
+        "quantity": 2.0,
+        "unit": "大瓣"
+      },
+      {
+        "name": "薑片",
+        "quantity": 2.0,
+        "unit": "大片"
+      },
+      {
+        "name": "小黃瓜",
+        "quantity": 0.5,
+        "unit": "根"
+      },
+      {
+        "name": "雞胸肉",
+        "quantity": 1.0,
+        "unit": "片"
+      },
+      {
+        "name": "米酒",
+        "quantity": 1.0,
+        "unit": "小匙"
+      },
+      {
+        "name": "沙拉油",
+        "quantity": 1.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "蘿蔓葉",
+        "quantity": 20.0,
+        "unit": "克"
+      }
+    ],
+    "steps": [
+      "沙拉油爆香蒜頭、薑片跟胡蘿蔔絲",
+      "加入小黃瓜拌炒",
+      "加入水煨煮食材至軟",
+      "加入米粉",
+      "加入雞胸肉煮至入味，煨煮期間將米粉壓至水中變軟",
+      "當米粉煨煮至軟時加入青菜繼續拌炒",
+      "加入李錦記舊庄特級蠔油、醬油跟米酒煨煮調味，煨煮期間不斷翻炒米粉跟食材融合在一起唷!!\n嚴選鮮蠔熬煮，提鮮入味。蠔油當然選李錦記！",
+      "起鍋裝置便當盒當家人的隔天午餐，留一些當我今天的美味午餐，好吃好吃"
+    ],
+    "combined_text": "炒米粉。食材：米粉2綑，李錦記舊庄特級蠔油3大匙，胡蘿蔔絲20克，蒜頭2大瓣，薑片2大片，小黃瓜半根，雞胸肉1片，米酒1小匙，沙拉油1大匙，蘿蔓葉20克。做法：沙拉油爆香蒜頭、薑片跟胡蘿蔔絲，加入小黃瓜拌炒，加入水煨煮食材至軟，加入米粉，加入雞胸肉煮至入味，煨煮期間將米粉壓至水中變軟，當米粉煨煮至軟時加入青菜繼續拌炒，加入李錦記舊庄特級蠔油、醬油跟米酒煨煮調味，煨煮期間不斷翻炒米粉跟食材融合在一起唷!!\n嚴選鮮蠔熬煮，提鮮入味。蠔油當然選李錦記！，起鍋裝置便當盒當家人的隔天午餐，留一些當我今天的美味午餐，好吃好吃。",
+    "image_path": "蘿蔓/459069_炒米粉.jpg"
+  },
+  {
     "id": "451409",
     "name": "莓果沙拉★okane",
     "url": "https://icook.tw/recipes/451409",
@@ -1971,19 +2125,19 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蘿蔓 株",
+        "name": "蘿蔓",
         "quantity": 1.0,
-        "unit": null
+        "unit": "株"
       },
       {
-        "name": "洋蔥 /3",
-        "quantity": 1.0,
+        "name": "洋蔥",
+        "quantity": 0.333,
         "unit": "個"
       },
       {
-        "name": "水",
-        "quantity": null,
-        "unit": null
+        "name": "水煮蛋",
+        "quantity": 2.0,
+        "unit": "個"
       },
       {
         "name": "蝦仁",
@@ -1991,9 +2145,9 @@
         "unit": "個"
       },
       {
-        "name": "黑醋栗 /2把",
-        "quantity": 1.0,
-        "unit": null
+        "name": "黑醋栗",
+        "quantity": 0.5,
+        "unit": "把"
       },
       {
         "name": "杏仁片",
@@ -2051,9 +2205,9 @@
         "unit": "顆"
       },
       {
-        "name": "櫛瓜 條",
+        "name": "櫛瓜",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "玉米筍",
@@ -2066,9 +2220,9 @@
         "unit": "片"
       },
       {
-        "name": "雞里肌肉 塊",
+        "name": "雞里肌肉",
         "quantity": 3.0,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "黑胡椒粒",
@@ -2076,8 +2230,8 @@
         "unit": null
       },
       {
-        "name": "鹽",
-        "quantity": null,
+        "name": "鹽或康寶炒手",
+        "quantity": "適量",
         "unit": null
       }
     ],
@@ -2135,9 +2289,9 @@
         "unit": "克"
       },
       {
-        "name": "胡椒粉",
-        "quantity": "少許",
-        "unit": null
+        "name": "胡椒粉鹽",
+        "quantity": 10.0,
+        "unit": "克"
       }
     ],
     "steps": [
@@ -2177,9 +2331,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "小排骨 公斤",
+        "name": "小排骨",
         "quantity": 1.0,
-        "unit": null
+        "unit": "公斤"
       },
       {
         "name": "馬鈴薯",
@@ -2187,9 +2341,9 @@
         "unit": "顆"
       },
       {
-        "name": "紅蘿蔔 條",
+        "name": "紅蘿蔔",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "洋蔥",
@@ -2197,9 +2351,9 @@
         "unit": "顆"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "蕃茄",
@@ -2212,9 +2366,9 @@
         "unit": "顆"
       },
       {
-        "name": "蘿美生菜 株",
+        "name": "蘿美生菜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "株"
       },
       {
         "name": "蔥",
@@ -2222,14 +2376,14 @@
         "unit": "根"
       },
       {
-        "name": "蒜 瓣",
+        "name": "蒜",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "蔭油或醬油膏 湯匙",
+        "name": "蔭油或醬油膏",
         "quantity": 1.0,
-        "unit": null
+        "unit": "湯匙"
       },
       {
         "name": "醬油",
@@ -2237,9 +2391,9 @@
         "unit": "湯匙"
       },
       {
-        "name": "棕櫚糖或 砂1茶匙",
-        "quantity": 2,
-        "unit": null
+        "name": "棕櫚糖或二砂",
+        "quantity": 1.0,
+        "unit": "茶匙"
       },
       {
         "name": "黑胡椒粉",
@@ -2301,28 +2455,28 @@
         "unit": "顆"
       },
       {
-        "name": "生菜(萵苣/蘿美) -8葉",
-        "quantity": 6.0,
-        "unit": null
+        "name": "生菜(萵苣/蘿美)6-",
+        "quantity": 8.0,
+        "unit": "葉"
       },
       {
-        "name": "紅蕃茄(牛蕃茄)150g)",
+        "name": "紅蕃茄(牛蕃茄)(150g)",
         "quantity": 2.0,
-        "unit": "顆("
+        "unit": "顆"
       },
       {
-        "name": "無調味綜合堅果(腰果/杏仁 )2",
-        "quantity": ".",
-        "unit": "大匙"
-      },
-      {
-        "name": "奧勒岡榛果油（頂級） -3",
+        "name": "無調味綜合堅果(腰果/杏仁.)",
         "quantity": 2.0,
         "unit": "大匙"
       },
       {
-        "name": "巴薩米可無花果香醋(紅酒醋) -3",
-        "quantity": 2.0,
+        "name": "奧勒岡榛果油（頂級）2-",
+        "quantity": 3.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "巴薩米可無花果香醋(紅酒醋)2-",
+        "quantity": 3.0,
         "unit": "大匙"
       }
     ],
@@ -2447,8 +2601,8 @@
         "unit": "克"
       },
       {
-        "name": "小番茄 -3",
-        "quantity": 2.0,
+        "name": "小番茄2-",
+        "quantity": 3.0,
         "unit": "顆"
       },
       {
@@ -2558,9 +2712,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蘑菇（挑選比較大朵的） 朵",
+        "name": "蘑菇（挑選比較大朵的）",
         "quantity": 16.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "市售蝦滑",
@@ -2643,9 +2797,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蘿蔓 株",
+        "name": "蘿蔓",
         "quantity": 1.0,
-        "unit": null
+        "unit": "株"
       },
       {
         "name": "蕃茄",
@@ -2725,24 +2879,24 @@
         "unit": "顆"
       },
       {
-        "name": "苜宿芽 /4份",
-        "quantity": 1.0,
-        "unit": null
+        "name": "苜宿芽",
+        "quantity": 0.25,
+        "unit": "份"
       },
       {
-        "name": "蘋果 /4",
+        "name": "蘋果",
+        "quantity": 0.25,
+        "unit": "顆"
+      },
+      {
+        "name": "水煮蛋",
         "quantity": 1.0,
         "unit": "顆"
       },
       {
-        "name": "水",
-        "quantity": null,
-        "unit": null
-      },
-      {
-        "name": "蕃薯 /4條",
-        "quantity": 1.0,
-        "unit": null
+        "name": "蕃薯",
+        "quantity": 0.25,
+        "unit": "條"
       },
       {
         "name": "堅果",
@@ -2790,8 +2944,8 @@
         "unit": "小匙"
       },
       {
-        "name": "黑胡椒 /2",
-        "quantity": 1.0,
+        "name": "黑胡椒",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
@@ -2805,8 +2959,8 @@
         "unit": "片"
       },
       {
-        "name": "洋蔥 /2",
-        "quantity": 1.0,
+        "name": "洋蔥",
+        "quantity": 0.5,
         "unit": "顆"
       },
       {
@@ -2856,9 +3010,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "新鮪魚罐(素) 罐(50g)",
+        "name": "新鮪魚罐(素)(50g)",
         "quantity": 0.5,
-        "unit": null
+        "unit": "罐"
       },
       {
         "name": "牛蕃茄",
@@ -2866,9 +3020,9 @@
         "unit": "顆"
       },
       {
-        "name": "蘿蔓(或美生菜) -3葉",
-        "quantity": 2.0,
-        "unit": null
+        "name": "蘿蔓(或美生菜)2-",
+        "quantity": 3.0,
+        "unit": "葉"
       },
       {
         "name": "沙拉醬（美乃滋）",
@@ -2876,8 +3030,8 @@
         "unit": "g"
       },
       {
-        "name": "冷白飯 /2",
-        "quantity": 1.0,
+        "name": "冷白飯",
+        "quantity": 0.5,
         "unit": "碗"
       },
       {
@@ -2909,19 +3063,19 @@
     ],
     "structured_ingredients": [
       {
-        "name": "米",
-        "quantity": null,
-        "unit": null
+        "name": "米林香|葡萄乾麥麩皮吐司|生酮",
+        "quantity": 1.0,
+        "unit": "片"
       },
       {
-        "name": "米",
-        "quantity": null,
-        "unit": null
+        "name": "米林香|豆渣蝦丸|生酮",
+        "quantity": 3.0,
+        "unit": "顆"
       },
       {
-        "name": "米",
-        "quantity": null,
-        "unit": null
+        "name": "米林香|素沙茶醬|生酮",
+        "quantity": 1.0,
+        "unit": "包"
       },
       {
         "name": "蘿美生菜",
@@ -2954,9 +3108,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "鮭魚 塊",
+        "name": "鮭魚",
         "quantity": 1.0,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "鹽",
@@ -2964,8 +3118,8 @@
         "unit": "小匙"
       },
       {
-        "name": "蘿蔓 /2",
-        "quantity": 1.0,
+        "name": "蘿蔓",
+        "quantity": 0.5,
         "unit": "個"
       },
       {
@@ -2974,8 +3128,8 @@
         "unit": "克"
       },
       {
-        "name": "檸檬 /2",
-        "quantity": 1.0,
+        "name": "檸檬",
+        "quantity": 0.5,
         "unit": "顆"
       }
     ],
@@ -3006,18 +3160,18 @@
     ],
     "structured_ingredients": [
       {
-        "name": "雞胸肉 /2塊",
-        "quantity": 1.0,
-        "unit": null
+        "name": "雞胸肉",
+        "quantity": 0.5,
+        "unit": "塊"
       },
       {
-        "name": "蘿蔓 葉",
+        "name": "蘿蔓",
         "quantity": 3.0,
-        "unit": null
+        "unit": "葉"
       },
       {
-        "name": "柳丁 /2",
-        "quantity": 1.0,
+        "name": "柳丁",
+        "quantity": 0.5,
         "unit": "個"
       },
       {
@@ -3069,23 +3223,23 @@
     ],
     "structured_ingredients": [
       {
-        "name": "米",
-        "quantity": null,
-        "unit": null
-      },
-      {
-        "name": "米",
-        "quantity": null,
-        "unit": null
-      },
-      {
-        "name": "米",
-        "quantity": null,
-        "unit": null
-      },
-      {
-        "name": "牛番茄 /3",
+        "name": "米林香|巧克力麥麩皮吐司|生酮",
         "quantity": 1.0,
+        "unit": "片"
+      },
+      {
+        "name": "米林香|牛肉豆渣漢堡肉排|生酮",
+        "quantity": 1.0,
+        "unit": "片"
+      },
+      {
+        "name": "米林香|花生醬|生酮",
+        "quantity": 10.0,
+        "unit": "g"
+      },
+      {
+        "name": "牛番茄",
+        "quantity": 0.333,
         "unit": "顆"
       },
       {
@@ -3134,8 +3288,8 @@
     ],
     "structured_ingredients": [
       {
-        "name": "究好豬帶皮 花肉條600g/1",
-        "quantity": 5,
+        "name": "究好豬帶皮五花肉條600g/",
+        "quantity": 1.0,
         "unit": "包"
       },
       {
@@ -3184,9 +3338,9 @@
         "unit": "克"
       },
       {
-        "name": "醬油",
-        "quantity": null,
-        "unit": null
+        "name": "醬油膏",
+        "quantity": 10.0,
+        "unit": "克"
       },
       {
         "name": "水",

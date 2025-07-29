@@ -13,14 +13,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "魚板 塊",
+        "name": "魚板",
         "quantity": 5.0,
-        "unit": null
+        "unit": "塊"
       },
       {
-        "name": "芹菜 /2把",
-        "quantity": 1.0,
-        "unit": null
+        "name": "芹菜",
+        "quantity": 0.5,
+        "unit": "把"
       },
       {
         "name": "油",
@@ -66,9 +66,9 @@
         "unit": "把"
       },
       {
-        "name": "全聯雞肉塊（切片） 盒",
+        "name": "全聯雞肉塊（切片）",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "烤肉醬（或蠔油）",
@@ -76,9 +76,9 @@
         "unit": "大匙"
       },
       {
-        "name": "白胡椒撒 下",
+        "name": "白胡椒撒",
         "quantity": 3.0,
-        "unit": null
+        "unit": "下"
       }
     ],
     "steps": [
@@ -110,14 +110,14 @@
         "unit": "把"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "基隆甜不辣 盒",
+        "name": "基隆甜不辣",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "薄鹽醬油",
@@ -169,9 +169,9 @@
         "unit": "杯"
       },
       {
-        "name": "中筋麵粉 匙",
+        "name": "中筋麵粉",
         "quantity": 2.0,
-        "unit": null
+        "unit": "匙"
       },
       {
         "name": "燕麥片",
@@ -189,14 +189,14 @@
         "unit": "茶匙"
       },
       {
-        "name": "白胡椒粉",
-        "quantity": null,
-        "unit": null
+        "name": "白胡椒粉（可略）",
+        "quantity": 1.0,
+        "unit": "匙"
       },
       {
-        "name": "素蠔油（可略） 匙",
+        "name": "素蠔油（可略）",
         "quantity": 1.0,
-        "unit": null
+        "unit": "匙"
       },
       {
         "name": "紅扁豆（可略）",
@@ -246,19 +246,19 @@
         "unit": "顆"
       },
       {
-        "name": "青蔥 支",
+        "name": "青蔥",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "芹菜 支",
+        "name": "芹菜",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "香菜 株",
+        "name": "香菜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "株"
       },
       {
         "name": "米酒",
@@ -271,9 +271,9 @@
         "unit": "茶匙"
       },
       {
-        "name": "食鹽 茶匙",
+        "name": "食鹽",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "雞粉",
@@ -286,9 +286,9 @@
         "unit": "茶匙"
       },
       {
-        "name": "雞高湯 ℓ",
+        "name": "雞高湯",
         "quantity": 1.2,
-        "unit": null
+        "unit": "ℓ"
       }
     ],
     "steps": [
@@ -323,29 +323,29 @@
     ],
     "structured_ingredients": [
       {
-        "name": "魷魚乾 條",
+        "name": "魷魚乾",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "嫩薑 塊",
+        "name": "嫩薑",
         "quantity": 1.0,
-        "unit": null
+        "unit": "塊"
       },
       {
-        "name": "辣椒 條",
+        "name": "辣椒",
         "quantity": 2.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 5.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "青蒜 支",
+        "name": "青蒜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "芹菜",
@@ -368,9 +368,9 @@
         "unit": "茶匙"
       },
       {
-        "name": "太白粉 /2茶匙",
-        "quantity": 1.0,
-        "unit": null
+        "name": "太白粉",
+        "quantity": 0.5,
+        "unit": "茶匙"
       },
       {
         "name": "鹽",
@@ -410,6 +410,36 @@
     "image_path": "芹菜/474048_芹菜炒魷魚.jpg"
   },
   {
+    "id": "473678",
+    "name": "芹菜保存",
+    "url": "https://icook.tw/recipes/473678",
+    "preview_ingredients": "芹菜、保鮮袋",
+    "ingredients": [
+      "芹菜1大把",
+      "保鮮袋2個"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "芹菜",
+        "quantity": 1.0,
+        "unit": "大把"
+      },
+      {
+        "name": "保鮮袋",
+        "quantity": 2.0,
+        "unit": "個"
+      }
+    ],
+    "steps": [
+      "整株芹菜洗淨瀝乾，可以攤放晾乾多餘水分",
+      "摘除芹菜葉，留下芹菜根",
+      "芹菜根切末",
+      "將切好的芹菜末裝在保鮮袋中，冷凍保存"
+    ],
+    "combined_text": "芹菜保存。食材：芹菜1大把，保鮮袋2個。做法：整株芹菜洗淨瀝乾，可以攤放晾乾多餘水分，摘除芹菜葉，留下芹菜根，芹菜根切末，將切好的芹菜末裝在保鮮袋中，冷凍保存。",
+    "image_path": "芹菜/473678_芹菜保存.jpg"
+  },
+  {
     "id": "473983",
     "name": "芹菜炒豆乾",
     "url": "https://icook.tw/recipes/473983",
@@ -427,9 +457,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "芹菜管 份",
+        "name": "芹菜管",
         "quantity": 1.0,
-        "unit": null
+        "unit": "份"
       },
       {
         "name": "豆乾",
@@ -437,9 +467,9 @@
         "unit": "片"
       },
       {
-        "name": "紅蘿蔔 小塊",
+        "name": "紅蘿蔔",
         "quantity": 1.0,
-        "unit": null
+        "unit": "小塊"
       },
       {
         "name": "醬油",
@@ -447,9 +477,9 @@
         "unit": "大匙"
       },
       {
-        "name": "醬油",
-        "quantity": null,
-        "unit": null
+        "name": "醬油膏",
+        "quantity": 1.0,
+        "unit": "小匙"
       },
       {
         "name": "醋",
@@ -467,9 +497,9 @@
         "unit": "大顆"
       },
       {
-        "name": "辣椒 條",
+        "name": "辣椒",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       }
     ],
     "steps": [
@@ -505,14 +535,14 @@
         "unit": "把"
       },
       {
-        "name": "花枝 隻",
+        "name": "花枝",
         "quantity": 1.0,
-        "unit": null
+        "unit": "隻"
       },
       {
-        "name": "蒜 瓣",
+        "name": "蒜",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "辣椒",
@@ -569,9 +599,9 @@
         "unit": "把"
       },
       {
-        "name": "板豆腐 塊",
+        "name": "板豆腐",
         "quantity": 1.0,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "老薑片",
@@ -579,8 +609,8 @@
         "unit": "片"
       },
       {
-        "name": "酪梨油 /2",
-        "quantity": 1.0,
+        "name": "酪梨油",
+        "quantity": 0.5,
         "unit": "大匙"
       },
       {
@@ -590,12 +620,12 @@
       },
       {
         "name": "鹽",
-        "quantity": 0.33,
+        "quantity": 0.333,
         "unit": "小匙"
       },
       {
-        "name": "黑胡椒粒 /3",
-        "quantity": 1.0,
+        "name": "黑胡椒粒",
+        "quantity": 0.333,
         "unit": "小匙"
       }
     ],
@@ -656,9 +686,9 @@
         "unit": "g"
       },
       {
-        "name": "食鹽 /4茶匙",
-        "quantity": 1.0,
-        "unit": null
+        "name": "食鹽",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "砂糖",
@@ -717,9 +747,9 @@
         "unit": "片"
       },
       {
-        "name": "紅蘿蔔 /2根",
-        "quantity": 1.0,
-        "unit": null
+        "name": "紅蘿蔔",
+        "quantity": 0.5,
+        "unit": "根"
       },
       {
         "name": "芹菜",
@@ -727,9 +757,9 @@
         "unit": "把"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 1.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "安食小品醬鹽",
@@ -765,9 +795,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "豆干 -5塊",
-        "quantity": 4.0,
-        "unit": null
+        "name": "豆干4-",
+        "quantity": 5.0,
+        "unit": "塊"
       },
       {
         "name": "芹菜",
@@ -775,14 +805,14 @@
         "unit": "把"
       },
       {
-        "name": "蒜頭 -3瓣",
-        "quantity": 2.0,
-        "unit": null
+        "name": "蒜頭2-",
+        "quantity": 3.0,
+        "unit": "瓣"
       },
       {
-        "name": "辣椒 -2根",
-        "quantity": 1.0,
-        "unit": null
+        "name": "辣椒1-",
+        "quantity": 2.0,
+        "unit": "根"
       },
       {
         "name": "醬油",
@@ -845,14 +875,14 @@
         "unit": "片"
       },
       {
-        "name": "蒜瓣 瓣",
+        "name": "蒜瓣",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "辣椒 /4根",
-        "quantity": 1.0,
-        "unit": null
+        "name": "辣椒",
+        "quantity": 0.25,
+        "unit": "根"
       },
       {
         "name": "油",
@@ -861,7 +891,7 @@
       },
       {
         "name": "鹽",
-        "quantity": 0.33,
+        "quantity": 0.333,
         "unit": "小匙"
       }
     ],
@@ -890,14 +920,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "油",
-        "quantity": null,
-        "unit": null
+        "name": "油封鴨胸",
+        "quantity": 0.5,
+        "unit": "個"
       },
       {
-        "name": "芹菜 支",
+        "name": "芹菜",
         "quantity": 3.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "白煮蛋",
@@ -917,6 +947,124 @@
     ],
     "combined_text": "油悶鴨胸  芹菜。食材：油封鴨胸半個，芹菜3支，白煮蛋1個，醃漬白蘿蔔10片。做法：鍋內不必加油，直接入鍋，鴨油自然會流出。，放入芹菜拌炒。，盛盤。。",
     "image_path": "芹菜/475718_油悶鴨胸__芹菜.jpg"
+  },
+  {
+    "id": "474147",
+    "name": "醬爆芹菜魷魚絲",
+    "url": "https://icook.tw/recipes/474147",
+    "preview_ingredients": "魷魚乾、芹菜、黃酒(紹興酒)、乾辣椒、醬油、嫩薑、蠔油、蒜頭、香油、沙拉油、烏醋、豬油、砂糖、老抽、雞粉、白胡椒粉",
+    "ingredients": [
+      "魷魚乾一尾",
+      "芹菜一把",
+      "乾辣椒5條",
+      "嫩薑2塊",
+      "蒜頭2大匙",
+      "沙拉油2大匙",
+      "豬油2大匙",
+      "黃酒(紹興酒)2大匙",
+      "醬油1大匙",
+      "蠔油1大匙",
+      "香油2茶匙",
+      "烏醋1茶匙",
+      "砂糖1/2茶匙",
+      "老抽1/4茶匙",
+      "雞粉1/4茶匙",
+      "白胡椒粉1/4茶匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "魷魚乾 尾",
+        "quantity": 1,
+        "unit": null
+      },
+      {
+        "name": "芹菜",
+        "quantity": 1,
+        "unit": "把"
+      },
+      {
+        "name": "乾辣椒",
+        "quantity": 5.0,
+        "unit": "條"
+      },
+      {
+        "name": "嫩薑",
+        "quantity": 2.0,
+        "unit": "塊"
+      },
+      {
+        "name": "蒜頭",
+        "quantity": 2.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "沙拉油",
+        "quantity": 2.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "豬油",
+        "quantity": 2.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "黃酒(紹興酒)",
+        "quantity": 2.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "醬油",
+        "quantity": 1.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "蠔油",
+        "quantity": 1.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "香油",
+        "quantity": 2.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "烏醋",
+        "quantity": 1.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "砂糖",
+        "quantity": 0.5,
+        "unit": "茶匙"
+      },
+      {
+        "name": "老抽",
+        "quantity": 0.25,
+        "unit": "茶匙"
+      },
+      {
+        "name": "雞粉",
+        "quantity": 0.25,
+        "unit": "茶匙"
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": 0.25,
+        "unit": "茶匙"
+      }
+    ],
+    "steps": [
+      "魷魚乾逆紋剪成絲，加白醋、香油、熱水浸泡2小時",
+      "泡發好用熱水再燙一遍",
+      "準備薑片、蒜片、芹菜段、乾辣椒段，料汁調勻",
+      "鍋熱下混合油，薑蒜辣椒爆鍋",
+      "魷魚絲下鍋爆香",
+      "芹菜段下鍋翻炒",
+      "炒勻後從鍋邊熗入料汁",
+      "水分炒乾，淋上香油"
+    ],
+    "combined_text": "醬爆芹菜魷魚絲。食材：魷魚乾一尾，芹菜一把，乾辣椒5條，嫩薑2塊，蒜頭2大匙，沙拉油2大匙，豬油2大匙，黃酒(紹興酒)2大匙，醬油1大匙，蠔油1大匙，香油2茶匙，烏醋1茶匙，砂糖1/2茶匙，老抽1/4茶匙，雞粉1/4茶匙，白胡椒粉1/4茶匙。做法：魷魚乾逆紋剪成絲，加白醋、香油、熱水浸泡2小時，泡發好用熱水再燙一遍，準備薑片、蒜片、芹菜段、乾辣椒段，料汁調勻，鍋熱下混合油，薑蒜辣椒爆鍋，魷魚絲下鍋爆香，芹菜段下鍋翻炒，炒勻後從鍋邊熗入料汁，水分炒乾，淋上香油。",
+    "image_path": "芹菜/474147_醬爆芹菜魷魚絲.jpg"
   },
   {
     "id": "472396",
@@ -941,9 +1089,9 @@
         "unit": "包"
       },
       {
-        "name": "蒜苗（可略） 支",
+        "name": "蒜苗（可略）",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "白芝麻",
@@ -959,6 +1107,72 @@
     ],
     "combined_text": "芹菜炒鴨賞。食材：芹菜1把，鴨賞1包，蒜苗（可略）1支，白芝麻0.5小匙。做法：前置：芹菜、蒜苗去頭切段。\n\n1.中火熱鍋（不放油）放入鴨賞拌炒讓鴨油出來。\n2.鴨油出來後放入芹菜與2小匙水大火拌炒，芹菜軟化後放入蒜苗炒約2分，炒至略收汁（如圖），盛盤撒上白芝麻即可。",
     "image_path": "芹菜/472396_芹菜炒鴨賞.jpg"
+  },
+  {
+    "id": "466437",
+    "name": "芹菜炒花枝 芹菜炒海鮮",
+    "url": "https://icook.tw/recipes/466437",
+    "preview_ingredients": "米酒、鹽巴、蒜頭、白胡椒、辣椒、芹菜、花枝、蛤蠣",
+    "ingredients": [
+      "米酒2匙",
+      "鹽巴1小匙",
+      "白胡椒1小匙",
+      "蒜頭2瓣",
+      "辣椒1根",
+      "芹菜1把",
+      "花枝1把",
+      "蛤蠣1台斤"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "米酒",
+        "quantity": 2.0,
+        "unit": "匙"
+      },
+      {
+        "name": "鹽巴",
+        "quantity": 1.0,
+        "unit": "小匙"
+      },
+      {
+        "name": "白胡椒",
+        "quantity": 1.0,
+        "unit": "小匙"
+      },
+      {
+        "name": "蒜頭",
+        "quantity": 2.0,
+        "unit": "瓣"
+      },
+      {
+        "name": "辣椒",
+        "quantity": 1.0,
+        "unit": "根"
+      },
+      {
+        "name": "芹菜",
+        "quantity": 1.0,
+        "unit": "把"
+      },
+      {
+        "name": "花枝",
+        "quantity": 1.0,
+        "unit": "把"
+      },
+      {
+        "name": "蛤蠣",
+        "quantity": 1.0,
+        "unit": "台斤"
+      }
+    ],
+    "steps": [
+      "爆香蒜頭辣椒",
+      "中火放入芹菜根跟花枝拌炒",
+      "最後放入芹菜葉跟蛤蠣\n嗆一些米酒加些許鹽巴白胡椒調味",
+      "即可出鍋"
+    ],
+    "combined_text": "芹菜炒花枝 芹菜炒海鮮。食材：米酒2匙，鹽巴1小匙，白胡椒1小匙，蒜頭2瓣，辣椒1根，芹菜1把，花枝1把，蛤蠣1台斤。做法：爆香蒜頭辣椒，中火放入芹菜根跟花枝拌炒，最後放入芹菜葉跟蛤蠣\n嗆一些米酒加些許鹽巴白胡椒調味，即可出鍋。",
+    "image_path": "芹菜/466437_芹菜炒花枝_芹菜炒海鮮.jpg"
   },
   {
     "id": "470293",
@@ -990,9 +1204,9 @@
         "unit": "克"
       },
       {
-        "name": "蒜末 -2瓣",
-        "quantity": 1.0,
-        "unit": null
+        "name": "蒜末1-",
+        "quantity": 2.0,
+        "unit": "瓣"
       },
       {
         "name": "芹菜",
@@ -1093,9 +1307,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "生鵝腸 份",
+        "name": "生鵝腸",
         "quantity": 1,
-        "unit": null
+        "unit": "份"
       },
       {
         "name": "芹菜段",
@@ -1123,9 +1337,9 @@
         "unit": null
       },
       {
-        "name": "蔥段 支",
+        "name": "蔥段",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "辣椒絲",
@@ -1174,9 +1388,9 @@
         "unit": "把"
       },
       {
-        "name": "豆乾 塊",
+        "name": "豆乾",
         "quantity": 5.0,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "小磨坊純白胡椒粉",
@@ -1189,9 +1403,9 @@
         "unit": "根"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鹽巴",
@@ -1199,9 +1413,9 @@
         "unit": "小匙"
       },
       {
-        "name": "豆鼓 茶匙",
+        "name": "豆鼓",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       }
     ],
     "steps": [
@@ -1232,24 +1446,24 @@
     ],
     "structured_ingredients": [
       {
-        "name": "生魷魚 條",
+        "name": "生魷魚",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "芹菜 株",
+        "name": "芹菜",
         "quantity": 6.0,
-        "unit": null
+        "unit": "株"
       },
       {
-        "name": "紅辣椒 支",
+        "name": "紅辣椒",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "蒜片 瓣",
+        "name": "蒜片",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鹽巴",
@@ -1315,9 +1529,9 @@
         "unit": "茶匙"
       },
       {
-        "name": "食鹽 /4茶匙",
-        "quantity": 1.0,
-        "unit": null
+        "name": "食鹽",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "味精",
@@ -1426,9 +1640,9 @@
         "unit": null
       },
       {
-        "name": "烏醋",
-        "quantity": 1.0,
-        "unit": "-"
+        "name": "烏醋1-(依口味)",
+        "quantity": 2.0,
+        "unit": "大匙"
       }
     ],
     "steps": [
@@ -1457,38 +1671,38 @@
     ],
     "structured_ingredients": [
       {
-        "name": "豬肚 小塊",
+        "name": "豬肚",
         "quantity": 1.0,
-        "unit": null
+        "unit": "小塊"
       },
       {
-        "name": "芹菜 枝",
+        "name": "芹菜",
         "quantity": 1.0,
-        "unit": null
+        "unit": "枝"
       },
       {
         "name": "鹽",
-        "quantity": null,
+        "quantity": "少量",
         "unit": null
       },
       {
         "name": "味精",
-        "quantity": null,
+        "quantity": "少量",
         "unit": null
       },
       {
         "name": "烏醋",
-        "quantity": null,
+        "quantity": "少量",
         "unit": null
       },
       {
-        "name": "素蠔油少量",
-        "quantity": null,
+        "name": "素蠔油",
+        "quantity": "少量",
         "unit": null
       },
       {
         "name": "米酒",
-        "quantity": "少許",
+        "quantity": "少量",
         "unit": null
       }
     ],
@@ -1521,9 +1735,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "全聯豬1盒",
-        "quantity": 5,
-        "unit": "花肉片"
+        "name": "全聯豬五花肉片",
+        "quantity": 1.0,
+        "unit": "盒"
       },
       {
         "name": "芹菜管",
@@ -1556,9 +1770,9 @@
         "unit": null
       },
       {
-        "name": "糖",
-        "quantity": "少許",
-        "unit": null
+        "name": "糖粉",
+        "quantity": 1.0,
+        "unit": "小匙"
       },
       {
         "name": "烏醋",
@@ -1606,9 +1820,9 @@
         "unit": "g"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 7.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "醬油",
@@ -1621,14 +1835,14 @@
         "unit": "茶匙"
       },
       {
-        "name": "食鹽¼茶匙",
-        "quantity": null,
-        "unit": null
+        "name": "食鹽",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
-        "name": "香菇粉¼茶匙",
-        "quantity": null,
-        "unit": null
+        "name": "香菇粉",
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "乾辣椒",
@@ -1689,9 +1903,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "白蘿蔔(淨重) 條/700g",
-        "quantity": 1,
-        "unit": null
+        "name": "白蘿蔔(淨重)一條/",
+        "quantity": 700.0,
+        "unit": "g"
       },
       {
         "name": "西洋芹/芹菜梗",
@@ -1740,8 +1954,8 @@
       },
       {
         "name": "味精",
-        "quantity": null,
-        "unit": null
+        "quantity": 0.25,
+        "unit": "茶匙"
       },
       {
         "name": "芝麻香油",
@@ -1759,9 +1973,9 @@
         "unit": "大匙"
       },
       {
-        "name": "青花椒粒(香麻) 茶匙",
+        "name": "青花椒粒(香麻)",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       }
     ],
     "steps": [
@@ -1773,6 +1987,53 @@
     ],
     "combined_text": "椒麻芹菜醬蘿蔔(純素)。食材：白蘿蔔(淨重)一條/700g，西洋芹/芹菜梗200g，胡蘿蔔30g，老薑30g，香菜10g，食鹽4g，砂糖50g，醬油2大匙，烏醋2大匙，砂糖1大匙，味精¼茶匙，芝麻香油2大匙，粗辣椒粉(增香)1大匙，細辣椒粉(提色)1大匙，青花椒粒(香麻)1茶匙。做法：白蘿蔔去皮切片，加鹽、糖醃漬軟化，然後沖洗乾淨，西洋芹去皮切段，胡蘿蔔、老薑去皮切片，香菜切小段，全部攬入盆中，再放一勺細辣椒麵，鍋中加入香油、花椒粒燒熱，然後下粗辣椒麵炸香，滋啦一聲潑在細辣椒麵上，然後調入生抽、陳醋、白糖、味精，醃漬30分鐘以上（隔夜尤佳），隨吃隨取，上桌前撒上香菜點綴。",
     "image_path": "芹菜/469769_椒麻芹菜醬蘿蔔(純素).jpg"
+  },
+  {
+    "id": "472839",
+    "name": "芹菜炒豆皮～簡單營養好吃的蔬食小炒",
+    "url": "https://icook.tw/recipes/472839",
+    "preview_ingredients": "芹菜、乾豆皮、德國鹽、胡椒粉",
+    "ingredients": [
+      "芹菜200克",
+      "乾豆皮100克",
+      "德國鹽1小匙",
+      "胡椒粉1小匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "芹菜",
+        "quantity": 200.0,
+        "unit": "克"
+      },
+      {
+        "name": "乾豆皮",
+        "quantity": 100.0,
+        "unit": "克"
+      },
+      {
+        "name": "德國鹽",
+        "quantity": 1.0,
+        "unit": "小匙"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": 1.0,
+        "unit": "小匙"
+      }
+    ],
+    "steps": [
+      "當芹菜與豆包擦出火花........",
+      "芹菜摘除葉子，菜梗稍微按壓，再切段後備用",
+      "鍋中少許油燒熱",
+      "接著下芹菜&炒香炒軟芹菜(芹菜稍微按壓烹煮可以釋放鮮味，也可幫助入味)",
+      "芹菜炒香香",
+      "再放入乾豆皮烹煮",
+      "蓋鍋蓋煮約3-4分鐘將豆皮悶煮煮軟",
+      "就是要加德國鹽",
+      "再放入胡椒粉調味，翻炒均勻即可開動。"
+    ],
+    "combined_text": "芹菜炒豆皮～簡單營養好吃的蔬食小炒。食材：芹菜200克，乾豆皮100克，德國鹽1小匙，胡椒粉1小匙。做法：當芹菜與豆包擦出火花........，芹菜摘除葉子，菜梗稍微按壓，再切段後備用，鍋中少許油燒熱，接著下芹菜&炒香炒軟芹菜(芹菜稍微按壓烹煮可以釋放鮮味，也可幫助入味)，芹菜炒香香，再放入乾豆皮烹煮，蓋鍋蓋煮約3-4分鐘將豆皮悶煮煮軟，就是要加德國鹽，再放入胡椒粉調味，翻炒均勻即可開動。。",
+    "image_path": "芹菜/472839_芹菜炒豆皮～簡單營養好吃的蔬食小炒.jpg"
   },
   {
     "id": "473814",
@@ -1841,9 +2102,9 @@
         "unit": "大匙"
       },
       {
-        "name": "米",
-        "quantity": null,
-        "unit": null
+        "name": "米醋/白醋",
+        "quantity": 1.0,
+        "unit": "大匙"
       },
       {
         "name": "醬油",
@@ -1899,9 +2160,9 @@
         "unit": "把"
       },
       {
-        "name": "蒜片 瓣",
+        "name": "蒜片",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "豆豉",
@@ -1914,14 +2175,14 @@
         "unit": "匙"
       },
       {
-        "name": "黑醋 匙",
+        "name": "黑醋",
         "quantity": 1.0,
-        "unit": null
+        "unit": "匙"
       },
       {
-        "name": "米酒",
-        "quantity": "少許",
-        "unit": null
+        "name": "米酒（或水）",
+        "quantity": 1.0,
+        "unit": "大匙"
       },
       {
         "name": "太白粉水",
@@ -2027,9 +2288,9 @@
         "unit": "把"
       },
       {
-        "name": "蒜瓣 瓣",
+        "name": "蒜瓣",
         "quantity": 4.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "玄米油或酪梨油",
@@ -2042,8 +2303,8 @@
         "unit": "小匙"
       },
       {
-        "name": "黑胡椒粒 /3",
-        "quantity": 1.0,
+        "name": "黑胡椒粒",
+        "quantity": 0.333,
         "unit": "小匙"
       }
     ],
@@ -2091,14 +2352,14 @@
         "unit": "根"
       },
       {
-        "name": "酒 cc",
+        "name": "酒",
         "quantity": 3.0,
-        "unit": null
+        "unit": "cc"
       },
       {
-        "name": "味霖 cc",
+        "name": "味霖",
         "quantity": 3.0,
-        "unit": null
+        "unit": "cc"
       },
       {
         "name": "蠔油",
@@ -2111,9 +2372,9 @@
         "unit": null
       },
       {
-        "name": "昆布柴魚高湯 cc",
+        "name": "昆布柴魚高湯",
         "quantity": 50.0,
-        "unit": null
+        "unit": "cc"
       }
     ],
     "steps": [
@@ -2150,14 +2411,14 @@
         "unit": "把"
       },
       {
-        "name": "透抽 尾",
+        "name": "透抽",
         "quantity": 1.0,
-        "unit": null
+        "unit": "尾"
       },
       {
-        "name": "青蔥 支",
+        "name": "青蔥",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "薑",
@@ -2278,9 +2539,9 @@
         "unit": "把"
       },
       {
-        "name": "蒜瓣 瓣",
+        "name": "蒜瓣",
         "quantity": 4.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "酪梨油或習慣用油",
@@ -2289,7 +2550,7 @@
       },
       {
         "name": "鹽",
-        "quantity": 0.33,
+        "quantity": 0.333,
         "unit": "小匙"
       }
     ],
@@ -2301,5 +2562,67 @@
     ],
     "combined_text": "炒山芹菜 / 炒野菜。食材：山芹菜1把，蒜瓣4瓣，酪梨油或習慣用油2小匙，鹽1/3小匙。做法：野生的山芹菜有點粗勇，修剪掉太粗的梗，泡水洗淨剪食指長段瀝乾。，鍋中小火放油先放蒜末蓋鍋爆香，約2分鐘聞到蒜香先撒鹽，再把山芹菜抓捧進鍋中後，蓋鍋蒸炒3分鐘，時間到打開鍋蓋翻炒均勻，山芹菜變身綠色就熟啦。，人生第一次炒野菜解鎖。，人生第二次再炒一次山芹菜，老人家總是特別熱忱，還有好多山芹菜待炒。。",
     "image_path": "芹菜/457834_炒山芹菜___炒野菜.jpg"
+  },
+  {
+    "id": "476578",
+    "name": "醬爆四寶-香炒五花肉x豆干x芹菜x脆瓜",
+    "url": "https://icook.tw/recipes/476578",
+    "preview_ingredients": "五花肉、五香豆干、李錦記 頭道零添加原釀醬油、幼條瓜、豆瓣醬、芹菜、砂糖",
+    "ingredients": [
+      "五花肉800g",
+      "五香豆干300g",
+      "幼條瓜50g",
+      "芹菜1把",
+      "李錦記 頭道零添加原釀醬油2大匙",
+      "豆瓣醬1大匙",
+      "砂糖1小匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "五花肉",
+        "quantity": 800.0,
+        "unit": "g"
+      },
+      {
+        "name": "五香豆干",
+        "quantity": 300.0,
+        "unit": "g"
+      },
+      {
+        "name": "幼條瓜",
+        "quantity": 50.0,
+        "unit": "g"
+      },
+      {
+        "name": "芹菜",
+        "quantity": 1.0,
+        "unit": "把"
+      },
+      {
+        "name": "李錦記 頭道零添加原釀醬油",
+        "quantity": 2.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "豆瓣醬",
+        "quantity": 1.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "砂糖",
+        "quantity": 1.0,
+        "unit": "小匙"
+      }
+    ],
+    "steps": [
+      "準備食材，清洗後將五花肉切成薄片，豆干切片，芹菜切段，幼條瓜切條狀。",
+      "熱鍋不加油，取出幾片較肥的五花肉，中小火煸出豬油。",
+      "剩餘五花肉入鍋炒至略帶金黃，加入李錦記頭道零添加原釀醬油及豆瓣醬，拌炒均勻，炒出醬香味。",
+      "加入豆干和幼條瓜繼續拌炒約五分鐘。",
+      "最後加入芹菜段拌炒1分鐘即可盛盤。",
+      "美味下飯的古早味五花肉炒豆干完成。"
+    ],
+    "combined_text": "醬爆四寶-香炒五花肉x豆干x芹菜x脆瓜。食材：五花肉800g，五香豆干300g，幼條瓜50g，芹菜1把，李錦記 頭道零添加原釀醬油2大匙，豆瓣醬1大匙，砂糖1小匙。做法：準備食材，清洗後將五花肉切成薄片，豆干切片，芹菜切段，幼條瓜切條狀。，熱鍋不加油，取出幾片較肥的五花肉，中小火煸出豬油。，剩餘五花肉入鍋炒至略帶金黃，加入李錦記頭道零添加原釀醬油及豆瓣醬，拌炒均勻，炒出醬香味。，加入豆干和幼條瓜繼續拌炒約五分鐘。，最後加入芹菜段拌炒1分鐘即可盛盤。，美味下飯的古早味五花肉炒豆干完成。。",
+    "image_path": "芹菜/476578_醬爆四寶-香炒五花肉x豆干x芹菜x脆瓜.jpg"
   }
 ]

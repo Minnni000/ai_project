@@ -16,7 +16,7 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 ",
+        "name": "蓮藕",
         "quantity": 1.0,
         "unit": null
       },
@@ -87,9 +87,9 @@
         "unit": "克"
       },
       {
-        "name": "蓮藕 節",
+        "name": "蓮藕",
         "quantity": 1.0,
-        "unit": null
+        "unit": "節"
       },
       {
         "name": "蔥",
@@ -148,14 +148,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "雞胸肉 盒",
+        "name": "雞胸肉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "蓮藕 節",
+        "name": "蓮藕",
         "quantity": 3.0,
-        "unit": null
+        "unit": "節"
       },
       {
         "name": "紅蘿蔔片",
@@ -203,8 +203,8 @@
         "unit": "大匙"
       },
       {
-        "name": "十 香粉1",
-        "quantity": 3,
+        "name": "十三香粉",
+        "quantity": 1.0,
         "unit": "小匙"
       },
       {
@@ -213,9 +213,9 @@
         "unit": "小匙"
       },
       {
-        "name": "太白粉 茶匙",
+        "name": "太白粉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       }
     ],
     "steps": [
@@ -247,9 +247,9 @@
         "unit": "克"
       },
       {
-        "name": "蓮藕 節",
+        "name": "蓮藕",
         "quantity": 2.0,
-        "unit": null
+        "unit": "節"
       },
       {
         "name": "洋蔥",
@@ -358,9 +358,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 節",
+        "name": "蓮藕",
         "quantity": 2.0,
-        "unit": null
+        "unit": "節"
       },
       {
         "name": "鴻禧菇",
@@ -449,14 +449,14 @@
         "unit": "克"
       },
       {
-        "name": "蔬果白醋 茶匙",
+        "name": "蔬果白醋",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
-        "name": "冷開水 茶匙",
+        "name": "冷開水",
         "quantity": 3.0,
-        "unit": null
+        "unit": "茶匙"
       }
     ],
     "steps": [
@@ -471,6 +471,55 @@
     ],
     "combined_text": "涼拌黑芝麻沙拉藕片。食材：蓮藕350克，鹽1茶匙，丘比美奶滋50克，黑芝麻粉15克，蔬果白醋1茶匙，冷開水3茶匙。做法：蓮藕洗淨；芝麻粉與日式美奶滋+白醋+冷開水拌勻放冰箱冷藏；，蓮藕去皮切0.2cm厚度的薄片；，蓮藕片泡水洗去表面澱粉；，煮滾1鍋水，加入少許橄欖油和1茶匙鹽；，藕片倒入滾水中清燙3分鐘；，撈起蓮藕片，泡入冰開水中，洗淨表面的澱粉後瀝乾；，藕片略擦乾，倒入調好的黑芝麻沙拉醬；，拌勻後放冰箱冷藏，擺盤後撒上少許熟芝麻即可。。",
     "image_path": "蓮藕/479174_涼拌黑芝麻沙拉藕片.jpg"
+  },
+  {
+    "id": "479007",
+    "name": "清甜玉米蓮藕湯、雞絲同步完成",
+    "url": "https://icook.tw/recipes/479007",
+    "preview_ingredients": "蓮藕、黃玉米、鹽巴、紅棗、去骨雞腿",
+    "ingredients": [
+      "蓮藕2段",
+      "黃玉米2支",
+      "紅棗6個",
+      "去骨雞腿1支",
+      "鹽巴1.5小匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "蓮藕",
+        "quantity": 2.0,
+        "unit": "段"
+      },
+      {
+        "name": "黃玉米",
+        "quantity": 2.0,
+        "unit": "支"
+      },
+      {
+        "name": "紅棗",
+        "quantity": 6.0,
+        "unit": "個"
+      },
+      {
+        "name": "去骨雞腿",
+        "quantity": 1.0,
+        "unit": "支"
+      },
+      {
+        "name": "鹽巴",
+        "quantity": 1.5,
+        "unit": "小匙"
+      }
+    ],
+    "steps": [
+      "蓮藕切薄片，紅棗去頭尾放入鍋中\n水醃過食材開火煮滾",
+      "加入川燙洗淨的雞腿中火煮30分鐘",
+      "用筷子刺雞腿若無血水跑出來代表雞腿熟透，將雞腿取出置入盤中待涼。\n加入切塊玉米一起煮約五分鐘即可，玉米不要煮過頭甜味才不會流失\n此時玉米蓮藕湯完成，加入鹽巴調味即可",
+      "取出放涼的雞腿肉撕成雞絲",
+      "以少許湯汁加一點蠔油及蔥絲調製雞絲拌醬，攪拌雞絲均勻即成一道主食"
+    ],
+    "combined_text": "清甜玉米蓮藕湯、雞絲同步完成。食材：蓮藕2段，黃玉米2支，紅棗6個，去骨雞腿1支，鹽巴1.5小匙。做法：蓮藕切薄片，紅棗去頭尾放入鍋中\n水醃過食材開火煮滾，加入川燙洗淨的雞腿中火煮30分鐘，用筷子刺雞腿若無血水跑出來代表雞腿熟透，將雞腿取出置入盤中待涼。\n加入切塊玉米一起煮約五分鐘即可，玉米不要煮過頭甜味才不會流失\n此時玉米蓮藕湯完成，加入鹽巴調味即可，取出放涼的雞腿肉撕成雞絲，以少許湯汁加一點蠔油及蔥絲調製雞絲拌醬，攪拌雞絲均勻即成一道主食。",
+    "image_path": "蓮藕/479007_清甜玉米蓮藕湯、雞絲同步完成.jpg"
   },
   {
     "id": "473420",
@@ -535,9 +584,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 節",
+        "name": "蓮藕",
         "quantity": 1.0,
-        "unit": null
+        "unit": "節"
       },
       {
         "name": "絞肉",
@@ -545,9 +594,9 @@
         "unit": "克"
       },
       {
-        "name": "蝦 尾",
+        "name": "蝦",
         "quantity": 3.0,
-        "unit": null
+        "unit": "尾"
       },
       {
         "name": "薑末",
@@ -560,9 +609,9 @@
         "unit": "個"
       },
       {
-        "name": "玉米粉 匙",
+        "name": "玉米粉",
         "quantity": 2.0,
-        "unit": null
+        "unit": "匙"
       }
     ],
     "steps": [
@@ -591,18 +640,18 @@
     ],
     "structured_ingredients": [
       {
-        "name": "烏骨雞腿 隻",
+        "name": "烏骨雞腿",
         "quantity": 1.0,
-        "unit": null
+        "unit": "隻"
       },
       {
-        "name": "薑片 ~4",
-        "quantity": 3.0,
+        "name": "薑片",
+        "quantity": "3~4",
         "unit": "片"
       },
       {
-        "name": "紅棗 ~6",
-        "quantity": 5.0,
+        "name": "紅棗",
+        "quantity": "5~6",
         "unit": "顆"
       },
       {
@@ -651,18 +700,18 @@
         "unit": "杯"
       },
       {
-        "name": "蓮藕 條",
+        "name": "蓮藕",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "雞腿排 份",
+        "name": "雞腿排",
         "quantity": 1.0,
-        "unit": null
+        "unit": "份"
       },
       {
-        "name": "鹽",
-        "quantity": null,
+        "name": "鹽或醬油",
+        "quantity": "適量",
         "unit": null
       },
       {
@@ -702,9 +751,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 節",
+        "name": "蓮藕",
         "quantity": 1.0,
-        "unit": null
+        "unit": "節"
       },
       {
         "name": "梅花豬火鍋肉片",
@@ -717,9 +766,9 @@
         "unit": null
       },
       {
-        "name": "蒜 粒",
+        "name": "蒜",
         "quantity": 2.0,
-        "unit": null
+        "unit": "粒"
       },
       {
         "name": "薑",
@@ -737,9 +786,9 @@
         "unit": "湯匙"
       },
       {
-        "name": "醬油",
-        "quantity": null,
-        "unit": null
+        "name": "醬油膏或蠔油",
+        "quantity": 2.0,
+        "unit": "湯匙"
       },
       {
         "name": "白胡椒粉",
@@ -867,19 +916,19 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 節",
+        "name": "蓮藕",
         "quantity": 4.0,
-        "unit": null
+        "unit": "節"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "辣椒 條",
+        "name": "辣椒",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "蔥",
@@ -887,9 +936,9 @@
         "unit": "根"
       },
       {
-        "name": "青檸醬油或壽喜燒醬油 湯匙",
+        "name": "青檸醬油或壽喜燒醬油",
         "quantity": 1.5,
-        "unit": null
+        "unit": "湯匙"
       }
     ],
     "steps": [
@@ -905,6 +954,57 @@
     ],
     "combined_text": "醬炒蓮藕。食材：蓮藕4節，蒜頭2瓣，辣椒0.5條，蔥2根，青檸醬油或壽喜燒醬油1.5湯匙。做法：蔥用可飲用水洗淨後擦乾，切蔥花；蒜切末，辣椒切圈狀；蓮藕去皮；，將蓮藕對剖成半後，再斜切成後片，再對切成塊；，將切好的蓮藕泡水洗淨，瀝乾水份；，鍋燒熱放橄欖油，加入蒜末炒香；，下蓮藕拌炒；，可以選用這罐帶檸檬清香的檸夏醬油或壽喜燒醬油，都帶有甜味，不會太鹹。\n也可以用您家裡用的醬油，只是用量請自行依鹹度調整喔～，加入醬油後拌炒均勻；，加少許水滾煮個1分鐘， 試味道做微調；，放入辣椒圈與蔥花快炒即可。。",
     "image_path": "蓮藕/465652_醬炒蓮藕.jpg"
+  },
+  {
+    "id": "470448",
+    "name": "黃瓜蓮藕排骨玉米湯",
+    "url": "https://icook.tw/recipes/470448",
+    "preview_ingredients": "排骨、玉米、蓮藕片、大黃瓜、鹽巴、味精",
+    "ingredients": [
+      "排骨1份",
+      "玉米3根",
+      "蓮藕片1份",
+      "大黃瓜1條",
+      "鹽巴2匙",
+      "味精1小匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "排骨",
+        "quantity": 1.0,
+        "unit": "份"
+      },
+      {
+        "name": "玉米",
+        "quantity": 3.0,
+        "unit": "根"
+      },
+      {
+        "name": "蓮藕片",
+        "quantity": 1.0,
+        "unit": "份"
+      },
+      {
+        "name": "大黃瓜",
+        "quantity": 1.0,
+        "unit": "條"
+      },
+      {
+        "name": "鹽巴",
+        "quantity": 2.0,
+        "unit": "匙"
+      },
+      {
+        "name": "味精",
+        "quantity": 1.0,
+        "unit": "小匙"
+      }
+    ],
+    "steps": [
+      "排骨冷水川燙撈起洗淨後放入湯鍋煮滾\n先加玉米熟後加入蓮藕片和大黃瓜\n加鹽跟味精 湯鮮味美"
+    ],
+    "combined_text": "黃瓜蓮藕排骨玉米湯。食材：排骨1份，玉米3根，蓮藕片1份，大黃瓜1條，鹽巴2匙，味精1小匙。做法：排骨冷水川燙撈起洗淨後放入湯鍋煮滾\n先加玉米熟後加入蓮藕片和大黃瓜\n加鹽跟味精 湯鮮味美。",
+    "image_path": "蓮藕/470448_黃瓜蓮藕排骨玉米湯.jpg"
   },
   {
     "id": "466584",
@@ -923,19 +1023,19 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 份",
+        "name": "蓮藕",
         "quantity": 1.0,
-        "unit": null
+        "unit": "份"
       },
       {
-        "name": "排骨 份",
+        "name": "排骨",
         "quantity": 1.0,
-        "unit": null
+        "unit": "份"
       },
       {
-        "name": "山藥 份",
+        "name": "山藥",
         "quantity": 1.0,
-        "unit": null
+        "unit": "份"
       },
       {
         "name": "玉米",
@@ -943,14 +1043,14 @@
         "unit": "根"
       },
       {
-        "name": "紅蘿蔔 條",
+        "name": "紅蘿蔔",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "蔥 株",
+        "name": "蔥",
         "quantity": 3.0,
-        "unit": null
+        "unit": "株"
       },
       {
         "name": "薑",
@@ -973,6 +1073,80 @@
     "image_path": "蓮藕/466584_蓮藕山藥排骨湯.jpg"
   },
   {
+    "id": "476458",
+    "name": "免顧火也能做｜蓮藕豬骨湯",
+    "url": "https://icook.tw/recipes/476458",
+    "preview_ingredients": "蓮藕、豬小排、乾香菇、青蔥、薑片、米酒、鹽＆白胡椒粉、清水、香菜",
+    "ingredients": [
+      "蓮藕200g",
+      "豬小排300g",
+      "乾香菇3朵",
+      "青蔥2條",
+      "薑片5片",
+      "米酒5大匙",
+      "鹽＆白胡椒粉適量",
+      "清水700cc",
+      "香菜適量"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "蓮藕",
+        "quantity": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "豬小排",
+        "quantity": 300.0,
+        "unit": "g"
+      },
+      {
+        "name": "乾香菇",
+        "quantity": 3.0,
+        "unit": "朵"
+      },
+      {
+        "name": "青蔥",
+        "quantity": 2.0,
+        "unit": "條"
+      },
+      {
+        "name": "薑片",
+        "quantity": 5.0,
+        "unit": "片"
+      },
+      {
+        "name": "米酒",
+        "quantity": 5.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "鹽＆白胡椒粉",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "清水",
+        "quantity": 700.0,
+        "unit": "cc"
+      },
+      {
+        "name": "香菜",
+        "quantity": "適量",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "蓮藕切片、青蔥打結、薑切片備用。",
+      "燜燒內鍋中放入豬小排、清水(份量外)、青蔥、薑片2片、米酒3大匙。",
+      "待水燒開後再煮約3分鐘，倒出洗淨豬小排。",
+      "內鍋洗淨，重新加入蓮藕、豬小排、乾香菇、薑片3片、米酒2大匙、清水。\n待水滾沸後，轉小火煮約10分鐘。",
+      "轉大火煮約1分鐘，再將內鍋移到燜燒外鍋中，繼續燜燒約30分鐘。",
+      "最後加入鹽與白胡椒調味，享用前撒上香菜即可。"
+    ],
+    "combined_text": "免顧火也能做｜蓮藕豬骨湯。食材：蓮藕200g，豬小排300g，乾香菇3朵，青蔥2條，薑片5片，米酒5大匙，鹽＆白胡椒粉適量，清水700cc，香菜適量。做法：蓮藕切片、青蔥打結、薑切片備用。，燜燒內鍋中放入豬小排、清水(份量外)、青蔥、薑片2片、米酒3大匙。，待水燒開後再煮約3分鐘，倒出洗淨豬小排。，內鍋洗淨，重新加入蓮藕、豬小排、乾香菇、薑片3片、米酒2大匙、清水。\n待水滾沸後，轉小火煮約10分鐘。，轉大火煮約1分鐘，再將內鍋移到燜燒外鍋中，繼續燜燒約30分鐘。，最後加入鹽與白胡椒調味，享用前撒上香菜即可。。",
+    "image_path": "蓮藕/476458_免顧火也能做｜蓮藕豬骨湯.jpg"
+  },
+  {
     "id": "462353",
     "name": "韓式涼拌蓮藕",
     "url": "https://icook.tw/recipes/462353",
@@ -984,14 +1158,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 ",
+        "name": "蓮藕",
         "quantity": 1.0,
         "unit": null
       },
       {
-        "name": "椴木香菇 朵",
+        "name": "椴木香菇",
         "quantity": 8.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "紅蘿蔔",
@@ -1036,9 +1210,9 @@
         "unit": "大匙"
       },
       {
-        "name": "熱開水 mL",
+        "name": "熱開水",
         "quantity": 250.0,
-        "unit": null
+        "unit": "mL"
       }
     ],
     "steps": [
@@ -1078,18 +1252,18 @@
         "unit": "克"
       },
       {
-        "name": "青蔥 支",
+        "name": "青蔥",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "薑 小塊",
+        "name": "薑",
         "quantity": 1.0,
-        "unit": null
+        "unit": "小塊"
       },
       {
-        "name": "十 香胡椒鹽1",
-        "quantity": 3,
+        "name": "十三香胡椒鹽",
+        "quantity": 1.0,
         "unit": "小匙"
       },
       {
@@ -1162,9 +1336,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "水",
-        "quantity": null,
-        "unit": null
+        "name": "水煮蓮藕",
+        "quantity": 550.0,
+        "unit": "g"
       },
       {
         "name": "青蔥",
@@ -1212,9 +1386,9 @@
         "unit": "g"
       },
       {
-        "name": "8g 荊條(乾辣椒)8g",
-        "quantity": 2,
-        "unit": null
+        "name": "二荊條(乾辣椒)",
+        "quantity": 8.0,
+        "unit": "g"
       },
       {
         "name": "石柱紅(乾辣椒)",
@@ -1258,19 +1432,19 @@
         "unit": "克"
       },
       {
-        "name": "玉米 條",
+        "name": "玉米",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "紅蘿蔔 條",
+        "name": "紅蘿蔔",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "蓮藕 節",
+        "name": "蓮藕",
         "quantity": 2.0,
-        "unit": null
+        "unit": "節"
       },
       {
         "name": "蓮子",
@@ -1289,6 +1463,65 @@
     "image_path": "蓮藕/466402_蓮藕玉米紅蘿蔔蓮子瘦肉湯.jpg"
   },
   {
+    "id": "471934",
+    "name": "古早味碗粿 / 電鍋料理 (蓮藕粉版)",
+    "url": "https://icook.tw/recipes/471934",
+    "preview_ingredients": "在來米粉、蓮藕粉、冷水、熱水",
+    "ingredients": [
+      "在來米粉160克",
+      "蓮藕粉20克",
+      "冷水200毫升",
+      "熱水350毫升"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "在來米粉",
+        "quantity": 160.0,
+        "unit": "克"
+      },
+      {
+        "name": "蓮藕粉",
+        "quantity": 20.0,
+        "unit": "克"
+      },
+      {
+        "name": "冷水",
+        "quantity": 200.0,
+        "unit": "毫升"
+      },
+      {
+        "name": "熱水",
+        "quantity": 350.0,
+        "unit": "毫升"
+      }
+    ],
+    "steps": [
+      "剛好有用電鍋做滷味滷肉跟豆干順滷蛋跟香菇。",
+      "做蘿蔔糕炒肉燥順多做些，用碗裝起來做碗糕拿來消滅。\n肉燥作法看這篇https:",
+      "icook.tw",
+      "recipes",
+      "471876",
+      "習慣用十人份大同電鍋蒸碗糕，三個飯碗可一次蒸，碗不用抹油加1",
+      "2大匙滷肉汁在碗裡轉轉即可達不沾效果，潤碗的滷汁記得倒掉才不會這碗糕較濕。",
+      "在來米粉跟蓮藕粉放在盆裡。",
+      "加冷水200cc用湯匙拌勻。",
+      "起湯鍋加350cc水煮滾熄火，把調勻的粉漿邊倒邊喇，喇勻後淋2大匙滷汁讓粉漿有味道，不用另外做醬汁。",
+      "趁熱把粉漿填裝在碗裡，湯匙背沾滷汁將粉漿抹平整。",
+      "鋪上滿滿的蘿蔔肉燥、香菇跟蛋。",
+      "電鍋外鍋400cc水，蒸至電鍋跳起。",
+      "很棒，香香的。",
+      "蓮藕粉比太白粉更Q食，以後都用蓮藕粉做，不然買一包也難消滅。",
+      "過年沒飯吃可以吃碗糕。",
+      "古早味碗粿",
+      "電鍋料理 (太白粉版)https:",
+      "icook.tw",
+      "recipes",
+      "468648"
+    ],
+    "combined_text": "古早味碗粿 / 電鍋料理 (蓮藕粉版)。食材：在來米粉160克，蓮藕粉20克，冷水200毫升，熱水350毫升。做法：剛好有用電鍋做滷味滷肉跟豆干順滷蛋跟香菇。，做蘿蔔糕炒肉燥順多做些，用碗裝起來做碗糕拿來消滅。\n肉燥作法看這篇https:，icook.tw，recipes，471876，習慣用十人份大同電鍋蒸碗糕，三個飯碗可一次蒸，碗不用抹油加1，2大匙滷肉汁在碗裡轉轉即可達不沾效果，潤碗的滷汁記得倒掉才不會這碗糕較濕。，在來米粉跟蓮藕粉放在盆裡。，加冷水200cc用湯匙拌勻。，起湯鍋加350cc水煮滾熄火，把調勻的粉漿邊倒邊喇，喇勻後淋2大匙滷汁讓粉漿有味道，不用另外做醬汁。，趁熱把粉漿填裝在碗裡，湯匙背沾滷汁將粉漿抹平整。，鋪上滿滿的蘿蔔肉燥、香菇跟蛋。，電鍋外鍋400cc水，蒸至電鍋跳起。，很棒，香香的。，蓮藕粉比太白粉更Q食，以後都用蓮藕粉做，不然買一包也難消滅。，過年沒飯吃可以吃碗糕。，古早味碗粿，電鍋料理 (太白粉版)https:，icook.tw，recipes，468648。",
+    "image_path": "蓮藕/471934_古早味碗粿___電鍋料理_(蓮藕粉版).jpg"
+  },
+  {
     "id": "457162",
     "name": "涼拌茉莉金桔蓮藕",
     "url": "https://icook.tw/recipes/457162",
@@ -1304,9 +1537,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 節",
+        "name": "蓮藕",
         "quantity": 1.0,
-        "unit": null
+        "unit": "節"
       },
       {
         "name": "鹽巴",
@@ -1314,9 +1547,9 @@
         "unit": "g"
       },
       {
-        "name": "冰糖",
-        "quantity": null,
-        "unit": null
+        "name": "冰糖茉莉金桔磚",
+        "quantity": 2.0,
+        "unit": "顆"
       },
       {
         "name": "辣椒",
@@ -1334,9 +1567,9 @@
         "unit": null
       },
       {
-        "name": "飲用水 c.c",
+        "name": "飲用水",
         "quantity": 100.0,
-        "unit": null
+        "unit": "c.c"
       }
     ],
     "steps": [
@@ -1360,9 +1593,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕切片 節",
+        "name": "蓮藕切片",
         "quantity": 2.0,
-        "unit": null
+        "unit": "節"
       },
       {
         "name": "冰糖",
@@ -1402,9 +1635,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "鱸魚排 盒",
+        "name": "鱸魚排",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "蔥",
@@ -1447,8 +1680,8 @@
         "unit": null
       },
       {
-        "name": "雞湯汁少量",
-        "quantity": null,
+        "name": "雞湯汁",
+        "quantity": "少量",
         "unit": null
       }
     ],
@@ -1600,9 +1833,9 @@
         "unit": "個"
       },
       {
-        "name": "低筋麵粉 T",
+        "name": "低筋麵粉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "T"
       },
       {
         "name": "麵包粉",
@@ -1637,13 +1870,13 @@
     ],
     "structured_ingredients": [
       {
-        "name": "華盛頓翠玉蘋果 /2",
-        "quantity": 1.0,
+        "name": "華盛頓翠玉蘋果",
+        "quantity": 0.5,
         "unit": "顆"
       },
       {
-        "name": "華盛頓富士蘋果 /2",
-        "quantity": 1.0,
+        "name": "華盛頓富士蘋果",
+        "quantity": 0.5,
         "unit": "顆"
       },
       {
@@ -1662,9 +1895,9 @@
         "unit": "小片"
       },
       {
-        "name": "韭菜段 條",
+        "name": "韭菜段",
         "quantity": 15.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "原味優格",
@@ -1723,13 +1956,13 @@
         "unit": "g"
       },
       {
-        "name": "青蔥末 /2T",
-        "quantity": 1.0,
-        "unit": null
+        "name": "青蔥末",
+        "quantity": 0.5,
+        "unit": "T"
       },
       {
-        "name": "蛋黃 /2",
-        "quantity": 1.0,
+        "name": "蛋黃",
+        "quantity": 0.5,
         "unit": "個"
       },
       {
@@ -1743,9 +1976,9 @@
         "unit": null
       },
       {
-        "name": "片栗粉 /2T",
-        "quantity": 1.0,
-        "unit": null
+        "name": "片栗粉",
+        "quantity": 0.5,
+        "unit": "T"
       },
       {
         "name": "醋",
@@ -1802,18 +2035,18 @@
         "unit": "g"
       },
       {
-        "name": "薑末 /2t",
-        "quantity": 1.0,
-        "unit": null
+        "name": "薑末",
+        "quantity": 0.5,
+        "unit": "t"
       },
       {
-        "name": "青蔥末 /2T",
-        "quantity": 1.0,
-        "unit": null
+        "name": "青蔥末",
+        "quantity": 0.5,
+        "unit": "T"
       },
       {
-        "name": "蛋黃 /2",
-        "quantity": 1.0,
+        "name": "蛋黃",
+        "quantity": 0.5,
         "unit": "個"
       },
       {
@@ -1827,9 +2060,9 @@
         "unit": null
       },
       {
-        "name": "片栗粉 /2T",
-        "quantity": 1.0,
-        "unit": null
+        "name": "片栗粉",
+        "quantity": 0.5,
+        "unit": "T"
       },
       {
         "name": "雞蛋",
@@ -1837,9 +2070,9 @@
         "unit": "個"
       },
       {
-        "name": "低筋麵粉 T",
+        "name": "低筋麵粉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "T"
       },
       {
         "name": "麵包粉",
@@ -1931,6 +2164,69 @@
     "image_path": "蓮藕/463677_芋頭藕粉涼糕｜蓮藕粉取代太白粉更健康.jpg"
   },
   {
+    "id": "459080",
+    "name": "Ca's Kitchen粉葛章魚蓮藕湯",
+    "url": "https://icook.tw/recipes/459080",
+    "preview_ingredients": "章魚、粉葛、蓮藕、乾瑤柱、茨實、龍眼乾、果皮",
+    "ingredients": [
+      "章魚半隻",
+      "粉葛1斤",
+      "蓮藕半斤",
+      "乾瑤柱適量",
+      "茨實少許",
+      "龍眼乾少許",
+      "果皮1小塊"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "章魚 隻",
+        "quantity": 0.5,
+        "unit": null
+      },
+      {
+        "name": "粉葛",
+        "quantity": 1.0,
+        "unit": "斤"
+      },
+      {
+        "name": "蓮藕",
+        "quantity": 0.5,
+        "unit": "斤"
+      },
+      {
+        "name": "乾瑤柱",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "茨實",
+        "quantity": "少許",
+        "unit": null
+      },
+      {
+        "name": "龍眼乾",
+        "quantity": "少許",
+        "unit": null
+      },
+      {
+        "name": "果皮",
+        "quantity": 1.0,
+        "unit": "小塊"
+      }
+    ],
+    "steps": [
+      "豬骨飛水，洗乾淨備用",
+      "粉葛去皮切件",
+      "蓮藕去皮，滾刀切件",
+      "洗乾淨備用，果皮浸軟身去（狼）",
+      "章魚洗乾浸水15分鐘，然後再清洗備用",
+      "水滾後把所有材料放落去，大火煲30分鐘，然後轉中細火煲2小時",
+      "煲左2.5小時後按個人口味加入適量的鹽便可享用了"
+    ],
+    "combined_text": "Ca's Kitchen粉葛章魚蓮藕湯。食材：章魚半隻，粉葛1斤，蓮藕半斤，乾瑤柱適量，茨實少許，龍眼乾少許，果皮1小塊。做法：豬骨飛水，洗乾淨備用，粉葛去皮切件，蓮藕去皮，滾刀切件，洗乾淨備用，果皮浸軟身去（狼），章魚洗乾浸水15分鐘，然後再清洗備用，水滾後把所有材料放落去，大火煲30分鐘，然後轉中細火煲2小時，煲左2.5小時後按個人口味加入適量的鹽便可享用了。",
+    "image_path": "蓮藕/459080_Ca's_Kitchen粉葛章魚蓮藕湯.jpg"
+  },
+  {
     "id": "467430",
     "name": "蓮藕花生肋排湯｜BUYDEEM北鼎粉漾壺",
     "url": "https://icook.tw/recipes/467430",
@@ -1995,14 +2291,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 大塊",
+        "name": "蓮藕",
         "quantity": 1.0,
-        "unit": null
+        "unit": "大塊"
       },
       {
-        "name": "排骨 塊",
+        "name": "排骨",
         "quantity": 4.0,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "水",
@@ -2041,9 +2337,9 @@
         "unit": "克"
       },
       {
-        "name": "竹筍 支",
+        "name": "竹筍",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "蓮藕",
@@ -2101,9 +2397,9 @@
         "unit": "根"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 1.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "杏鮑菇",
@@ -2126,9 +2422,9 @@
         "unit": "顆"
       },
       {
-        "name": "豆腐 塊",
+        "name": "豆腐",
         "quantity": 1.0,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "嵐田素食蒸餃",
@@ -2152,7 +2448,7 @@
       },
       {
         "name": "水",
-        "quantity": 0.33,
+        "quantity": 0.333,
         "unit": "鍋"
       }
     ],
@@ -2183,9 +2479,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 節",
+        "name": "蓮藕",
         "quantity": 1.0,
-        "unit": null
+        "unit": "節"
       },
       {
         "name": "糖",
@@ -2240,9 +2536,9 @@
         "unit": "小包"
       },
       {
-        "name": "蒜頭 粒",
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "粒"
       },
       {
         "name": "醬油",
@@ -2294,9 +2590,9 @@
         "unit": "個"
       },
       {
-        "name": "蝦仁 尾",
+        "name": "蝦仁",
         "quantity": 2.0,
-        "unit": null
+        "unit": "尾"
       },
       {
         "name": "蓮藕",
@@ -2314,19 +2610,19 @@
         "unit": "T"
       },
       {
-        "name": "芥末 /2t",
-        "quantity": 1.0,
-        "unit": null
+        "name": "芥末",
+        "quantity": 0.5,
+        "unit": "t"
       },
       {
-        "name": "雞蛋 /2",
-        "quantity": 1.0,
+        "name": "雞蛋",
+        "quantity": 0.5,
         "unit": "個"
       },
       {
-        "name": "低筋麵粉 T",
+        "name": "低筋麵粉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "T"
       },
       {
         "name": "天婦羅花",
@@ -2342,6 +2638,45 @@
     ],
     "combined_text": "炸蓮藕酪梨三明治｜過熱水蒸氣烤箱微波爐。食材：酪梨1個，蝦仁2尾，蓮藕4片，青紫蘇2片，醬油1/2T，芥末1/2t，雞蛋1/2個，低筋麵粉1T，天婦羅花30g。做法：蓮藕切成4片，泡水中；天婦羅花放在塑膠袋中剝細碎，碗中放入除了雞蛋、麵粉及麵包粉以外，所有食材混合均勻，分成2等份，兩片蓮藕中間夾約一份內餡，依序過三關（麵粉→蛋液→天婦羅花），放在高架烤盤上，入爐內輸入No.226。",
     "image_path": "蓮藕/456061_炸蓮藕酪梨三明治｜過熱水蒸氣烤箱微波爐.jpg"
+  },
+  {
+    "id": "445773",
+    "name": "蓮藕排骨玉米湯",
+    "url": "https://icook.tw/recipes/445773",
+    "preview_ingredients": "排骨、蓮藕、玉米、鹽",
+    "ingredients": [
+      "排骨適量",
+      "蓮藕適量",
+      "玉米適量",
+      "鹽適量"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "排骨",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "蓮藕",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "玉米",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "鹽",
+        "quantity": "適量",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "排骨先川燙後撈起\n另一鍋水+排骨先煮\n水滾了之後再放蓮藕（這樣湯才不會黑黑）蓮藕要切厚片的口感比較好蓮藕煮約一個半小時\n之後再加入玉米在煮半個小時\n最後鹽巴調味即可"
+    ],
+    "combined_text": "蓮藕排骨玉米湯。食材：排骨適量，蓮藕適量，玉米適量，鹽適量。做法：排骨先川燙後撈起\n另一鍋水+排骨先煮\n水滾了之後再放蓮藕（這樣湯才不會黑黑）蓮藕要切厚片的口感比較好蓮藕煮約一個半小時\n之後再加入玉米在煮半個小時\n最後鹽巴調味即可。",
+    "image_path": "蓮藕/445773_蓮藕排骨玉米湯.jpg"
   },
   {
     "id": "443650",
@@ -2367,9 +2702,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕2小塊)",
+        "name": "蓮藕(2小塊)",
         "quantity": 1.0,
-        "unit": "段("
+        "unit": "段"
       },
       {
         "name": "絞肉",
@@ -2377,14 +2712,14 @@
         "unit": "g"
       },
       {
-        "name": "蔥花 支",
+        "name": "蔥花",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "薑泥 t",
+        "name": "薑泥",
         "quantity": 1.0,
-        "unit": null
+        "unit": "t"
       },
       {
         "name": "香菜末",
@@ -2392,9 +2727,9 @@
         "unit": null
       },
       {
-        "name": "鐵壺水 T",
+        "name": "鐵壺水",
         "quantity": 2.0,
-        "unit": null
+        "unit": "T"
       },
       {
         "name": "酒",
@@ -2479,8 +2814,8 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 節約450",
-        "quantity": 1.0,
+        "name": "蓮藕1節約",
+        "quantity": 450.0,
         "unit": "克"
       },
       {
@@ -2494,9 +2829,9 @@
         "unit": "克"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "老薑",
@@ -2554,8 +2889,8 @@
         "unit": "大匙"
       },
       {
-        "name": "太白粉 /2",
-        "quantity": 1.0,
+        "name": "太白粉",
+        "quantity": 0.5,
         "unit": "小匙"
       }
     ],
@@ -2583,14 +2918,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 節",
+        "name": "蓮藕",
         "quantity": 2.0,
-        "unit": null
+        "unit": "節"
       },
       {
-        "name": "豬背骨 盒",
+        "name": "豬背骨",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "鹽",
@@ -2620,9 +2955,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蓮藕 節3根",
-        "quantity": 2,
-        "unit": null
+        "name": "蓮藕兩節",
+        "quantity": 3.0,
+        "unit": "根"
       },
       {
         "name": "蔥段",

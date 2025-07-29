@@ -1,5 +1,118 @@
 [
   {
+    "id": "478358",
+    "name": "蘆筍炒牛肉",
+    "url": "https://icook.tw/recipes/478358",
+    "preview_ingredients": "美國牛肉片、蘆筍、蒜片、辣椒、醃料、醬油、糖、水、玫瑰鹽、黑胡椒粉、太白粉、香油、醬汁、醬油膏",
+    "ingredients": [
+      "美國牛肉片200克",
+      "蘆筍10-12根",
+      "蒜片2大匙",
+      "辣椒1茶匙",
+      "醃料0",
+      "醬油1匙",
+      "糖1茶匙",
+      "水1大匙",
+      "玫瑰鹽1/4茶匙吧",
+      "黑胡椒粉1茶匙",
+      "太白粉1小匙",
+      "香油1大匙",
+      "醬汁如下",
+      "醬油膏2小匙",
+      "黑胡椒粉少許"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "美國牛肉片",
+        "quantity": 200.0,
+        "unit": "克"
+      },
+      {
+        "name": "蘆筍10-",
+        "quantity": 12.0,
+        "unit": "根"
+      },
+      {
+        "name": "蒜片",
+        "quantity": 2.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "辣椒",
+        "quantity": 1.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "醃料",
+        "quantity": 0.0,
+        "unit": null
+      },
+      {
+        "name": "醬油",
+        "quantity": 1.0,
+        "unit": "匙"
+      },
+      {
+        "name": "糖",
+        "quantity": 1.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "水",
+        "quantity": 1.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "玫瑰鹽",
+        "quantity": 0.25,
+        "unit": "茶匙吧"
+      },
+      {
+        "name": "黑胡椒粉",
+        "quantity": 1.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "太白粉",
+        "quantity": 1.0,
+        "unit": "小匙"
+      },
+      {
+        "name": "香油",
+        "quantity": 1.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "醬汁如下",
+        "quantity": null,
+        "unit": null
+      },
+      {
+        "name": "醬油膏",
+        "quantity": 2.0,
+        "unit": "小匙"
+      },
+      {
+        "name": "黑胡椒粉",
+        "quantity": "少許",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "準備食材，蘆筍洗淨削皮後底部粗根切除，蒜、辣椒切片備用。",
+      "牛肉醃漬玫瑰鹽、黑胡椒粉、米酒醬油、糖、水抓至水份消失再下太白粉抓勻最後下香油混合醃15分鐘。",
+      "起鍋沸水下蘆筍、鹽、油少許燙2分鐘撈起。",
+      "撈起後泡冰水讓蘆筍保持脆綠。",
+      "起油鍋2湯匙橄欖油下牛肉炒熟撈起備用。",
+      "同鍋油下蒜片辣椒炒出香味。",
+      "倒入牛肉翻炒再下蘆筍炒勻。",
+      "最後下醬汁炒勻即可。",
+      "擺盤上桌享用。"
+    ],
+    "combined_text": "蘆筍炒牛肉。食材：美國牛肉片200克，蘆筍10-12根，蒜片2大匙，辣椒1茶匙，醃料0，醬油1匙，糖1茶匙，水1大匙，玫瑰鹽1/4茶匙吧，黑胡椒粉1茶匙，太白粉1小匙，香油1大匙，醬汁如下，醬油膏2小匙，黑胡椒粉少許。做法：準備食材，蘆筍洗淨削皮後底部粗根切除，蒜、辣椒切片備用。，牛肉醃漬玫瑰鹽、黑胡椒粉、米酒醬油、糖、水抓至水份消失再下太白粉抓勻最後下香油混合醃15分鐘。，起鍋沸水下蘆筍、鹽、油少許燙2分鐘撈起。，撈起後泡冰水讓蘆筍保持脆綠。，起油鍋2湯匙橄欖油下牛肉炒熟撈起備用。，同鍋油下蒜片辣椒炒出香味。，倒入牛肉翻炒再下蘆筍炒勻。，最後下醬汁炒勻即可。，擺盤上桌享用。。",
+    "image_path": "蘆筍/478358_蘆筍炒牛肉.jpg"
+  },
+  {
     "id": "479085",
     "name": "蘆筍番茄炒蛋",
     "url": "https://icook.tw/recipes/479085",
@@ -55,19 +168,19 @@
         "unit": "把"
       },
       {
-        "name": "花枝 隻",
+        "name": "花枝",
         "quantity": 1.0,
-        "unit": null
+        "unit": "隻"
       },
       {
-        "name": "蝦仁 隻",
+        "name": "蝦仁",
         "quantity": 8.0,
-        "unit": null
+        "unit": "隻"
       },
       {
-        "name": "蒜片 瓣",
+        "name": "蒜片",
         "quantity": 1.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "白胡椒粉",
@@ -147,9 +260,9 @@
         "unit": null
       },
       {
-        "name": "壽喜燒醬油 湯匙",
+        "name": "壽喜燒醬油",
         "quantity": 1.0,
-        "unit": null
+        "unit": "湯匙"
       }
     ],
     "steps": [
@@ -190,9 +303,9 @@
         "unit": "把"
       },
       {
-        "name": "蒜片 瓣",
+        "name": "蒜片",
         "quantity": 4.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鹽巴",
@@ -215,6 +328,42 @@
     ],
     "combined_text": "火腿炒蘆筍。食材：火腿片5片，蘆筍1把，蒜片4瓣，鹽巴1小匙，白芝麻1小匙。做法：蒜頭切片、蘆筍洗淨後切段、火腿切條備用，中火熱油鍋下蒜片炒香放入火腿片拌炒，火腿表面略變色後放入蘆筍大火拌炒均勻，途中加入2小匙水一起與鹽巴，炒約1分，蓋上鍋蓋，小火悶著1-2分讓蘆筍快熟，水收乾後盛盤，撒上白芝麻即可。",
     "image_path": "蘆筍/473888_火腿炒蘆筍.jpg"
+  },
+  {
+    "id": "478045",
+    "name": "蒜香蛤蠣炒蘆筍",
+    "url": "https://icook.tw/recipes/478045",
+    "preview_ingredients": "蘆筍、蒜末、全聯大蛤蠣",
+    "ingredients": [
+      "蘆筍2把",
+      "蒜末3顆",
+      "全聯大蛤蠣1盒"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "蘆筍",
+        "quantity": 2.0,
+        "unit": "把"
+      },
+      {
+        "name": "蒜末",
+        "quantity": 3.0,
+        "unit": "顆"
+      },
+      {
+        "name": "全聯大蛤蠣",
+        "quantity": 1.0,
+        "unit": "盒"
+      }
+    ],
+    "steps": [
+      "1.蘆筍刨掉底部粗皮，切段\n2.蛤蠣洗淨\n3.蒜頭切粗末",
+      "中火熱油鍋下蒜末炒香後放入蘆筍大火拌炒均勻。",
+      "放入半碗水，轉中小火加入蛤蠣，蓋上鍋蓋，燜煮3分。",
+      "待蛤蠣全開盛盤即可。"
+    ],
+    "combined_text": "蒜香蛤蠣炒蘆筍。食材：蘆筍2把，蒜末3顆，全聯大蛤蠣1盒。做法：1.蘆筍刨掉底部粗皮，切段\n2.蛤蠣洗淨\n3.蒜頭切粗末，中火熱油鍋下蒜末炒香後放入蘆筍大火拌炒均勻。，放入半碗水，轉中小火加入蛤蠣，蓋上鍋蓋，燜煮3分。，待蛤蠣全開盛盤即可。。",
+    "image_path": "蘆筍/478045_蒜香蛤蠣炒蘆筍.jpg"
   },
   {
     "id": "477246",
@@ -554,14 +703,14 @@
         "unit": "根"
       },
       {
-        "name": "辣椒 支",
+        "name": "辣椒",
         "quantity": 0.5,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "蒜瓣 瓣",
+        "name": "蒜瓣",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "義大利麵",
@@ -683,9 +832,9 @@
         "unit": "匙"
       },
       {
-        "name": "巴薩米克醋或黑醋 匙",
+        "name": "巴薩米克醋或黑醋",
         "quantity": 0.5,
-        "unit": null
+        "unit": "匙"
       }
     ],
     "steps": [
@@ -731,9 +880,9 @@
         "unit": "把"
       },
       {
-        "name": "蒜頭切末 瓣",
+        "name": "蒜頭切末",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "辣椒",
@@ -756,9 +905,9 @@
         "unit": "大匙"
       },
       {
-        "name": "米酒",
-        "quantity": "少許",
-        "unit": null
+        "name": "米酒或紹興",
+        "quantity": 1.0,
+        "unit": "小匙"
       }
     ],
     "steps": [
@@ -807,9 +956,9 @@
         "unit": "g"
       },
       {
-        "name": "薑黃粉 茶匙",
+        "name": "薑黃粉",
         "quantity": 0.5,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "鹽",
@@ -822,9 +971,9 @@
         "unit": null
       },
       {
-        "name": "熱開水 mL",
+        "name": "熱開水",
         "quantity": 500.0,
-        "unit": null
+        "unit": "mL"
       }
     ],
     "steps": [
@@ -854,14 +1003,14 @@
         "unit": "根"
       },
       {
-        "name": "蘑菇 朵",
+        "name": "蘑菇",
         "quantity": 7.0,
-        "unit": null
+        "unit": "朵"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "辣椒",
@@ -919,19 +1068,19 @@
         "unit": "克"
       },
       {
-        "name": "白蘑菇 粒",
+        "name": "白蘑菇",
         "quantity": 2.0,
-        "unit": null
+        "unit": "粒"
       },
       {
-        "name": "幼蘆筍 條",
+        "name": "幼蘆筍",
         "quantity": 3.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "乾蔥 粒",
+        "name": "乾蔥",
         "quantity": 0.5,
-        "unit": null
+        "unit": "粒"
       },
       {
         "name": "白酒",
@@ -954,9 +1103,9 @@
         "unit": "克"
       },
       {
-        "name": "紅椒粉 茶匙",
+        "name": "紅椒粉",
         "quantity": 0.5,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "鹽",
@@ -1002,9 +1151,9 @@
         "unit": "把"
       },
       {
-        "name": "玉米筍 盒",
+        "name": "玉米筍",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "美白菇",
@@ -1062,13 +1211,13 @@
         "unit": "把"
       },
       {
-        "name": "鳳梨 /4",
-        "quantity": 1.0,
+        "name": "鳳梨",
+        "quantity": 0.25,
         "unit": "個"
       },
       {
-        "name": "萵苣 /4",
-        "quantity": 1.0,
+        "name": "萵苣",
+        "quantity": 0.25,
         "unit": "顆"
       },
       {
@@ -1120,9 +1269,9 @@
         "unit": "把"
       },
       {
-        "name": "白蝦 隻",
+        "name": "白蝦",
         "quantity": 10.0,
-        "unit": null
+        "unit": "隻"
       },
       {
         "name": "干貝",
@@ -1130,14 +1279,14 @@
         "unit": "顆"
       },
       {
-        "name": "洋菇 盒",
+        "name": "洋菇",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "蒜頭 小瓣",
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "小瓣"
       }
     ],
     "steps": [
@@ -1160,14 +1309,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "松阪豬 塊",
+        "name": "松阪豬",
         "quantity": 1.0,
-        "unit": null
+        "unit": "塊"
       },
       {
-        "name": "蘆筍2把）",
-        "quantity": 3.0,
-        "unit": "把（或"
+        "name": "蘆筍3把（或",
+        "quantity": 2.0,
+        "unit": "把）"
       },
       {
         "name": "蒜粗末",
@@ -1221,9 +1370,9 @@
         "unit": "包"
       },
       {
-        "name": "蒜頭 粒",
+        "name": "蒜頭",
         "quantity": 1.0,
-        "unit": null
+        "unit": "粒"
       },
       {
         "name": "鹽巴",
@@ -1264,9 +1413,9 @@
         "unit": null
       },
       {
-        "name": "洋菇 朵對切",
+        "name": "洋菇",
         "quantity": 10.0,
-        "unit": null
+        "unit": "朵對切"
       },
       {
         "name": "義大利香草香料小匙",
@@ -1307,13 +1456,13 @@
         "unit": "把"
       },
       {
-        "name": "牛肉片 盒",
+        "name": "牛肉片",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "白芝麻些許",
-        "quantity": null,
+        "name": "白芝麻",
+        "quantity": "些許",
         "unit": null
       },
       {
@@ -1337,9 +1486,9 @@
         "unit": "匙"
       },
       {
-        "name": "味霖 匙",
+        "name": "味霖",
         "quantity": 0.5,
-        "unit": null
+        "unit": "匙"
       }
     ],
     "steps": [
@@ -1387,9 +1536,9 @@
         "unit": "個"
       },
       {
-        "name": "蒜頭 小瓣",
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "小瓣"
       },
       {
         "name": "米酒",
@@ -1481,14 +1630,14 @@
         "unit": "根"
       },
       {
-        "name": "小排 斤",
+        "name": "小排",
         "quantity": 0.5,
-        "unit": null
+        "unit": "斤"
       },
       {
-        "name": "乾香菇 大朵",
+        "name": "乾香菇",
         "quantity": 5.0,
-        "unit": null
+        "unit": "大朵"
       },
       {
         "name": "薑片",
@@ -1525,9 +1674,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蝦仁 尾",
+        "name": "蝦仁",
         "quantity": 15.0,
-        "unit": null
+        "unit": "尾"
       },
       {
         "name": "蘆筍",
@@ -1540,9 +1689,9 @@
         "unit": null
       },
       {
-        "name": "蒜末 湯匙",
+        "name": "蒜末",
         "quantity": 1.0,
-        "unit": null
+        "unit": "湯匙"
       },
       {
         "name": "酒（個人喜好）",
@@ -1641,9 +1790,9 @@
         "unit": "大匙"
       },
       {
-        "name": "黑胡椒 茶匙",
+        "name": "黑胡椒",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "米酒",
@@ -1667,6 +1816,66 @@
     "image_path": "蘆筍/454944_蘆筍炒蘑菇.jpg"
   },
   {
+    "id": "454052",
+    "name": "蘆筍肉捲",
+    "url": "https://icook.tw/recipes/454052",
+    "preview_ingredients": "五花火鍋肉片、蘆筍、米酒、黑胡椒粉、味精、義大利香料、孜然粉",
+    "ingredients": [
+      "五花火鍋肉片5片",
+      "蘆筍適量",
+      "米酒適量",
+      "黑胡椒粉適量",
+      "味精適量",
+      "義大利香料適量",
+      "孜然粉適量"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "五花火鍋肉片",
+        "quantity": 5.0,
+        "unit": "片"
+      },
+      {
+        "name": "蘆筍",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "米酒",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "黑胡椒粉",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "味精",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "義大利香料",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "孜然粉",
+        "quantity": "適量",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "切,捲",
+      "醃",
+      "煎",
+      "翻面煎"
+    ],
+    "combined_text": "蘆筍肉捲。食材：五花火鍋肉片5片，蘆筍適量，米酒適量，黑胡椒粉適量，味精適量，義大利香料適量，孜然粉適量。做法：切,捲，醃，煎，翻面煎。",
+    "image_path": "蘆筍/454052_蘆筍肉捲.jpg"
+  },
+  {
     "id": "454605",
     "name": "蘆筍炒蝦",
     "url": "https://icook.tw/recipes/454605",
@@ -1684,9 +1893,9 @@
         "unit": "包"
       },
       {
-        "name": "蝦/蝦仁 隻/100g",
-        "quantity": 10.0,
-        "unit": null
+        "name": "蝦/蝦仁10隻/",
+        "quantity": 100.0,
+        "unit": "g"
       },
       {
         "name": "蒜頭",
@@ -1728,9 +1937,9 @@
         "unit": "把"
       },
       {
-        "name": "蝦仁 隻",
+        "name": "蝦仁",
         "quantity": 13.0,
-        "unit": null
+        "unit": "隻"
       },
       {
         "name": "蒜頭",
@@ -1738,9 +1947,9 @@
         "unit": "顆"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 3.0,
-        "unit": null
+        "unit": "朵"
       }
     ],
     "steps": [
@@ -1766,14 +1975,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蘆筍 支",
+        "name": "蘆筍",
         "quantity": 5.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "可生食干貝 盒",
+        "name": "可生食干貝",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "蝦仁",
@@ -1781,9 +1990,9 @@
         "unit": "克"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鹽巴",
@@ -1813,9 +2022,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "鮮嫩雞胸 盒",
+        "name": "鮮嫩雞胸",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "胡蘿蔔",
@@ -1823,9 +2032,9 @@
         "unit": "根"
       },
       {
-        "name": "玉米筍 盒",
+        "name": "玉米筍",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "杏鮑菇",
@@ -1875,9 +2084,9 @@
         "unit": "克"
       },
       {
-        "name": "中卷 尾",
+        "name": "中卷",
         "quantity": 3.0,
-        "unit": null
+        "unit": "尾"
       },
       {
         "name": "紅甜椒",
@@ -1902,7 +2111,7 @@
       {
         "name": "米酒",
         "quantity": 10.0,
-        "unit": null
+        "unit": "克"
       }
     ],
     "steps": [
@@ -1940,14 +2149,14 @@
         "unit": "把"
       },
       {
-        "name": "牛肉片 盒",
+        "name": "牛肉片",
         "quantity": 0.5,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "蒜片 瓣",
+        "name": "蒜片",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "沙茶醬",
@@ -2011,9 +2220,9 @@
         "unit": "把"
       },
       {
-        "name": "蝦仁 隻",
+        "name": "蝦仁",
         "quantity": 10.0,
-        "unit": null
+        "unit": "隻"
       },
       {
         "name": "干貝",
@@ -2021,9 +2230,9 @@
         "unit": "顆"
       },
       {
-        "name": "蒜末 瓣",
+        "name": "蒜末",
         "quantity": 5.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鮮味抄手",
@@ -2031,9 +2240,9 @@
         "unit": "大匙"
       },
       {
-        "name": "食用油 湯匙",
+        "name": "食用油",
         "quantity": 1.0,
-        "unit": null
+        "unit": "湯匙"
       }
     ],
     "steps": [
@@ -2099,6 +2308,52 @@
     "image_path": "蘆筍/459920_蘆筍蒸灌湯小籠包.jpg"
   },
   {
+    "id": "458059",
+    "name": "微波版蘆筍炒香菇",
+    "url": "https://icook.tw/recipes/458059",
+    "preview_ingredients": "大枝青蘆筍、大朵香菇、蒜末、食用油、食鹽",
+    "ingredients": [
+      "大枝青蘆筍6根",
+      "大朵香菇5朵",
+      "蒜末1匙",
+      "食用油1匙",
+      "食鹽1小匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "大枝青蘆筍",
+        "quantity": 6.0,
+        "unit": "根"
+      },
+      {
+        "name": "大朵香菇",
+        "quantity": 5.0,
+        "unit": "朵"
+      },
+      {
+        "name": "蒜末",
+        "quantity": 1.0,
+        "unit": "匙"
+      },
+      {
+        "name": "食用油",
+        "quantity": 1.0,
+        "unit": "匙"
+      },
+      {
+        "name": "食鹽",
+        "quantity": 1.0,
+        "unit": "小匙"
+      }
+    ],
+    "steps": [
+      "將蘆筍洗淨，根部粗皮削去後斜切成段，香菇洗淨擦乾後切片備用",
+      "將香菇及蒜末放入陶鍋，不加蓋，以600W微波3分鐘，結束取出攪拌一下，再加入食用油、食鹽及蘆筍攪拌一下，蓋上蓋子，以600W微波3分鐘，結束後掀蓋攪拌一下即可"
+    ],
+    "combined_text": "微波版蘆筍炒香菇。食材：大枝青蘆筍6根，大朵香菇5朵，蒜末1匙，食用油1匙，食鹽1小匙。做法：將蘆筍洗淨，根部粗皮削去後斜切成段，香菇洗淨擦乾後切片備用，將香菇及蒜末放入陶鍋，不加蓋，以600W微波3分鐘，結束取出攪拌一下，再加入食用油、食鹽及蘆筍攪拌一下，蓋上蓋子，以600W微波3分鐘，結束後掀蓋攪拌一下即可。",
+    "image_path": "蘆筍/458059_微波版蘆筍炒香菇.jpg"
+  },
+  {
     "id": "463094",
     "name": "《在家學法餐》奶油蘆筍燉飯",
     "url": "https://icook.tw/recipes/463094",
@@ -2121,14 +2376,14 @@
         "unit": "克"
       },
       {
-        "name": "紅蔥頭 瓣",
+        "name": "紅蔥頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "奶油",
@@ -2156,9 +2411,9 @@
         "unit": "克"
       },
       {
-        "name": "高湯",
-        "quantity": null,
-        "unit": null
+        "name": "高湯水",
+        "quantity": 5.0,
+        "unit": "米杯"
       }
     ],
     "steps": [
@@ -2227,9 +2482,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "比目魚 塊",
+        "name": "比目魚",
         "quantity": 0.5,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "蘆筍",
@@ -2322,9 +2577,9 @@
         "unit": "克"
       },
       {
-        "name": "水",
-        "quantity": null,
-        "unit": null
+        "name": "水果玉米",
+        "quantity": 0.5,
+        "unit": "根"
       },
       {
         "name": "杏仁片",
@@ -2361,9 +2616,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "雞胸肉切柳狀 副",
+        "name": "雞胸肉切柳狀",
         "quantity": 1.5,
-        "unit": null
+        "unit": "副"
       },
       {
         "name": "蘆筍",
@@ -2371,9 +2626,9 @@
         "unit": "把"
       },
       {
-        "name": "紅蘿蔔絲 小碟",
+        "name": "紅蘿蔔絲",
         "quantity": 1.0,
-        "unit": null
+        "unit": "小碟"
       },
       {
         "name": "李錦記舊庄特級蠔油",
@@ -2430,9 +2685,9 @@
         "unit": "根"
       },
       {
-        "name": "蘑菇 朵",
+        "name": "蘑菇",
         "quantity": 3.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "胡蘿蔔片",
@@ -2440,9 +2695,9 @@
         "unit": "片"
       },
       {
-        "name": "自製蒔蘿奶油 塊",
+        "name": "自製蒔蘿奶油",
         "quantity": 1.0,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "薑",

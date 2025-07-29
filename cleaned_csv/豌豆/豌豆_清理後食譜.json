@@ -22,9 +22,9 @@
         "unit": "顆"
       },
       {
-        "name": "紅蘿蔔塊 條",
+        "name": "紅蘿蔔塊",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "馬鈴薯塊",
@@ -37,14 +37,14 @@
         "unit": null
       },
       {
-        "name": "咖喱塊 盒",
+        "name": "咖喱塊",
         "quantity": 0.5,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "豌豆 盒",
+        "name": "豌豆",
         "quantity": 0.5,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "雪白菇",
@@ -52,9 +52,9 @@
         "unit": "包"
       },
       {
-        "name": "黑巧克力片（可有可無） 小塊",
+        "name": "黑巧克力片（可有可無）",
         "quantity": 1.0,
-        "unit": null
+        "unit": "小塊"
       },
       {
         "name": "起司絲（可有可無）",
@@ -99,9 +99,9 @@
         "unit": "包"
       },
       {
-        "name": "紅蘿蔔 條",
+        "name": "紅蘿蔔",
         "quantity": 0.25,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "鴻禧菇",
@@ -109,9 +109,9 @@
         "unit": "包"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 1.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "枸杞",
@@ -159,9 +159,9 @@
         "unit": "杯份"
       },
       {
-        "name": "高湯",
-        "quantity": null,
-        "unit": null
+        "name": "高湯塊",
+        "quantity": 2.0,
+        "unit": "個"
       },
       {
         "name": "水",
@@ -275,19 +275,19 @@
         "unit": "包"
       },
       {
-        "name": "胡蘿蔔 /4根",
-        "quantity": 1.0,
-        "unit": null
+        "name": "胡蘿蔔",
+        "quantity": 0.25,
+        "unit": "根"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 6.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 4.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "玉米筍",
@@ -307,6 +307,130 @@
     "image_path": "豌豆/450991_豌豆炒香菇.jpg"
   },
   {
+    "id": "456496",
+    "name": "蘑菇炒甜豌豆",
+    "url": "https://icook.tw/recipes/456496",
+    "preview_ingredients": "蘑菇、甜豌豆、橄欖油、蠔油、鹽巴、糖、白胡椒粉",
+    "ingredients": [
+      "蘑菇1盒",
+      "甜豌豆1把",
+      "橄欖油1大匙",
+      "蠔油2大匙",
+      "鹽巴適量",
+      "糖適量",
+      "白胡椒粉適量"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "蘑菇",
+        "quantity": 1.0,
+        "unit": "盒"
+      },
+      {
+        "name": "甜豌豆",
+        "quantity": 1.0,
+        "unit": "把"
+      },
+      {
+        "name": "橄欖油",
+        "quantity": 1.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "蠔油",
+        "quantity": 2.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "鹽巴",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "糖",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": "適量",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "熱鍋（不加油），放入切片蘑菇，炒至出水。",
+      "倒入油，放入甜豌豆，炒至熟。",
+      "加入鹽巴、糖、蠔油、白胡椒粉拌勻即可。"
+    ],
+    "combined_text": "蘑菇炒甜豌豆。食材：蘑菇1盒，甜豌豆1把，橄欖油1大匙，蠔油2大匙，鹽巴適量，糖適量，白胡椒粉適量。做法：熱鍋（不加油），放入切片蘑菇，炒至出水。，倒入油，放入甜豌豆，炒至熟。，加入鹽巴、糖、蠔油、白胡椒粉拌勻即可。。",
+    "image_path": "豌豆/456496_蘑菇炒甜豌豆.jpg"
+  },
+  {
+    "id": "454976",
+    "name": "甜豌豆炒菇",
+    "url": "https://icook.tw/recipes/454976",
+    "preview_ingredients": "甜豌豆、玉米筍、紅甜椒、鴻禧菇、鹽巴、橄欖油、白胡椒粉、蒜碎",
+    "ingredients": [
+      "甜豌豆2把",
+      "玉米筍4支",
+      "紅甜椒0.5顆",
+      "鴻禧菇半盒",
+      "鹽巴適量",
+      "橄欖油適量",
+      "白胡椒粉適量",
+      "蒜碎2瓣"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "甜豌豆",
+        "quantity": 2.0,
+        "unit": "把"
+      },
+      {
+        "name": "玉米筍",
+        "quantity": 4.0,
+        "unit": "支"
+      },
+      {
+        "name": "紅甜椒",
+        "quantity": 0.5,
+        "unit": "顆"
+      },
+      {
+        "name": "鴻禧菇",
+        "quantity": 0.5,
+        "unit": "盒"
+      },
+      {
+        "name": "鹽巴",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "橄欖油",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "蒜碎",
+        "quantity": 2.0,
+        "unit": "瓣"
+      }
+    ],
+    "steps": [
+      "煮一鍋熱水，將甜豌豆、玉米筍、紅甜椒川燙至7-8分熟，撈起冰鎮備用。",
+      "熱乾鍋，放入鴻禧菇炒香至微微上色。",
+      "倒入橄欖油、蒜碎炒香，加入燙好的甜豌豆、玉米筍、紅甜椒拌炒，起鍋前加入鹽巴、白胡椒粉調味即可。"
+    ],
+    "combined_text": "甜豌豆炒菇。食材：甜豌豆2把，玉米筍4支，紅甜椒0.5顆，鴻禧菇半盒，鹽巴適量，橄欖油適量，白胡椒粉適量，蒜碎2瓣。做法：煮一鍋熱水，將甜豌豆、玉米筍、紅甜椒川燙至7-8分熟，撈起冰鎮備用。，熱乾鍋，放入鴻禧菇炒香至微微上色。，倒入橄欖油、蒜碎炒香，加入燙好的甜豌豆、玉米筍、紅甜椒拌炒，起鍋前加入鹽巴、白胡椒粉調味即可。。",
+    "image_path": "豌豆/454976_甜豌豆炒菇.jpg"
+  },
+  {
     "id": "462151",
     "name": "豌豆苗日式胡麻醬沙拉",
     "url": "https://icook.tw/recipes/462151",
@@ -317,9 +441,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "豌豆苗 盒",
+        "name": "豌豆苗",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "日式胡麻醬",
@@ -368,9 +492,9 @@
         "unit": "片"
       },
       {
-        "name": "辣椒 支",
+        "name": "辣椒",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "蠔油",
@@ -383,9 +507,9 @@
         "unit": "小匙"
       },
       {
-        "name": "低鈉鹽 茶匙",
+        "name": "低鈉鹽",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "茶油",
@@ -438,9 +562,9 @@
         "unit": "顆"
       },
       {
-        "name": "紅蘿蔔 條",
+        "name": "紅蘿蔔",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "飯",
@@ -642,9 +766,9 @@
         "unit": null
       },
       {
-        "name": "玫瑰鹽 茶匙",
+        "name": "玫瑰鹽",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "米酒",
@@ -674,7 +798,7 @@
     ],
     "structured_ingredients": [
       {
-        "name": "甜豌豆 ",
+        "name": "甜豌豆",
         "quantity": 1.0,
         "unit": null
       },
@@ -684,9 +808,9 @@
         "unit": "片"
       },
       {
-        "name": "紅蘿蔔 條",
+        "name": "紅蘿蔔",
         "quantity": 0.5,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "鹽巴",
@@ -702,6 +826,77 @@
     ],
     "combined_text": "甜豌豆炒雞胸肉。食材：甜豌豆1，雞胸肉2片，紅蘿蔔0.5條，鹽巴1小匙。做法：把材料都備好，取一鍋熱後加入些許油，放入甜豌豆和紅蘿蔔，炒熟後加入雞胸肉和鹽巴調味。",
     "image_path": "豌豆/436645_甜豌豆炒雞胸肉.jpg"
+  },
+  {
+    "id": "443390",
+    "name": "豌豆義大利麵｜Vitamix調理機",
+    "url": "https://icook.tw/recipes/443390",
+    "preview_ingredients": "頂級冷壓初榨橄欖油、大蒜(去皮壓碎)、黃洋蔥(去皮切塊)、松子、冷凍甜豌豆(解凍)、蔬菜高湯、檸檬汁、辣椒粉、鹽和胡椒",
+    "ingredients": [
+      "頂級冷壓初榨橄欖油45ml",
+      "大蒜(去皮壓碎)2瓣",
+      "黃洋蔥(去皮切塊)275g",
+      "松子70g",
+      "冷凍甜豌豆(解凍)465g",
+      "蔬菜高湯480ml",
+      "檸檬汁1/2顆檸檬",
+      "辣椒粉1/4茶匙",
+      "鹽和胡椒適量"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "頂級冷壓初榨橄欖油",
+        "quantity": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "大蒜(去皮壓碎)",
+        "quantity": 2.0,
+        "unit": "瓣"
+      },
+      {
+        "name": "黃洋蔥(去皮切塊)",
+        "quantity": 275.0,
+        "unit": "g"
+      },
+      {
+        "name": "松子",
+        "quantity": 70.0,
+        "unit": "g"
+      },
+      {
+        "name": "冷凍甜豌豆(解凍)",
+        "quantity": 465.0,
+        "unit": "g"
+      },
+      {
+        "name": "蔬菜高湯",
+        "quantity": 480.0,
+        "unit": "ml"
+      },
+      {
+        "name": "檸檬汁",
+        "quantity": 0.5,
+        "unit": "顆檸檬"
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": 0.25,
+        "unit": "茶匙"
+      },
+      {
+        "name": "鹽和胡椒",
+        "quantity": "適量",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "用中火熱鍋，加入橄欖油加熱，放入大蒜和洋蔥炒5、6分鐘直到洋蔥呈半透明。",
+      "加入松子拌炒3、4分鐘直到松子稍微烤熟，之後加入豌豆炒過，加入高湯、檸檬汁和辣椒粉，燉煮15-20分鐘",
+      "將煮好的高湯放涼後倒入調理容杯，選擇最低速啟動調理機轉至最高速，攪打45-60秒即可。"
+    ],
+    "combined_text": "豌豆義大利麵｜Vitamix調理機。食材：頂級冷壓初榨橄欖油45ml，大蒜(去皮壓碎)2瓣，黃洋蔥(去皮切塊)275g，松子70g，冷凍甜豌豆(解凍)465g，蔬菜高湯480ml，檸檬汁1/2顆檸檬，辣椒粉1/4茶匙，鹽和胡椒適量。做法：用中火熱鍋，加入橄欖油加熱，放入大蒜和洋蔥炒5、6分鐘直到洋蔥呈半透明。，加入松子拌炒3、4分鐘直到松子稍微烤熟，之後加入豌豆炒過，加入高湯、檸檬汁和辣椒粉，燉煮15-20分鐘，將煮好的高湯放涼後倒入調理容杯，選擇最低速啟動調理機轉至最高速，攪打45-60秒即可。。",
+    "image_path": "豌豆/443390_豌豆義大利麵｜Vitamix調理機.jpg"
   },
   {
     "id": "439120",
@@ -734,9 +929,9 @@
         "unit": "片"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 2.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鹽",
@@ -823,6 +1018,59 @@
     "image_path": "豌豆/432740_彩椒佐豌豆.jpg"
   },
   {
+    "id": "427528",
+    "name": "蘑菇炒豌豆",
+    "url": "https://icook.tw/recipes/427528",
+    "preview_ingredients": "豌豆、蘑菇片、紅蘿蔔絲、木耳絲、蒜片、鹽",
+    "ingredients": [
+      "豌豆1把",
+      "蘑菇片10朵",
+      "紅蘿蔔絲2片",
+      "木耳絲1片",
+      "蒜片2瓣",
+      "鹽1／4小匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "豌豆",
+        "quantity": 1.0,
+        "unit": "把"
+      },
+      {
+        "name": "蘑菇片",
+        "quantity": 10.0,
+        "unit": "朵"
+      },
+      {
+        "name": "紅蘿蔔絲",
+        "quantity": 2.0,
+        "unit": "片"
+      },
+      {
+        "name": "木耳絲",
+        "quantity": 1.0,
+        "unit": "片"
+      },
+      {
+        "name": "蒜片",
+        "quantity": 2.0,
+        "unit": "瓣"
+      },
+      {
+        "name": "鹽",
+        "quantity": 0.25,
+        "unit": "小匙"
+      }
+    ],
+    "steps": [
+      "備料",
+      "爆香蒜、紅蘿蔔",
+      "先加入蘑菇炒熟，再加入豌豆、少許水煮到豌豆熟"
+    ],
+    "combined_text": "蘑菇炒豌豆。食材：豌豆1把，蘑菇片10朵，紅蘿蔔絲2片，木耳絲1片，蒜片2瓣，鹽1／4小匙。做法：備料，爆香蒜、紅蘿蔔，先加入蘑菇炒熟，再加入豌豆、少許水煮到豌豆熟。",
+    "image_path": "豌豆/427528_蘑菇炒豌豆.jpg"
+  },
+  {
     "id": "434216",
     "name": "甜豌豆炒時蔬",
     "url": "https://icook.tw/recipes/434216",
@@ -843,14 +1091,14 @@
         "unit": "包"
       },
       {
-        "name": "杏包菇 隻",
+        "name": "杏包菇",
         "quantity": 1.0,
-        "unit": null
+        "unit": "隻"
       },
       {
-        "name": "黑木耳 ~3小朵",
-        "quantity": 2.0,
-        "unit": null
+        "name": "黑木耳",
+        "quantity": "2~3",
+        "unit": "小朵"
       },
       {
         "name": "紅蘿蔔絲",
@@ -858,8 +1106,8 @@
         "unit": null
       },
       {
-        "name": "蒜頭 ~3",
-        "quantity": 2.0,
+        "name": "蒜頭",
+        "quantity": "2~3",
         "unit": "顆"
       },
       {
@@ -929,14 +1177,14 @@
         "unit": "g"
       },
       {
-        "name": "大蒜(去皮) 瓣",
+        "name": "大蒜(去皮)",
         "quantity": 1.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "鹽",
-        "quantity": null,
-        "unit": null
+        "name": "鹽(可自行調整)",
+        "quantity": 1.0,
+        "unit": "茶匙"
       }
     ],
     "steps": [
@@ -959,22 +1207,22 @@
     ],
     "structured_ingredients": [
       {
-        "name": "花椰菜 ",
+        "name": "花椰菜",
         "quantity": 1.0,
         "unit": null
       },
       {
-        "name": "玉米筍 ",
+        "name": "玉米筍",
         "quantity": 1.0,
         "unit": null
       },
       {
-        "name": "豌豆 ",
+        "name": "豌豆",
         "quantity": 1.0,
         "unit": null
       },
       {
-        "name": "誠泰干貝XO醬 ",
+        "name": "誠泰干貝XO醬",
         "quantity": 1.0,
         "unit": null
       }
@@ -1066,19 +1314,19 @@
         "unit": "毫升"
       },
       {
-        "name": "洋蔥170g）",
-        "quantity": 0.5,
-        "unit": "顆（約"
+        "name": "洋蔥半顆（約",
+        "quantity": 170.0,
+        "unit": "g）"
       },
       {
-        "name": "蘑菇100g）",
-        "quantity": 6.0,
-        "unit": "顆（約"
+        "name": "蘑菇6顆（約",
+        "quantity": 100.0,
+        "unit": "g）"
       },
       {
-        "name": "鴻禧菇（好菇道）100g）",
-        "quantity": 0.5,
-        "unit": "包（約"
+        "name": "鴻禧菇（好菇道）半包（約",
+        "quantity": 100.0,
+        "unit": "g）"
       },
       {
         "name": "奶油",
@@ -1086,9 +1334,9 @@
         "unit": "克"
       },
       {
-        "name": "馬鈴薯150g）",
-        "quantity": 1.0,
-        "unit": "顆（約"
+        "name": "馬鈴薯1顆（約",
+        "quantity": 150.0,
+        "unit": "g）"
       },
       {
         "name": "熱水（熬煮蔬菜用）",
@@ -1153,29 +1401,29 @@
     ],
     "structured_ingredients": [
       {
-        "name": "豌豆羽衣甘藍義大利麵條 人份",
+        "name": "豌豆羽衣甘藍義大利麵條",
         "quantity": 1.0,
-        "unit": null
+        "unit": "人份"
       },
       {
-        "name": "油",
-        "quantity": null,
-        "unit": null
+        "name": "油漬鯷魚片",
+        "quantity": 3.0,
+        "unit": "片"
       },
       {
-        "name": "水",
-        "quantity": null,
-        "unit": null
+        "name": "水漬綠橄欖",
+        "quantity": 6.0,
+        "unit": "顆"
       },
       {
-        "name": "醋",
-        "quantity": null,
-        "unit": null
+        "name": "醋漬刺山柑",
+        "quantity": 10.0,
+        "unit": "顆"
       },
       {
-        "name": "油",
-        "quantity": null,
-        "unit": null
+        "name": "油漬蕃茄",
+        "quantity": 6.0,
+        "unit": "顆"
       },
       {
         "name": "白洋蔥碎",
@@ -1183,9 +1431,9 @@
         "unit": "g"
       },
       {
-        "name": "淡奶油 c.c",
+        "name": "淡奶油",
         "quantity": 50.0,
-        "unit": null
+        "unit": "c.c"
       },
       {
         "name": "酪梨",
@@ -1208,9 +1456,9 @@
         "unit": null
       },
       {
-        "name": "自製義大利油醋汁 c.c",
+        "name": "自製義大利油醋汁",
         "quantity": 50.0,
-        "unit": null
+        "unit": "c.c"
       },
       {
         "name": "綠蘆筍",
@@ -1228,9 +1476,9 @@
         "unit": "片"
       },
       {
-        "name": "鮮百里香 支",
+        "name": "鮮百里香",
         "quantity": 3.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "淡奶油",
@@ -1248,9 +1496,9 @@
         "unit": null
       },
       {
-        "name": "雞肉高湯 c.c",
+        "name": "雞肉高湯",
         "quantity": 500.0,
-        "unit": null
+        "unit": "c.c"
       }
     ],
     "steps": [
@@ -1296,8 +1544,8 @@
         "unit": "克"
       },
       {
-        "name": "梅花火鍋肉片（ 盒）330",
-        "quantity": 2.0,
+        "name": "梅花火鍋肉片（2盒）",
+        "quantity": 330.0,
         "unit": "克"
       },
       {
@@ -1355,14 +1603,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "豌豆芽 盒",
+        "name": "豌豆芽",
         "quantity": 2.0,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "沙茶醬 湯匙",
+        "name": "沙茶醬",
         "quantity": 2.0,
-        "unit": null
+        "unit": "湯匙"
       },
       {
         "name": "豬肉塊 盒（家樂福冷藏豬肉",
@@ -1462,9 +1710,9 @@
         "unit": "包"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 5.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "醬油",
@@ -1472,9 +1720,9 @@
         "unit": "大匙"
       },
       {
-        "name": "醬油",
-        "quantity": null,
-        "unit": null
+        "name": "醬油膏",
+        "quantity": 1.0,
+        "unit": "小匙"
       },
       {
         "name": "砂糖",
@@ -1483,7 +1731,7 @@
       },
       {
         "name": "香油",
-        "quantity": null,
+        "quantity": "少量",
         "unit": null
       }
     ],
@@ -1511,9 +1759,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "紅蘿蔔 條",
+        "name": "紅蘿蔔",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "豌豆",
@@ -1521,9 +1769,9 @@
         "unit": "g"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鹽",
@@ -1571,9 +1819,9 @@
         "unit": "顆"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 4.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "橄欖油",
@@ -1598,6 +1846,77 @@
     "image_path": "豌豆/416681_豌豆鮮炒干貝燒.jpg"
   },
   {
+    "id": "475382",
+    "name": "日常拌菜",
+    "url": "https://icook.tw/recipes/475382",
+    "preview_ingredients": "黑豆芽、綠豆芽、豌豆嬰、雪白菇、吻仔魚、鹽、糖、香油、白胡椒和七味粉",
+    "ingredients": [
+      "黑豆芽180克",
+      "綠豆芽180克",
+      "豌豆嬰75克",
+      "雪白菇75克",
+      "吻仔魚適量",
+      "鹽",
+      "糖",
+      "香油",
+      "白胡椒和七味粉適量"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "黑豆芽",
+        "quantity": 180.0,
+        "unit": "克"
+      },
+      {
+        "name": "綠豆芽",
+        "quantity": 180.0,
+        "unit": "克"
+      },
+      {
+        "name": "豌豆嬰",
+        "quantity": 75.0,
+        "unit": "克"
+      },
+      {
+        "name": "雪白菇",
+        "quantity": 75.0,
+        "unit": "克"
+      },
+      {
+        "name": "吻仔魚",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "鹽",
+        "quantity": null,
+        "unit": null
+      },
+      {
+        "name": "糖",
+        "quantity": "少許",
+        "unit": null
+      },
+      {
+        "name": "香油",
+        "quantity": null,
+        "unit": null
+      },
+      {
+        "name": "白胡椒和七味粉",
+        "quantity": "適量",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "蔬菜全燙熟",
+      "加入鹽、糖、香油、白胡椒和七味粉",
+      "最后拌入炒干的吻仔魚。"
+    ],
+    "combined_text": "日常拌菜。食材：黑豆芽180克，綠豆芽180克，豌豆嬰75克，雪白菇75克，吻仔魚適量，鹽，糖，香油，白胡椒和七味粉適量。做法：蔬菜全燙熟，加入鹽、糖、香油、白胡椒和七味粉，最后拌入炒干的吻仔魚。。",
+    "image_path": "豌豆/475382_日常拌菜.jpg"
+  },
+  {
     "id": "466388",
     "name": "［微波料理］義式茄汁海鮮",
     "url": "https://icook.tw/recipes/466388",
@@ -1611,14 +1930,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "軟絲 隻",
+        "name": "軟絲",
         "quantity": 1.0,
-        "unit": null
+        "unit": "隻"
       },
       {
-        "name": "蝦仁 袋",
+        "name": "蝦仁",
         "quantity": 0.5,
-        "unit": null
+        "unit": "袋"
       },
       {
         "name": "義式番茄醬",
@@ -1664,9 +1983,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "嫩豆腐 盒",
+        "name": "嫩豆腐",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "鹹蛋",
@@ -1786,9 +2105,9 @@
         "unit": "包"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "紅辣椒",
@@ -1796,9 +2115,9 @@
         "unit": "片"
       },
       {
-        "name": "日式紅油 茶匙",
+        "name": "日式紅油",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "醬油",
@@ -1837,7 +2156,7 @@
     ],
     "structured_ingredients": [
       {
-        "name": "如影片敘述 ",
+        "name": "如影片敘述",
         "quantity": 1.0,
         "unit": null
       }
@@ -1848,6 +2167,62 @@
     ],
     "combined_text": "提升免疫力：雞胸肉蓋豌豆飯。食材：如影片敘述1。做法：洗好的米與（乾燥或新鮮皆可）豌豆（如影片）一起放電鍋煮熟。\n\n雞胸肉切片，用半碗水，1，4匙的鹽，些許胡椒醃20-30分鐘。\n\n熱油鍋炒香蒜末，蔥花，放下雞肉，切條的青椒，剝散的金針菇，加一匙蠔油，一匙蔥蔥醬（無化學添加物，家樂福或網路都可買到），拌勻，蓋蓋燜煮5分鐘，好，淋在豌豆飯上~。",
     "image_path": "豌豆/411708_提升免疫力：雞胸肉蓋豌豆飯.jpg"
+  },
+  {
+    "id": "421211",
+    "name": "竹筍&甜豌豆&杏鮑菇的奶油醬油沙拉",
+    "url": "https://icook.tw/recipes/421211",
+    "preview_ingredients": "竹筍、甜豌豆、杏鮑菇、有鹽奶油、鰹魚淡醬油",
+    "ingredients": [
+      "竹筍300g",
+      "甜豌豆70g",
+      "杏鮑菇1隻",
+      "有鹽奶油50g",
+      "鰹魚淡醬油10cc"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "竹筍",
+        "quantity": 300.0,
+        "unit": "g"
+      },
+      {
+        "name": "甜豌豆",
+        "quantity": 70.0,
+        "unit": "g"
+      },
+      {
+        "name": "杏鮑菇",
+        "quantity": 1.0,
+        "unit": "隻"
+      },
+      {
+        "name": "有鹽奶油",
+        "quantity": 50.0,
+        "unit": "g"
+      },
+      {
+        "name": "鰹魚淡醬油",
+        "quantity": 10.0,
+        "unit": "cc"
+      }
+    ],
+    "steps": [
+      "筍尖對半切開。(大一點的竹筍可以切滾刀塊)\nCut the asparagus tips in half. (Larger bamboo shoots can be cut into hob blocks)",
+      "筍子的根部對半切開後，再切成0.5公分的厚片\nAfter the roots of the bamboo shoots are cut in half, then cut into 0.5 cm thick slices",
+      "用刀尖在筍片上劃出格子狀的劃痕，小心不要將竹筍切斷。\nUse the tip of the knife to make grid-like scratches on the bamboo shoots, being careful not to cut the bamboo shoots.",
+      "杏鮑菇切滾刀塊\nKing Oyster Mushroom Cut Hob Blocks",
+      "甜豌豆去除部分頭尾及較粗的纖維\nSweet peas with some heads, tails and thicker fibers removed",
+      "平底鍋燒熱，先放入30g有鹽奶油\nHeat a pan and add 30g of salted butter",
+      "放入竹筍，鋪平煎3分鐘，煎到竹筍呈現焦黃色\nAdd bamboo shoots, spread out and fry for 3 minutes, until the bamboo shoots are browned",
+      "竹筍翻面後，再煎3分鐘，到竹筍另一片也呈現焦黃色\nAfter the bamboo shoots are turned over, fry for another 3 minutes, until the other piece of bamboo shoots is also browned",
+      "接著將甜豌豆及杏鮑菇倒入鍋中，拌炒1分鐘\nThen put the sweet peas and king oyster mushrooms into the pot, stir fry for 1 minute",
+      "將剩下的20g有鹽奶油放入，翻炒30秒\nAdd the remaining 20g of salted butter and stir fry for 30 seconds",
+      "再加入10cc鰹魚淡醬油，續炒2分鐘\nAdd 10cc of bonito light soy sauce, continue to fry for 2 minutes",
+      "炒好，盛入盤中，完成~\nFry it, put it on a plate, and it's done~"
+    ],
+    "combined_text": "竹筍&甜豌豆&杏鮑菇的奶油醬油沙拉。食材：竹筍300g，甜豌豆70g，杏鮑菇1隻，有鹽奶油50g，鰹魚淡醬油10cc。做法：筍尖對半切開。(大一點的竹筍可以切滾刀塊)\nCut the asparagus tips in half. (Larger bamboo shoots can be cut into hob blocks)，筍子的根部對半切開後，再切成0.5公分的厚片\nAfter the roots of the bamboo shoots are cut in half, then cut into 0.5 cm thick slices，用刀尖在筍片上劃出格子狀的劃痕，小心不要將竹筍切斷。\nUse the tip of the knife to make grid-like scratches on the bamboo shoots, being careful not to cut the bamboo shoots.，杏鮑菇切滾刀塊\nKing Oyster Mushroom Cut Hob Blocks，甜豌豆去除部分頭尾及較粗的纖維\nSweet peas with some heads, tails and thicker fibers removed，平底鍋燒熱，先放入30g有鹽奶油\nHeat a pan and add 30g of salted butter，放入竹筍，鋪平煎3分鐘，煎到竹筍呈現焦黃色\nAdd bamboo shoots, spread out and fry for 3 minutes, until the bamboo shoots are browned，竹筍翻面後，再煎3分鐘，到竹筍另一片也呈現焦黃色\nAfter the bamboo shoots are turned over, fry for another 3 minutes, until the other piece of bamboo shoots is also browned，接著將甜豌豆及杏鮑菇倒入鍋中，拌炒1分鐘\nThen put the sweet peas and king oyster mushrooms into the pot, stir fry for 1 minute，將剩下的20g有鹽奶油放入，翻炒30秒\nAdd the remaining 20g of salted butter and stir fry for 30 seconds，再加入10cc鰹魚淡醬油，續炒2分鐘\nAdd 10cc of bonito light soy sauce, continue to fry for 2 minutes，炒好，盛入盤中，完成~\nFry it, put it on a plate, and it's done~。",
+    "image_path": "豌豆/421211_竹筍&甜豌豆&杏鮑菇的奶油醬油沙拉.jpg"
   },
   {
     "id": "417153",
@@ -1870,14 +2245,14 @@
         "unit": "克"
       },
       {
-        "name": "蝦仁 尾",
+        "name": "蝦仁",
         "quantity": 10.0,
-        "unit": null
+        "unit": "尾"
       },
       {
-        "name": "紅蘿蔔 /3條",
-        "quantity": 1.0,
-        "unit": null
+        "name": "紅蘿蔔",
+        "quantity": 0.333,
+        "unit": "條"
       },
       {
         "name": "馬鈴薯",
@@ -1924,9 +2299,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "豌豆約 瓣",
+        "name": "豌豆約",
         "quantity": 20.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鴻禧菇",
@@ -1944,9 +2319,9 @@
         "unit": null
       },
       {
-        "name": "大蒜 -3辦",
-        "quantity": 2.0,
-        "unit": null
+        "name": "大蒜2-",
+        "quantity": 3.0,
+        "unit": "辦"
       },
       {
         "name": "薑絲",
@@ -1975,17 +2350,17 @@
     ],
     "structured_ingredients": [
       {
-        "name": "干貝 ",
+        "name": "干貝",
         "quantity": 1.0,
         "unit": null
       },
       {
-        "name": "蝦子 ",
+        "name": "蝦子",
         "quantity": 1.0,
         "unit": null
       },
       {
-        "name": "甜椒 ",
+        "name": "甜椒",
         "quantity": 1.0,
         "unit": null
       }
@@ -2054,6 +2429,87 @@
     "image_path": "豌豆/412967_藍家小館-雙菇豌豆苗（無油）.jpg"
   },
   {
+    "id": "408056",
+    "name": "便當店清炒豌豆(五辛素)",
+    "url": "https://icook.tw/recipes/408056",
+    "preview_ingredients": "蒜頭、荷蘭豆/甜豌豆、胡蘿蔔、鮮香菇、鹽、糖、香菇粉、白胡椒粉、太白粉、熱水",
+    "ingredients": [
+      "蒜頭15g",
+      "荷蘭豆/甜豌豆100g",
+      "胡蘿蔔25g",
+      "鮮香菇60g",
+      "鹽適量",
+      "糖少許",
+      "香菇粉少許",
+      "白胡椒粉少許",
+      "太白粉⅓茶匙",
+      "熱水¾米杯"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "蒜頭",
+        "quantity": 15.0,
+        "unit": "g"
+      },
+      {
+        "name": "荷蘭豆/甜豌豆",
+        "quantity": 100.0,
+        "unit": "g"
+      },
+      {
+        "name": "胡蘿蔔",
+        "quantity": 25.0,
+        "unit": "g"
+      },
+      {
+        "name": "鮮香菇",
+        "quantity": 60.0,
+        "unit": "g"
+      },
+      {
+        "name": "鹽",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "糖",
+        "quantity": "少許",
+        "unit": null
+      },
+      {
+        "name": "香菇粉",
+        "quantity": "少許",
+        "unit": null
+      },
+      {
+        "name": "白胡椒粉",
+        "quantity": "少許",
+        "unit": null
+      },
+      {
+        "name": "太白粉",
+        "quantity": 0.333,
+        "unit": "茶匙"
+      },
+      {
+        "name": "熱水",
+        "quantity": 0.75,
+        "unit": "米杯"
+      }
+    ],
+    "steps": [
+      "從豆莢尖端把粗纖維撕掉",
+      "撕下的纖維",
+      "香菇去蒂、切片",
+      "蒜頭、香菇蒂切末，胡蘿蔔切片",
+      "熱鍋，蒜頭、香菇蒂、胡蘿蔔依序爆香",
+      "加入香菇、荷蘭豆、鹽拌炒",
+      "加水，中火燒約5分鐘，調味並勾芡"
+    ],
+    "combined_text": "便當店清炒豌豆(五辛素)。食材：蒜頭15g，荷蘭豆/甜豌豆100g，胡蘿蔔25g，鮮香菇60g，鹽適量，糖少許，香菇粉少許，白胡椒粉少許，太白粉⅓茶匙，熱水¾米杯。做法：從豆莢尖端把粗纖維撕掉，撕下的纖維，香菇去蒂、切片，蒜頭、香菇蒂切末，胡蘿蔔切片，熱鍋，蒜頭、香菇蒂、胡蘿蔔依序爆香，加入香菇、荷蘭豆、鹽拌炒，加水，中火燒約5分鐘，調味並勾芡。",
+    "image_path": "豌豆/408056_便當店清炒豌豆(五辛素).jpg"
+  },
+  {
     "id": "453772",
     "name": "明太子鹽麴炒麵｜過熱水蒸氣烤箱微波爐",
     "url": "https://icook.tw/recipes/453772",
@@ -2069,9 +2525,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "油",
-        "quantity": null,
-        "unit": null
+        "name": "油麵",
+        "quantity": 150.0,
+        "unit": "g"
       },
       {
         "name": "蘆筍",
@@ -2089,9 +2545,9 @@
         "unit": "g"
       },
       {
-        "name": "鹽",
-        "quantity": null,
-        "unit": null
+        "name": "鹽麴",
+        "quantity": 1.5,
+        "unit": "T"
       },
       {
         "name": "水",
@@ -2124,9 +2580,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "油",
-        "quantity": null,
-        "unit": null
+        "name": "油豆腐",
+        "quantity": 6.0,
+        "unit": "塊"
       },
       {
         "name": "豌豆",
@@ -2192,9 +2648,9 @@
         "unit": "大匙"
       },
       {
-        "name": "冷開水 mL",
+        "name": "冷開水",
         "quantity": 150.0,
-        "unit": null
+        "unit": "mL"
       }
     ],
     "steps": [
@@ -2228,29 +2684,29 @@
     ],
     "structured_ingredients": [
       {
-        "name": "雞翅小腿 支",
+        "name": "雞翅小腿",
         "quantity": 3.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "節翅3支 節翅3支",
-        "quantity": 2,
-        "unit": null
+        "name": "二節翅",
+        "quantity": 3.0,
+        "unit": "支"
       },
       {
-        "name": "紅甜椒 /4",
-        "quantity": 1.0,
+        "name": "紅甜椒",
+        "quantity": 0.25,
         "unit": "個"
       },
       {
-        "name": "黃甜椒 /4",
-        "quantity": 1.0,
+        "name": "黃甜椒",
+        "quantity": 0.25,
         "unit": "個"
       },
       {
-        "name": "鹽",
-        "quantity": null,
-        "unit": null
+        "name": "鹽漬黃檸檬",
+        "quantity": 30.0,
+        "unit": "g"
       },
       {
         "name": "葡萄乾",
@@ -2273,8 +2729,8 @@
         "unit": null
       },
       {
-        "name": "食用油 /2",
-        "quantity": 1.0,
+        "name": "食用油",
+        "quantity": 0.5,
         "unit": "大匙"
       },
       {
@@ -2283,8 +2739,8 @@
         "unit": null
       },
       {
-        "name": "小茴香粉 /2",
-        "quantity": 1.0,
+        "name": "小茴香粉",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
@@ -2293,18 +2749,18 @@
         "unit": "小匙"
       },
       {
-        "name": "凱宴辣椒粉 /2",
-        "quantity": 1.0,
+        "name": "凱宴辣椒粉",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
-        "name": "煙燻紅甜椒粉 /2",
-        "quantity": 1.0,
+        "name": "煙燻紅甜椒粉",
+        "quantity": 0.5,
         "unit": "小匙"
       },
       {
-        "name": "鹽",
-        "quantity": null,
+        "name": "鹽與現磨黑胡椒",
+        "quantity": "少許",
         "unit": null
       }
     ],
@@ -2386,9 +2842,9 @@
         "unit": null
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鹽",

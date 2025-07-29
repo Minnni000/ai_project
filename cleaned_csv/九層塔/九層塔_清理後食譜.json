@@ -333,9 +333,9 @@
         "unit": "g"
       },
       {
-        "name": "辣椒",
-        "quantity": 1.0,
-        "unit": "根 可不加或加半根"
+        "name": "辣椒1根 可不加或加",
+        "quantity": 0.5,
+        "unit": "根"
       },
       {
         "name": "青蔥段",
@@ -1448,9 +1448,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蘑菇 盒",
+        "name": "蘑菇",
         "quantity": 0.5,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "有機白舞菇",
@@ -2100,7 +2100,7 @@
         "unit": "g"
       },
       {
-        "name": "蛋 ",
+        "name": "蛋",
         "quantity": 3.0,
         "unit": null
       },

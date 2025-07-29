@@ -62,7 +62,7 @@
     ],
     "structured_ingredients": [
       {
-        "name": "雞腿肉 ",
+        "name": "雞腿肉",
         "quantity": 1.0,
         "unit": null
       }
@@ -104,9 +104,9 @@
         "unit": null
       },
       {
-        "name": "鋁箔紙 張",
+        "name": "鋁箔紙",
         "quantity": 1.0,
-        "unit": null
+        "unit": "張"
       }
     ],
     "steps": [
@@ -132,14 +132,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "蝦 隻",
+        "name": "蝦",
         "quantity": 8.0,
-        "unit": null
+        "unit": "隻"
       },
       {
-        "name": "蒜瓣 瓣",
+        "name": "蒜瓣",
         "quantity": 4.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "薑片",
@@ -184,9 +184,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "雞肉 /4隻",
-        "quantity": 1.0,
-        "unit": null
+        "name": "雞肉",
+        "quantity": 0.25,
+        "unit": "隻"
       },
       {
         "name": "薑片",
@@ -199,14 +199,14 @@
         "unit": "顆"
       },
       {
-        "name": "青蔥 支",
+        "name": "青蔥",
         "quantity": 3.0,
-        "unit": null
+        "unit": "支"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 5.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "蛤蜊",
@@ -252,14 +252,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "大雞腿肉 隻",
+        "name": "大雞腿肉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "隻"
       },
       {
-        "name": "蛤蜊 斤",
+        "name": "蛤蜊",
         "quantity": 0.5,
-        "unit": null
+        "unit": "斤"
       },
       {
         "name": "蒜頭",
@@ -294,7 +294,7 @@
     ],
     "structured_ingredients": [
       {
-        "name": "牛小排 ",
+        "name": "牛小排",
         "quantity": 1.0,
         "unit": null
       }
@@ -389,14 +389,14 @@
         "unit": "g"
       },
       {
-        "name": "洋蔥 /2",
-        "quantity": 1.0,
+        "name": "洋蔥",
+        "quantity": 0.5,
         "unit": "顆"
       },
       {
-        "name": "百里香 枝",
+        "name": "百里香",
         "quantity": 2.0,
-        "unit": null
+        "unit": "枝"
       },
       {
         "name": "月桂葉",
@@ -404,9 +404,9 @@
         "unit": "片"
       },
       {
-        "name": "鮮奶油 c.c.",
+        "name": "鮮奶油",
         "quantity": 50.0,
-        "unit": null
+        "unit": "c.c."
       },
       {
         "name": "帕馬森起司粉",
@@ -419,9 +419,9 @@
         "unit": "片"
       },
       {
-        "name": "雞高湯 c.c.",
+        "name": "雞高湯",
         "quantity": 600.0,
-        "unit": null
+        "unit": "c.c."
       },
       {
         "name": "麵粉",
@@ -472,14 +472,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "雞腿塊 隻",
+        "name": "雞腿塊",
         "quantity": 2.0,
-        "unit": null
+        "unit": "隻"
       },
       {
-        "name": "雞翅 隻",
+        "name": "雞翅",
         "quantity": 4.0,
-        "unit": null
+        "unit": "隻"
       },
       {
         "name": "蒜頭",
@@ -535,9 +535,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "去骨雞腿切片 -5支",
-        "quantity": 4.0,
-        "unit": null
+        "name": "去骨雞腿切片4-",
+        "quantity": 5.0,
+        "unit": "支"
       },
       {
         "name": "蒜頭依個人口味適量添加",
@@ -582,9 +582,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "全雞腿 支",
+        "name": "全雞腿",
         "quantity": 1.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "黑蒜頭",
@@ -611,6 +611,48 @@
     "image_path": "蒜頭/472914_黑蒜頭雞湯.jpg"
   },
   {
+    "id": "474859",
+    "name": "☀️蒜頭雞湯☀️",
+    "url": "https://icook.tw/recipes/474859",
+    "preview_ingredients": "雞肉、蒜頭、水、鹽",
+    "ingredients": [
+      "雞肉1/4隻",
+      "蒜頭150克",
+      "水900毫升",
+      "鹽5克"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "雞肉",
+        "quantity": 0.25,
+        "unit": "隻"
+      },
+      {
+        "name": "蒜頭",
+        "quantity": 150.0,
+        "unit": "克"
+      },
+      {
+        "name": "水",
+        "quantity": 900.0,
+        "unit": "毫升"
+      },
+      {
+        "name": "鹽",
+        "quantity": 5.0,
+        "unit": "克"
+      }
+    ],
+    "steps": [
+      "雞肉+鹽3g 不下油煎至金黃色",
+      "雞肉取鍋至一旁備用，鍋內雞油放入蒜頭炒香",
+      "加水滾後，蒜頭用攪拌棒攪碎，或是一開始就直接用很細的蒜末",
+      "放入雞肉煮滾15分鐘後加入鹽2g即可"
+    ],
+    "combined_text": "☀️蒜頭雞湯☀️。食材：雞肉1/4隻，蒜頭150克，水900毫升，鹽5克。做法：雞肉+鹽3g 不下油煎至金黃色，雞肉取鍋至一旁備用，鍋內雞油放入蒜頭炒香，加水滾後，蒜頭用攪拌棒攪碎，或是一開始就直接用很細的蒜末，放入雞肉煮滾15分鐘後加入鹽2g即可。",
+    "image_path": "蒜頭/474859_☀️蒜頭雞湯☀️.jpg"
+  },
+  {
     "id": "476285",
     "name": "菜脯蒜頭蛤蜊雞湯",
     "url": "https://icook.tw/recipes/476285",
@@ -630,14 +672,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "雞翅/雞腿 斤/600g",
-        "quantity": 1,
-        "unit": null
+        "name": "雞翅/雞腿一斤/",
+        "quantity": 600.0,
+        "unit": "g"
       },
       {
-        "name": "蛤蜊 斤/600g",
-        "quantity": 1,
-        "unit": null
+        "name": "蛤蜊一斤/",
+        "quantity": 600.0,
+        "unit": "g"
       },
       {
         "name": "蘿蔔乾(菜脯)",
@@ -650,14 +692,14 @@
         "unit": "g"
       },
       {
-        "name": "老薑 塊/50g",
-        "quantity": 3.0,
-        "unit": null
+        "name": "老薑3塊/",
+        "quantity": 50.0,
+        "unit": "g"
       },
       {
-        "name": "蒜頭 瓣/40g",
-        "quantity": 10.0,
-        "unit": null
+        "name": "蒜頭10瓣/",
+        "quantity": 40.0,
+        "unit": "g"
       },
       {
         "name": "枸杞",
@@ -680,9 +722,9 @@
         "unit": "茶匙"
       },
       {
-        "name": "熱水 公升",
+        "name": "熱水",
         "quantity": 3.0,
-        "unit": null
+        "unit": "公升"
       }
     ],
     "steps": [
@@ -719,9 +761,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "仿土雞腿 支",
+        "name": "仿土雞腿",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "蒜頭",
@@ -744,9 +786,9 @@
         "unit": "克"
       },
       {
-        "name": "層塔1把 層塔1把",
-        "quantity": 9,
-        "unit": null
+        "name": "九層塔",
+        "quantity": 1.0,
+        "unit": "把"
       },
       {
         "name": "水",
@@ -780,6 +822,58 @@
     "image_path": "蒜頭/473718_胡椒蛤蜊蒜頭雞湯.jpg"
   },
   {
+    "id": "468215",
+    "name": "蒜頭雞",
+    "url": "https://icook.tw/recipes/468215",
+    "preview_ingredients": "清雞腿丁、蒜 仁、醬油膏、二砂糖、鹽 巴、水",
+    "ingredients": [
+      "清雞腿丁2隻",
+      "蒜 仁300克",
+      "醬油膏適量",
+      "二砂糖適量",
+      "鹽 巴適量",
+      "水適量"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "清雞腿丁",
+        "quantity": 2.0,
+        "unit": "隻"
+      },
+      {
+        "name": "蒜 仁",
+        "quantity": 300.0,
+        "unit": "克"
+      },
+      {
+        "name": "醬油膏",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "二砂糖",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "鹽 巴",
+        "quantity": "適量",
+        "unit": null
+      },
+      {
+        "name": "水",
+        "quantity": "適量",
+        "unit": null
+      }
+    ],
+    "steps": [
+      "清雞腿丁川燙",
+      "蒜仁煎焦黃與清雞腿丁拌炒加入醬油膏、二砂糖、鹽巴、加入清水繼續煮至收汁。"
+    ],
+    "combined_text": "蒜頭雞。食材：清雞腿丁2隻，蒜 仁300克，醬油膏適量，二砂糖適量，鹽 巴適量，水適量。做法：清雞腿丁川燙，蒜仁煎焦黃與清雞腿丁拌炒加入醬油膏、二砂糖、鹽巴、加入清水繼續煮至收汁。。",
+    "image_path": "蒜頭/468215_蒜頭雞.jpg"
+  },
+  {
     "id": "472370",
     "name": "蜂蜜大蒜煎羊排",
     "url": "https://icook.tw/recipes/472370",
@@ -797,9 +891,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "羊排 -8支",
-        "quantity": 6.0,
-        "unit": null
+        "name": "羊排6-",
+        "quantity": 8.0,
+        "unit": "支"
       },
       {
         "name": "洋蔥",
@@ -807,29 +901,29 @@
         "unit": "顆"
       },
       {
-        "name": "橄欖油 湯匙",
+        "name": "橄欖油",
         "quantity": 2.0,
-        "unit": null
+        "unit": "湯匙"
       },
       {
-        "name": "蜂蜜 湯匙",
+        "name": "蜂蜜",
         "quantity": 3.0,
-        "unit": null
+        "unit": "湯匙"
       },
       {
-        "name": "大蒜 瓣",
+        "name": "大蒜",
         "quantity": 8.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "迷迭香葉 枝",
+        "name": "迷迭香葉",
         "quantity": 2.0,
-        "unit": null
+        "unit": "枝"
       },
       {
-        "name": "檸檬汁 湯匙",
+        "name": "檸檬汁",
         "quantity": 2.0,
-        "unit": null
+        "unit": "湯匙"
       },
       {
         "name": "鹽",
@@ -837,9 +931,9 @@
         "unit": "茶匙"
       },
       {
-        "name": "黑胡椒 茶匙",
+        "name": "黑胡椒",
         "quantity": 0.25,
-        "unit": null
+        "unit": "茶匙"
       }
     ],
     "steps": [
@@ -907,8 +1001,8 @@
         "unit": "g"
       },
       {
-        "name": "辣椒可不加或加半根",
-        "quantity": 1.0,
+        "name": "辣椒1根 可不加或加",
+        "quantity": 0.5,
         "unit": "根"
       },
       {
@@ -917,19 +1011,19 @@
         "unit": null
       },
       {
-        "name": "層塔一把",
-        "quantity": 9,
-        "unit": null
-      },
-      {
-        "name": "薑絲 小撮",
+        "name": "九層塔",
         "quantity": 1,
-        "unit": null
+        "unit": "把"
       },
       {
-        "name": "蒜頭 瓣（拍碎或切末",
+        "name": "薑絲",
+        "quantity": 1,
+        "unit": "小撮"
+      },
+      {
+        "name": "蒜頭",
         "quantity": 3.0,
-        "unit": null
+        "unit": "瓣（拍碎或切末"
       },
       {
         "name": "米酒",
@@ -943,8 +1037,8 @@
       },
       {
         "name": "水",
-        "quantity": 1.0,
-        "unit": "～"
+        "quantity": "1～2",
+        "unit": "大匙"
       },
       {
         "name": "食用油",
@@ -978,19 +1072,19 @@
     ],
     "structured_ingredients": [
       {
-        "name": "仿土雞腿 隻",
+        "name": "仿土雞腿",
         "quantity": 2.0,
-        "unit": null
+        "unit": "隻"
       },
       {
-        "name": "台灣乾香菇 朵",
+        "name": "台灣乾香菇",
         "quantity": 13.0,
-        "unit": null
+        "unit": "朵"
       },
       {
-        "name": "蒜瓣 瓣",
+        "name": "蒜瓣",
         "quantity": 10.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "當歸片",
@@ -1004,7 +1098,7 @@
       },
       {
         "name": "白胡椒粉",
-        "quantity": 0.33,
+        "quantity": 0.333,
         "unit": "小匙"
       }
     ],
@@ -1061,9 +1155,9 @@
         "unit": "克"
       },
       {
-        "name": "烹大師鰹魚粉 茶匙",
+        "name": "烹大師鰹魚粉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "香油",
@@ -1106,9 +1200,9 @@
         "unit": "杯"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 5.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "蒜頭酥（可有可用）",
@@ -1116,9 +1210,9 @@
         "unit": null
       },
       {
-        "name": "優質鮮榨橄欖油 湯匙",
+        "name": "優質鮮榨橄欖油",
         "quantity": 2.0,
-        "unit": null
+        "unit": "湯匙"
       },
       {
         "name": "鹽",
@@ -1169,9 +1263,9 @@
         "unit": "小匙"
       },
       {
-        "name": "醬油",
-        "quantity": null,
-        "unit": null
+        "name": "醬油膏",
+        "quantity": 2.0,
+        "unit": "匙"
       },
       {
         "name": "沙拉油或豬油約",
@@ -1201,9 +1295,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "麵條 人份",
+        "name": "麵條",
         "quantity": 1.0,
-        "unit": null
+        "unit": "人份"
       },
       {
         "name": "蒜頭橄欖油",
@@ -1211,8 +1305,8 @@
         "unit": null
       },
       {
-        "name": "白芝麻粒些許",
-        "quantity": null,
+        "name": "白芝麻粒",
+        "quantity": "些許",
         "unit": null
       },
       {
@@ -1254,9 +1348,9 @@
         "unit": "克"
       },
       {
-        "name": "黑珍珠菇 盒",
+        "name": "黑珍珠菇",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
         "name": "冬粉",
@@ -1264,9 +1358,9 @@
         "unit": "把"
       },
       {
-        "name": "蔥 支",
+        "name": "蔥",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "鹽巴",
@@ -1310,9 +1404,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "乾魷魚 尾",
+        "name": "乾魷魚",
         "quantity": 1.0,
-        "unit": null
+        "unit": "尾"
       },
       {
         "name": "土雞 隻",
@@ -1335,14 +1429,14 @@
         "unit": "根"
       },
       {
-        "name": "傳統豆腐 塊",
+        "name": "傳統豆腐",
         "quantity": 1.0,
-        "unit": null
+        "unit": "塊"
       },
       {
-        "name": "亁香菇 朵",
+        "name": "亁香菇",
         "quantity": 4.0,
-        "unit": null
+        "unit": "朵"
       },
       {
         "name": "蒜頭",
@@ -1355,9 +1449,9 @@
         "unit": "片"
       },
       {
-        "name": "蔥 支",
+        "name": "蔥",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       }
     ],
     "steps": [
@@ -1388,7 +1482,7 @@
         "unit": "把"
       },
       {
-        "name": "蒜頭瓣 ",
+        "name": "蒜頭瓣",
         "quantity": 3.0,
         "unit": null
       },
@@ -1403,9 +1497,9 @@
         "unit": "匙"
       },
       {
-        "name": "油",
-        "quantity": "/",
-        "unit": "豬油"
+        "name": "油/豬油",
+        "quantity": 1.0,
+        "unit": "小匙"
       },
       {
         "name": "沙茶醬",
@@ -1440,9 +1534,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "鮮蝦 台斤",
+        "name": "鮮蝦",
         "quantity": 1.0,
-        "unit": null
+        "unit": "台斤"
       },
       {
         "name": "蒜頭",
@@ -1507,14 +1601,14 @@
     ],
     "structured_ingredients": [
       {
-        "name": "全聯雞腿肉 盒",
+        "name": "全聯雞腿肉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "盒"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 20.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "菜脯",
@@ -1552,8 +1646,8 @@
         "unit": null
       },
       {
-        "name": "素蠔油些許",
-        "quantity": null,
+        "name": "素蠔油",
+        "quantity": "些許",
         "unit": null
       },
       {
@@ -1594,8 +1688,8 @@
         "unit": "顆"
       },
       {
-        "name": "薑絲 -4",
-        "quantity": 3.0,
+        "name": "薑絲3-",
+        "quantity": 4.0,
         "unit": "片"
       },
       {
@@ -1644,9 +1738,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "仿土雞翅 支",
+        "name": "仿土雞翅",
         "quantity": 6.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "高麗菜",
@@ -1664,9 +1758,9 @@
         "unit": null
       },
       {
-        "name": "去皮蒜仁 瓣",
+        "name": "去皮蒜仁",
         "quantity": 20.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "蒜蓉醬",
@@ -1700,13 +1794,13 @@
       },
       {
         "name": "白胡椒粉",
-        "quantity": null,
-        "unit": null
+        "quantity": 0.5,
+        "unit": "茶匙"
       },
       {
-        "name": "清水 ℓ",
+        "name": "清水",
         "quantity": 2.0,
-        "unit": null
+        "unit": "ℓ"
       }
     ],
     "steps": [
@@ -1727,6 +1821,74 @@
     "image_path": "蒜頭/458883_高麗菜蒜頭雞湯.jpg"
   },
   {
+    "id": "462596",
+    "name": "蒜頭香菇雞湯【一人份】",
+    "url": "https://icook.tw/recipes/462596",
+    "preview_ingredients": "楓康吳羽保鮮膜、雞肉、蒜頭、枸杞、鹽、米酒、水",
+    "ingredients": [
+      "楓康吳羽保鮮膜2張",
+      "雞肉3塊",
+      "蒜頭10瓣",
+      "枸杞1小把",
+      "鹽1／8小匙",
+      "鹽1／4小匙",
+      "米酒1大匙",
+      "水150毫升"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "楓康吳羽保鮮膜",
+        "quantity": 2.0,
+        "unit": "張"
+      },
+      {
+        "name": "雞肉",
+        "quantity": 3.0,
+        "unit": "塊"
+      },
+      {
+        "name": "蒜頭",
+        "quantity": 10.0,
+        "unit": "瓣"
+      },
+      {
+        "name": "枸杞",
+        "quantity": 1.0,
+        "unit": "小把"
+      },
+      {
+        "name": "鹽",
+        "quantity": 0.125,
+        "unit": "小匙"
+      },
+      {
+        "name": "鹽",
+        "quantity": 0.25,
+        "unit": "小匙"
+      },
+      {
+        "name": "米酒",
+        "quantity": 1.0,
+        "unit": "大匙"
+      },
+      {
+        "name": "水",
+        "quantity": 150.0,
+        "unit": "毫升"
+      }
+    ],
+    "steps": [
+      "準備所有材料 \n將雞肉洗乾淨後，用廚房紙巾吸收水份，可以去腥",
+      "雞肉加入8分之一小匙的鹽拌均勻， 再用＜楓康吳羽保鮮膜＞封起來放冰箱，醃大概10分鐘， 這樣雞肉比較有味道",
+      "將雞肉、蒜頭、香菇放碗中，加入米酒、水",
+      "用＜楓康吳羽保鮮膜＞ 封起來， 這樣蒸的時候水氣不會流到碗裡面",
+      "放電鍋蒸，外鍋放一米杯水",
+      "電鍋跳起來後，加入枸杞，加入四分之一米杯水，跳起來即可， 再加入四分之一匙鹽調味"
+    ],
+    "combined_text": "蒜頭香菇雞湯【一人份】。食材：楓康吳羽保鮮膜2張，雞肉3塊，蒜頭10瓣，枸杞1小把，鹽1／8小匙，鹽1／4小匙，米酒1大匙，水150毫升。做法：準備所有材料 \n將雞肉洗乾淨後，用廚房紙巾吸收水份，可以去腥，雞肉加入8分之一小匙的鹽拌均勻， 再用＜楓康吳羽保鮮膜＞封起來放冰箱，醃大概10分鐘， 這樣雞肉比較有味道，將雞肉、蒜頭、香菇放碗中，加入米酒、水，用＜楓康吳羽保鮮膜＞ 封起來， 這樣蒸的時候水氣不會流到碗裡面，放電鍋蒸，外鍋放一米杯水，電鍋跳起來後，加入枸杞，加入四分之一米杯水，跳起來即可， 再加入四分之一匙鹽調味。",
+    "image_path": "蒜頭/462596_蒜頭香菇雞湯【一人份】.jpg"
+  },
+  {
     "id": "466425",
     "name": "香草羊排與大蒜馬鈴薯泥",
     "url": "https://icook.tw/recipes/466425",
@@ -1745,9 +1907,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "羊排 塊",
+        "name": "羊排",
         "quantity": 2.0,
-        "unit": null
+        "unit": "塊"
       },
       {
         "name": "橄欖油",
@@ -1755,19 +1917,19 @@
         "unit": "大匙"
       },
       {
-        "name": "迷迭香香料 茶匙",
+        "name": "迷迭香香料",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
-        "name": "百里香香料 茶匙",
+        "name": "百里香香料",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
-        "name": "大蒜切碎 瓣",
+        "name": "大蒜切碎",
         "quantity": 1.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
         "name": "鹽巴",
@@ -1775,9 +1937,9 @@
         "unit": "茶匙"
       },
       {
-        "name": "粗胡椒粒 茶匙",
+        "name": "粗胡椒粒",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "去皮切塊馬鈴薯",
@@ -1825,24 +1987,24 @@
     ],
     "structured_ingredients": [
       {
-        "name": "杏包菇 條",
+        "name": "杏包菇",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
-        "name": "蝦子 尾",
+        "name": "蝦子",
         "quantity": 25.0,
-        "unit": null
+        "unit": "尾"
       },
       {
-        "name": "蒜頭 瓣",
+        "name": "蒜頭",
         "quantity": 10.0,
-        "unit": null
+        "unit": "瓣"
       },
       {
-        "name": "辣椒 條",
+        "name": "辣椒",
         "quantity": 1.0,
-        "unit": null
+        "unit": "條"
       },
       {
         "name": "老姜",
@@ -1860,9 +2022,9 @@
         "unit": null
       },
       {
-        "name": "黑胡椒 茶匙",
+        "name": "黑胡椒",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "花雕酒",
@@ -1947,28 +2109,28 @@
         "unit": "顆"
       },
       {
-        "name": "白蒜頭 辦",
+        "name": "白蒜頭",
         "quantity": 5.0,
+        "unit": "辦"
+      },
+      {
+        "name": "薑片",
+        "quantity": "些許",
         "unit": null
       },
       {
-        "name": "薑片些許",
-        "quantity": null,
+        "name": "紅棗",
+        "quantity": "些許",
         "unit": null
       },
       {
-        "name": "紅棗些許",
-        "quantity": null,
-        "unit": null
-      },
-      {
-        "name": "枸杞些許",
-        "quantity": null,
+        "name": "枸杞",
+        "quantity": "些許",
         "unit": null
       },
       {
         "name": "鹽巴",
-        "quantity": null,
+        "quantity": "些許",
         "unit": null
       }
     ],
@@ -1980,6 +2142,65 @@
     ],
     "combined_text": "黑金暖心黑菜脯黑蒜頭烏骨雞湯。食材：養生黑蒜頭球3顆，白蒜頭5辦，薑片些許，紅棗些許，枸杞些許，鹽巴些許。做法：1.將雞肉川燙。\n2雞肉與黑蒜頭球、白蒜頭、黑菜脯、薑片，水淹沒食材約2、3公分的水量一起煮沸，加入紅棗轉小火燉煮15分鐘，關火加入枸杞、鹽巴悶2、3分鐘即可。。",
     "image_path": "蒜頭/409180_黑金暖心黑菜脯黑蒜頭烏骨雞湯.jpg"
+  },
+  {
+    "id": "454259",
+    "name": "蒜頭香菇雞湯",
+    "url": "https://icook.tw/recipes/454259",
+    "preview_ingredients": "土雞腿肉、蒜頭、香菇、干貝、昆布、紅棗、枸杞",
+    "ingredients": [
+      "土雞腿肉2支",
+      "蒜頭10瓣",
+      "香菇5朵",
+      "干貝5顆",
+      "昆布1片",
+      "紅棗5顆",
+      "枸杞10顆"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "土雞腿肉",
+        "quantity": 2.0,
+        "unit": "支"
+      },
+      {
+        "name": "蒜頭",
+        "quantity": 10.0,
+        "unit": "瓣"
+      },
+      {
+        "name": "香菇",
+        "quantity": 5.0,
+        "unit": "朵"
+      },
+      {
+        "name": "干貝",
+        "quantity": 5.0,
+        "unit": "顆"
+      },
+      {
+        "name": "昆布",
+        "quantity": 1.0,
+        "unit": "片"
+      },
+      {
+        "name": "紅棗",
+        "quantity": 5.0,
+        "unit": "顆"
+      },
+      {
+        "name": "枸杞",
+        "quantity": 10.0,
+        "unit": "顆"
+      }
+    ],
+    "steps": [
+      "1. 雞腿川燙備用。2. 干貝、昆布、香菇，泡水20分鐘備用。",
+      "起一鍋水，放入雞腿肉、香菇、蒜頭、干貝、昆布、紅棗燉煮30分鐘。",
+      "起鍋前加入枸杞、鹽巴調味即可。"
+    ],
+    "combined_text": "蒜頭香菇雞湯。食材：土雞腿肉2支，蒜頭10瓣，香菇5朵，干貝5顆，昆布1片，紅棗5顆，枸杞10顆。做法：1. 雞腿川燙備用。2. 干貝、昆布、香菇，泡水20分鐘備用。，起一鍋水，放入雞腿肉、香菇、蒜頭、干貝、昆布、紅棗燉煮30分鐘。，起鍋前加入枸杞、鹽巴調味即可。。",
+    "image_path": "蒜頭/454259_蒜頭香菇雞湯.jpg"
   },
   {
     "id": "458528",
@@ -2017,9 +2238,9 @@
         "unit": "大匙"
       },
       {
-        "name": "辣粉 茶匙",
+        "name": "辣粉",
         "quantity": 1.0,
-        "unit": null
+        "unit": "茶匙"
       },
       {
         "name": "鹽",
@@ -2060,9 +2281,9 @@
     ],
     "structured_ingredients": [
       {
-        "name": "台灣國產土雞腿 支",
+        "name": "台灣國產土雞腿",
         "quantity": 2.0,
-        "unit": null
+        "unit": "支"
       },
       {
         "name": "老薑片",
@@ -2091,12 +2312,12 @@
       },
       {
         "name": "白胡椒粉",
-        "quantity": 0.33,
+        "quantity": 0.333,
         "unit": "小匙"
       },
       {
-        "name": "黑胡椒粒 /3",
-        "quantity": 1.0,
+        "name": "黑胡椒粒",
+        "quantity": 0.333,
         "unit": "小匙"
       },
       {
@@ -2135,9 +2356,9 @@
         "unit": "把"
       },
       {
-        "name": "蝦仁 隻",
+        "name": "蝦仁",
         "quantity": 13.0,
-        "unit": null
+        "unit": "隻"
       },
       {
         "name": "蒜頭",
@@ -2145,9 +2366,9 @@
         "unit": "顆"
       },
       {
-        "name": "香菇 朵",
+        "name": "香菇",
         "quantity": 3.0,
-        "unit": null
+        "unit": "朵"
       }
     ],
     "steps": [
@@ -2217,9 +2438,9 @@
         "unit": "克"
       },
       {
-        "name": "鹽",
-        "quantity": null,
-        "unit": null
+        "name": "鹽（可省略）",
+        "quantity": 2.5,
+        "unit": "公克"
       }
     ],
     "steps": [
@@ -2238,6 +2459,72 @@
     ],
     "combined_text": "大蒜玉米麵包。食材：玉米粒400公克，美味大師大蒜麵包醬80克，黑胡椒碎（可省略）2.5克，高筋麵粉500克，酵母2.5克，糖40克，植物油40克，水275克，鹽（可省略）2.5公克。做法：準備食材，植物油可自由選擇味道中性的液體油，如葡萄籽、葵花油等。\n\n我使用的是燕子牌的即發酵母，雖然包裝上並無特別標示，但我建議開封後冷藏密封保存，以免影響活性。，混合水與酵母。，加入鹽、砂糖。\n鹽在麵團主要有三個功能：\n1.收斂酵母的活性。\n2.調味，結合不同元素的風味。但根據我自己的口味，除非是鹽度比例高的拿坡里披薩麵團（麵粉100：鹽3-4），其實調味的效果並不明顯。\n3.增加筋性，讓麵包口感Ｑ彈。這個功能就非常明顯，但我依然覺得每個人對口感的追求標準不一樣，，（延續上一步驟的第三點。）\n您可以嘗試一次完全不加鹽，之後每次增加0.5的鹽量，找到自己喜歡的口感。（麵粉100：鹽0.5）\n\n加入植物油。\n油能讓麵包的口感變得柔軟，但也是可以自由取捨的，如果要完全無油，建議提高水量至300公克。（麵粉100：水60），攪拌成糰後，放入冰箱發酵12-24小時。\n如果您不想等待冷藏發酵，可以將酵母量調整為5克，在常溫發酵至兩倍大，（約1-1.5小時）但我非常建議您試看看冷藏發酵的方式，讓酵母有充分的時間工作，幫助麵筋熟成，並增加麵團的香氣。，完成冷藏發酵後，將麵糰分成10或12等份。（一顆麵包的麵粉量為40-50公克），將麵糰整成圓形。，麵糰搓揉成橄欖球形狀，在常溫二次發酵。\n\n冬季約為1-1.5小時，\n夏季約30分鐘。，準備大蒜玉米餡料。，將麵團從中間分開，整形成類似羅宋麵包的造型。，放入餡料，烤箱上下火180度烤20分鐘即可出爐。，Vegan植物五辛素（不含奶蛋）的大蒜玉米麵包，希望您會喜歡。。",
     "image_path": "蒜頭/454819_大蒜玉米麵包.jpg"
+  },
+  {
+    "id": "458034",
+    "name": "蒜頭蛤蜊香菇雞湯",
+    "url": "https://icook.tw/recipes/458034",
+    "preview_ingredients": "土雞翅、花菇、米酒、蛤蜊、鹽巴、蒜頭、薑片",
+    "ingredients": [
+      "土雞翅2隻",
+      "花菇5朵",
+      "蛤蜊200克",
+      "蒜頭10來顆",
+      "薑片10來片",
+      "米酒30-50CC",
+      "鹽巴2小匙"
+    ],
+    "structured_ingredients": [
+      {
+        "name": "土雞翅",
+        "quantity": 2.0,
+        "unit": "隻"
+      },
+      {
+        "name": "花菇",
+        "quantity": 5.0,
+        "unit": "朵"
+      },
+      {
+        "name": "蛤蜊",
+        "quantity": 200.0,
+        "unit": "克"
+      },
+      {
+        "name": "蒜頭",
+        "quantity": 10.0,
+        "unit": "來顆"
+      },
+      {
+        "name": "薑片",
+        "quantity": 10.0,
+        "unit": "來片"
+      },
+      {
+        "name": "米酒30-",
+        "quantity": 50.0,
+        "unit": "CC"
+      },
+      {
+        "name": "鹽巴",
+        "quantity": 2.0,
+        "unit": "小匙"
+      }
+    ],
+    "steps": [
+      "1. 將花菇泡水備用\n2. 蛤蜊泡水吐沙備用\n3.蒜頭去皮、薑切片備用\n4.香菇切絲(切厚厚的比較好吃)",
+      "將雞肉川燙後用涼開水洗過(川燙時水中加入薑片和米酒去腥)",
+      "起油鍋、下薑片炒出香氣",
+      "放入蒜頭炒出蒜頭的香氣後、再下雞肉",
+      "將雞肉炒乾至微焦",
+      "下香菇絲炒翻至香菇的味道出來",
+      "1. 下米酒炒出酒香氣\n2. 下過濾水至八分滿\n3. 開大火煮至沸騰過、蓋上鍋蓋、關中小火煮10分鐘左右(依雞肉的熟成而定)",
+      "下蛤蜊、蓋上鍋蓋、小火燜三分鐘",
+      "即為美味的蒜頭蛤蜊香菇雞湯",
+      "下把麵條、就可以變成一碗美味的雞湯麵。"
+    ],
+    "combined_text": "蒜頭蛤蜊香菇雞湯。食材：土雞翅2隻，花菇5朵，蛤蜊200克，蒜頭10來顆，薑片10來片，米酒30-50CC，鹽巴2小匙。做法：1. 將花菇泡水備用\n2. 蛤蜊泡水吐沙備用\n3.蒜頭去皮、薑切片備用\n4.香菇切絲(切厚厚的比較好吃)，將雞肉川燙後用涼開水洗過(川燙時水中加入薑片和米酒去腥)，起油鍋、下薑片炒出香氣，放入蒜頭炒出蒜頭的香氣後、再下雞肉，將雞肉炒乾至微焦，下香菇絲炒翻至香菇的味道出來，1. 下米酒炒出酒香氣\n2. 下過濾水至八分滿\n3. 開大火煮至沸騰過、蓋上鍋蓋、關中小火煮10分鐘左右(依雞肉的熟成而定)，下蛤蜊、蓋上鍋蓋、小火燜三分鐘，即為美味的蒜頭蛤蜊香菇雞湯，下把麵條、就可以變成一碗美味的雞湯麵。。",
+    "image_path": "蒜頭/458034_蒜頭蛤蜊香菇雞湯.jpg"
   },
   {
     "id": "447999",
