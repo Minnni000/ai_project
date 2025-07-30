@@ -102,6 +102,18 @@ def parse_ingredient(ingredient_str):
         for unicode_frac, normal_frac in unicode_fractions.items():
             text = text.replace(unicode_frac, normal_frac)
 
+        # 預處理：智能移除括號內容
+        # 移除容量資訊括號：如 "七味醬1茶匙（5ml）" → "七味醬1茶匙"
+        # 保留重量資訊括號：如 "鮭魚1片(270g)" → 保持不變
+        import re
+
+        # 檢查是否為容量資訊括號（包含ml、ML等）
+        volume_pattern = r'[（(]\s*\d+\s*[mM][lL]\s*[）)]'
+        if re.search(volume_pattern, text):
+            # 移除容量資訊括號
+            text = re.sub(volume_pattern, '', text).strip()
+        # 對於重量資訊括號（如270g），保持原樣，由後續邏輯處理
+
         # 模式1: 名稱+範圍數字+單位，如 "水1～2大匙" (優先處理)
         pattern0 = re.match(r'^(.+?)(\d+[～~]\d+)\s*(.+)$', text)
         if pattern0:

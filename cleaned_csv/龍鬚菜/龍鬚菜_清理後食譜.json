@@ -1339,29 +1339,29 @@
         "unit": "個指節寬"
       },
       {
-        "name": "S&B 生蒜泥醬1茶匙（",
-        "quantity": 5.0,
-        "unit": "ml）"
+        "name": "S&B 生蒜泥醬",
+        "quantity": 1.0,
+        "unit": "茶匙"
       },
       {
-        "name": "七味醬1茶匙（",
-        "quantity": 5.0,
-        "unit": "ml）"
+        "name": "七味醬",
+        "quantity": 1.0,
+        "unit": "茶匙"
       },
       {
-        "name": "鰹魚調味露2茶匙（",
-        "quantity": 10.0,
-        "unit": "ml）"
+        "name": "鰹魚調味露",
+        "quantity": 2.0,
+        "unit": "茶匙"
       },
       {
-        "name": "香醋3茶匙（",
-        "quantity": 15.0,
-        "unit": "ml）"
+        "name": "香醋",
+        "quantity": 3.0,
+        "unit": "茶匙"
       },
       {
-        "name": "香油3茶匙（",
-        "quantity": 15.0,
-        "unit": "ml）"
+        "name": "香油",
+        "quantity": 3.0,
+        "unit": "茶匙"
       },
       {
         "name": "白芝麻",

@@ -2403,9 +2403,9 @@
         "unit": "片"
       },
       {
-        "name": "芥末1大匙（",
-        "quantity": 15.0,
-        "unit": "ml)"
+        "name": "芥末",
+        "quantity": 1.0,
+        "unit": "大匙"
       },
       {
         "name": "牛奶",

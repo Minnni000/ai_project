@@ -98,8 +98,7 @@ class DatabaseCreator:
                             if isinstance(ingredient, dict) and ingredient.get("name"):
                                 record = {
                                     "id": recipe_id,
-                                    "ingredient": ingredient.get("name", ""),
-                                    "preview_tag": ingredient.get("name", ""),  # 使用食材名稱作為預覽標籤
+                                    "ingredient": ingredient.get("name", ""),                                    
                                     "quantity": ingredient.get("quantity", ""),
                                     "unit": ingredient.get("unit", "")
                                 }

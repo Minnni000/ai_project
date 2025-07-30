@@ -1956,9 +1956,9 @@
         "unit": null
       },
       {
-        "name": "蝦米1大匙（",
-        "quantity": 15.0,
-        "unit": "ml)"
+        "name": "蝦米",
+        "quantity": 1.0,
+        "unit": "大匙"
       },
       {
         "name": "乾燥碎豆腐",
@@ -1966,14 +1966,14 @@
         "unit": "小碗"
       },
       {
-        "name": "醬油1大匙（",
-        "quantity": 15.0,
-        "unit": "ml)"
+        "name": "醬油",
+        "quantity": 1.0,
+        "unit": "大匙"
       },
       {
-        "name": "麻油1大匙（",
-        "quantity": 15.0,
-        "unit": "ml)"
+        "name": "麻油",
+        "quantity": 1.0,
+        "unit": "大匙"
       },
       {
         "name": "白胡椒粉",
