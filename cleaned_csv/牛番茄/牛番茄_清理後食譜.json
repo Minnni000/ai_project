@@ -64,62 +64,6 @@
     "image_path": "牛番茄/479560_番茄牛肋條（下飯）.jpg"
   },
   {
-    "id": "463837",
-    "name": "香腸蛋牛番茄大享堡",
-    "url": "https://icook.tw/recipes/463837",
-    "preview_ingredients": "香腸、水煮蛋、美奶滋、牛蕃茄、蕃茄醬、7-eleven大享堡",
-    "ingredients": [
-      "香腸1枝",
-      "水煮蛋1顆",
-      "牛蕃茄半顆",
-      "7~eleven大享堡1個",
-      "美奶滋少量",
-      "蕃茄醬少量"
-    ],
-    "structured_ingredients": [
-      {
-        "name": "香腸",
-        "quantity": 1.0,
-        "unit": "枝"
-      },
-      {
-        "name": "水煮蛋",
-        "quantity": 1.0,
-        "unit": "顆"
-      },
-      {
-        "name": "牛蕃茄",
-        "quantity": 0.5,
-        "unit": "顆"
-      },
-      {
-        "name": "7~eleven大享堡",
-        "quantity": 1.0,
-        "unit": "個"
-      },
-      {
-        "name": "美奶滋",
-        "quantity": "少量",
-        "unit": null
-      },
-      {
-        "name": "蕃茄醬",
-        "quantity": "少量",
-        "unit": null
-      }
-    ],
-    "steps": [
-      "燙",
-      "煎",
-      "剝殼，切",
-      "吸油",
-      "切",
-      "擺料，淋調味料"
-    ],
-    "combined_text": "香腸蛋牛番茄大享堡。食材：香腸1枝，水煮蛋1顆，牛蕃茄半顆，7~eleven大享堡1個，美奶滋少量，蕃茄醬少量。做法：燙，煎，剝殼，切，吸油，切，擺料，淋調味料。",
-    "image_path": "牛番茄/463837_香腸蛋牛番茄大享堡.jpg"
-  },
-  {
     "id": "472200",
     "name": "台式牛絞肉番茄炒意麵",
     "url": "https://icook.tw/recipes/472200",
