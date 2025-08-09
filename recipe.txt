@@ -1,0 +1,3 @@
+clean_recipe_csv_0720.py 從raw_csv清理資料後存到cleaned_csv
+
+從cleaned_csv內各個json檔及csv檔抓取資料並分別依database需求存到database資料夾
